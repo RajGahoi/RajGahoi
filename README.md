@@ -7,9 +7,7 @@
 
 ## 🚀 About
 - B.Tech Student  
-- Focus: DSA + Development  
-- Goal: Top product-based company  
-
+- Focus: DSA , Development , AI & ML 
 ---
 
 ## 📊 Stats
@@ -21,14 +19,14 @@
 
 ## 🧠 LeetCode
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR_USERNAME?theme=dark&ext=contest" />
+  <img src="https://leetcode.com/u/raj_gahoi/" />
 </p>
 
 ---
 
-## 🌐 Main Project (IMPORTANT)
-👉 Coming soon: Personal portfolio (advanced UI)
-
+## 🌐 Main Project 
+Phishnet Sentinals
+Sentinal Minds
 ---
 
 ## ⚡ Status
