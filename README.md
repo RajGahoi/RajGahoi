@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hi 👋, I'm <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&color=00F7FF&center=true&vCenter=true&width=150&lines=Raj" /> Gahoi
+  Hi 👋, I'm <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&color=00F7FF&center=true&vCenter=true&width=160&lines=Raj Gahoi" /> 
 </h1>
 <h3 align="center">Building Skills. Solving Problems. No Excuses.</h3>
 
