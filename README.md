@@ -25,8 +25,9 @@
 ---
 
 ## 🌐 Main Project 
-Phishnet Sentinals
-Sentinal Minds
+.Phishnet Sentinals
+
+.Sentinal Minds
 ---
 
 ## ⚡ Status
