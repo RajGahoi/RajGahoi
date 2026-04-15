@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Raj Gahoi</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Raj+Gahoi;DSA+%2B+Web+Developer;Problem+Solver;Future+Engineer" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Raj+Gahoi;DSA+%2B+Web+Developer;Problem+Solver" />
 </p>
 <h3 align="center">Building Skills. Solving Problems. No Excuses.</h3>
 
