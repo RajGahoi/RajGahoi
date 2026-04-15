@@ -1,24 +1,35 @@
 ## Hi there 👋
 
+<h1 align="center">Raj Gahoi</h1>
+<h3 align="center">Building Skills. Solving Problems. No Excuses.</h3>
 
-<h1 align="center">Hi 👋, I'm Raj</h1>
+---
 
+## 🚀 About
+- B.Tech Student  
+- Focus: DSA + Development  
+- Goal: Top product-based company  
+
+---
+
+## 📊 Stats
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Welcome+to+my+Profile;DSA+%2B+Web+Dev;Future+Software+Engineer" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true" />
 </p>
 
 ---
 
-### 👨‍💻 About Me
-- 🎓 B.Tech Student
-- 💻 Learning DSA + Development
-- 🎯 Goal: Top Tech Role
-- ⚡ Consistency > Motivation
+## 🧠 LeetCode
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR_USERNAME?theme=dark&ext=contest" />
+</p>
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&theme=radical" />
-  <img src="https://streak-stats.demolab.com/?user=RajGahoi&theme=radical" />
-</p>
+## 🌐 Main Project (IMPORTANT)
+👉 Coming soon: Personal portfolio (advanced UI)
+
+---
+
+## ⚡ Status
+Currently solving problems daily & building projects.
