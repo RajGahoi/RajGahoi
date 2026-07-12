@@ -48,20 +48,11 @@
 - PHISHNET SENTINALS  
 
 ---
-## 👾 Pac-Man Contribution Graph
+## 🐍 Contribution Snake
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_USERNAME>/output/pacman-contribution-graph-dark.svg">
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_USERNAME>/output/pacman-contribution-graph.svg">
-  <img
-    alt="Pac-Man contribution graph"
-    src="https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_USERNAME>/output/pacman-contribution-graph.svg">
-</picture>
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
 
 ## ⚡ Current Focus
 - Solving LeetCode daily  
