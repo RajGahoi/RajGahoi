@@ -1,5 +1,3 @@
-Raj Gahoi — Premium GitHub README
-Complete README.md source — ready to copy into GitHub
 <div align="center">
 <img src="./assets/hero.svg" width="100%" alt="Raj Gahoi — Engineering / Building / Exploring"/>
 <br/>
