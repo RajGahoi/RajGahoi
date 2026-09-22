@@ -1,497 +1,192 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0B1020,50:111827,100:2563EB&text=RAJ%20GAHOI&fontColor=FFFFFF&fontSize=62&fontAlignY=42&desc=BUILDING%20SOFTWARE%20THAT%20SOLVES%20REAL%20PROBLEMS&descAlignY=63&descSize=15&animation=fadeIn"/>
+<img src="./assets/hero.svg" alt="Raj Gahoi — Software Engineer in Progress" width="100%"/>
 
-<br>
+<br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=21&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=850&lines=Computer+Science+Undergraduate;DSA+%2B+Full+Stack+Developer;Competitive+Programmer;AI+%26+ML+Explorer;Hackathon+Builder;Always+Building+Something" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=21&duration=2800&pause=900&color=2563EB&center=true&vCenter=true&width=800&lines=DSA+%2B+Full+Stack+Developer;Competitive+Programmer;AI+%26+ML+Explorer;Hackathon+Builder;Learning+by+Building" />
 
-<br><br>
+<br/><br/>
 
-<a href="https://github.com/RajGahoi">
-<img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://leetcode.com/u/raj_gahoi/">
-<img src="https://img.shields.io/badge/LEETCODE-111827?style=for-the-badge&logo=leetcode&logoColor=FFA116"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LINKEDIN-111827?style=for-the-badge&logo=linkedin&logoColor=60A5FA"/>
-</a>
+<a href="https://github.com/RajGahoi"><img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white"/></a>
+<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 
 </div>
 
----
+01 / About
 
-<div align="center">
+I'm Raj Gahoi, a Computer Science undergraduate interested in software engineering, problem solving, full-stack development and intelligent systems.
 
-### `I don't just learn technology. I build with it.`
+I like taking an idea through the complete engineering loop:
 
-</div>
+Problem → Research → Architecture → Code → Debug → Ship → Improve
 
-<br>
+I don't just learn technology. I build with it.
 
-## `01 — ABOUT`
+Current focus
 
-<table>
-<tr>
-<td width="60%" valign="top">
+🧠 Data Structures & Algorithms
 
-### Hey, I'm Raj 👋
+🌐 React + Full Stack Development
 
-I'm a Computer Science undergraduate interested in **software engineering, problem solving, and building real-world products**.
+⚙️ Backend Engineering & REST APIs
 
-I like taking an idea from:
+🗄️ PostgreSQL & Redis
 
-**`Problem → Architecture → Code → Product`**
+🤖 AI / ML
 
-My current journey revolves around three things:
+🏆 Hackathons & real-world products
 
-* 🧠 becoming stronger at **DSA & problem solving**
-* 🌐 becoming a better **full-stack engineer**
-* 🤖 exploring **AI, ML & intelligent systems**
+02 / Tech Stack
 
-I learn by building, breaking, debugging and rebuilding.
-
-</td>
-
-<td width="40%" valign="top">
-
-```text id="qk9p2n"
-CURRENT MODE
-
-● BUILDING
-
-FOCUS
-
-DSA
-FULL STACK
-BACKEND
-AI / ML
-
-MINDSET
-
-Consistency
-over
-motivation.
-```
-
-</td>
-</tr>
-</table>
-
----
-
-# `02 — THE STACK`
-
-<div align="center">
-
-### Languages
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts&theme=light"/>
+</p>
 
-<br><br>
-
-### Frontend
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,react,tailwind,vite&theme=light"/>
+</p>
 
-<br><br>
-
-### Backend & Data
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,redis&theme=light"/>
+</p>
 
-<br><br>
-
-### Tools
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,linux&theme=light"/>
+</p>
 
-</div>
+03 / Selected Work
 
----
+🧠 SENTINAL MINDS
 
-# `03 — SELECTED WORK`
+<img src="./assets/sentinal-minds.svg" alt="Sentinal Minds project" width="100%"/>
 
-<div align="center">
+AI × Cybersecurity
 
-### Things I've built, broken, rebuilt — and learned from.
+A security-focused intelligent system built around threat analysis, investigation and actionable intelligence.
 
-</div>
+AI · Cybersecurity · Automation
 
-<br>
+View GitHub →
 
-<table>
-<tr>
+🎣 PHISHNET SENTINALS
 
-<td width="50%" valign="top">
+A cybersecurity project focused on identifying and analyzing phishing threats through intelligent detection.
 
-## 🧠 SENTINAL MINDS
+Flow
 
-### `AI × CYBERSECURITY`
+Input → Inspection → Threat Signals → Classification → Response
 
-A security-focused intelligent system designed around threat analysis, detection and actionable security intelligence.
+Security · Web · Threat Detection
 
-**The idea**
+View GitHub →
 
-```text
-Threat
-  ↓
-Analysis
-  ↓
-Intelligence
-  ↓
-Decision
-  ↓
-Action
-```
+📚 LECTURE2PDF AI
 
-**Built around**
+A Chrome extension that transforms lecture videos into structured PDF notes by detecting important lecture slides.
 
-`AI` `Security` `Automation`
+Flow
 
-<br>
+Video → Slide Detection → Processing → PDF
 
-<a href="https://github.com/RajGahoi">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+JavaScript · Chrome Extension · AI · PDF Generation
 
-</td>
+View GitHub →
 
-<td width="50%" valign="top">
+04 / Problem Solving
 
-## 🎣 PHISHNET SENTINALS
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/raj_gahoi?theme=dark&font=Inter&ext=contest" />
+</p>
 
-### `INTELLIGENT PHISHING DEFENSE`
+<p align="center">
 
-A cybersecurity project focused on identifying and analyzing phishing threats.
+PROBLEM → PATTERN → APPROACH → OPTIMIZE → CODE → TEST
 
-**The idea**
+</p>
 
-```text
-Input
-  ↓
-Inspection
-  ↓
-Threat Signals
-  ↓
-Classification
-  ↓
-Response
-```
+Every difficult problem adds another pattern to the mental toolkit.
 
-**Built around**
+05 / GitHub Telemetry
 
-`Cybersecurity` `Web` `Detection`
+<p align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&include_all_commits=true&hide_border=true&bg_color=F8FAFC&title_color=111827&text_color=475569&icon_color=2563EB&rank_icon=github"/>
+<img width="48%" src="https://streak-stats.demolab.com?user=RajGahoi&theme=default&hide_border=true&background=F8FAFC&ring=2563EB&fire=7C3AED&currStreakLabel=111827"/>
+</p>
 
-<br>
+<p align="center">
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=F8FAFC&color=334155&line=2563EB&point=7C3AED&area=true&hide_border=true"/>
+</p>
 
-<a href="https://github.com/RajGahoi">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-7C3AED?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+06 / Contribution Journey
 
-</td>
+<p align="center">
+<img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+</p>
 
-</tr>
-</table>
-
-<br>
+07 / Engineering Loop
 
 <div align="center">
 
-## 📚 LECTURE2PDF AI
-
-### `LECTURES → INTELLIGENT NOTES`
+THINK → BUILD → BREAK → DEBUG → LEARN → SHIP
 
 </div>
 
-A Chrome extension that transforms lecture videos into structured PDFs by detecting important lecture slides.
+08 / The Road Ahead
 
-```text id="1d3g6h"
-             LECTURE VIDEO
-                   │
-                   ▼
-          ┌─────────────────┐
-          │  SLIDE DETECTION │
-          └────────┬────────┘
-                   │
-                   ▼
-          ┌─────────────────┐
-          │    PROCESSING   │
-          └────────┬────────┘
-                   │
-                   ▼
-          ┌─────────────────┐
-          │   PDF GENERATOR │
-          └────────┬────────┘
-                   │
-                   ▼
-              📄 NOTES
-```
+Area
+
+Direction
+
+🧠 DSA
+
+Stronger patterns + competitive programming
+
+🌐 Full Stack
+
+Production-ready applications
+
+⚙️ Backend
+
+APIs, databases, architecture
+
+🏗️ Systems
+
+Engineering fundamentals + system design
+
+🤖 AI/ML
+
+Practical intelligent applications
+
+🌍 Open Source
+
+Meaningful contributions
+
+09 / Philosophy
 
 <div align="center">
 
-`JavaScript` · `Chrome Extension` · `AI` · `PDF`
+Don't chase every technology.
 
-<a href="https://github.com/RajGahoi">
-<img src="https://img.shields.io/badge/EXPLORE-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+Understand the fundamentals.
 
-</div>
+Build things that matter.
 
----
-
-# `04 — PROBLEM SOLVING`
-
-<div align="center">
-
-### I don't memorize solutions. I collect patterns.
-
-<br>
-
-<img src="https://leetcard.jacoblin.cool/raj_gahoi?theme=dark&font=Inter&ext=contest"/>
-
-<br><br>
-
-```text id="0k5u4a"
-             PROBLEM
-                │
-                ▼
-           UNDERSTAND
-                │
-                ▼
-            FIND PATTERN
-                │
-                ▼
-             DESIGN
-                │
-                ▼
-            OPTIMIZE
-                │
-                ▼
-             CODE
-                │
-                ▼
-              TEST
-                │
-                ▼
-             REPEAT
-```
+Let the code speak.
 
 </div>
 
----
+10 / Connect
 
-# `05 — GITHUB / ACTIVITY`
+<p align="center">
+<a href="https://github.com/RajGahoi"><img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LeetCode-111827?style=for-the-badge&logo=leetcode&logoColor=FFA116"/></a>
+<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=60A5FA"/></a>
+</p>
 
-<div align="center">
+<p align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0B1020&title_color=60A5FA&text_color=E5E7EB&icon_color=818CF8"/>
+BUILD • SOLVE • SHIP • REPEAT
 
-<img width="48%" src="https://streak-stats.demolab.com?user=RajGahoi&theme=dark&hide_border=true&background=0B1020&ring=60A5FA&fire=818CF8&currStreakLabel=60A5FA"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=0B1020&color=93C5FD&line=6366F1&point=FFFFFF&area=true&hide_border=true"/>
-
-</div>
-
----
-
-# `06 — CONTRIBUTION`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-# `07 — WHAT I'M BUILDING TOWARDS`
-
-<div align="center">
-
-```text id="9y8x8x"
-                    ┌──────────────┐
-                    │   DSA        │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  DEVELOPMENT │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │   BACKEND    │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  SYSTEMS     │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │    AI / ML   │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │   SOFTWARE   │
-                    │   ENGINEER   │
-                    └──────────────┘
-```
-
-</div>
-
----
-
-# `08 — CURRENTLY`
-
-<table>
-<tr>
-
-<td width="25%" align="center">
-
-### 🧠
-
-**DSA**
-
-Algorithms
-Patterns
-Problem Solving
-
-</td>
-
-<td width="25%" align="center">
-
-### 🌐
-
-**WEB**
-
-React
-JavaScript
-Frontend
-
-</td>
-
-<td width="25%" align="center">
-
-### ⚙️
-
-**BACKEND**
-
-APIs
-Databases
-Architecture
-
-</td>
-
-<td width="25%" align="center">
-
-### 🤖
-
-**AI**
-
-ML
-Intelligent Systems
-Experimentation
-
-</td>
-
-</tr>
-</table>
-
----
-
-# `09 — THE LOOP`
-
-<div align="center">
-
-## Think.
-
-### ↓
-
-## Build.
-
-### ↓
-
-## Break.
-
-### ↓
-
-## Debug.
-
-### ↓
-
-## Learn.
-
-### ↓
-
-## Ship.
-
-### ↓
-
-## Repeat.
-
-</div>
-
----
-
-# `10 — BEYOND CODE`
-
-<div align="center">
-
-> **Good engineers don't just write more code.**
->
-> **They understand the problem better.**
-
-<br>
-
-`Curiosity` · `Consistency` · `Problem Solving` · `Execution`
-
-</div>
-
----
-
-# `11 — LET'S CONNECT`
-
-<div align="center">
-
-<a href="https://github.com/RajGahoi">
-<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=60A5FA"/>
-</a>
-
-<a href="https://leetcode.com/u/raj_gahoi/">
-<img src="https://img.shields.io/badge/LeetCode-111827?style=for-the-badge&logo=leetcode&logoColor=FFA116"/>
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=18&duration=3000&pause=900&color=60A5FA&center=true&vCenter=true&width=700&lines=Thanks+for+stopping+by.;Now+go+build+something+great.;See+you+in+the+next+commit+%F0%9F%9A%80"/>
-
-<br><br>
-
-### `RAJ GAHOI / SOFTWARE ENGINEER IN PROGRESS`
-
-</div>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:111827,100:0B1020&height=120&section=footer"/>
+</p>
