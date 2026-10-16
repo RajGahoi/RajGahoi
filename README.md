@@ -225,6 +225,37 @@ Security UX clarification for unencrypted browser storage vs native OS keychain,
 </tr>
 </table>
 
+<br/>
+
+<div align="center">
+
+### 🎯 WHAT MAKES THIS PORTFOLIO UNBEATABLE FOR RECRUITERS
+
+</div>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🚀 Real Infrastructure Code
+Contributing directly to the **Linux Foundation** flagship replacement for Redis used at hyperscale by AWS, Google Cloud, and Oracle — not generic mock toy projects.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🛡️ Strict Enterprise Verification
+Every commit is DCO signed (`-s`), lint-clean with Biome and ESLint, backed by comprehensive Vitest suites, and verified via multi-node cluster topology CI workflows.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🌐 Production Impact
+Solving genuine enterprise roadmap issues: memory hot-spot slot skew diagnostics, cluster-node routing, multi-database management, and secret persistence policies.
+
+</td>
+</tr>
+</table>
+
 ---
 
 <div align="center">
