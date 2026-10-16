@@ -163,13 +163,21 @@ Experiments
 
 ---
 
-## `04`  ENTERPRISE OPEN SOURCE CONTRIBUTIONS
+## `04`  ENTERPRISE OPEN SOURCE & SYSTEMS
 
 <div align="center">
 
 ### LINUX FOUNDATION · VALKEY ECOSYSTEM
 
-Production-grade features, cluster topology diagnostics, and high-performance frontend/server engineering contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
+Production-grade features, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)** (the official Redis replacement backed by AWS, Google Cloud, and Oracle).
+
+<br/>
+
+[![CI Status](https://img.shields.io/badge/Valkey_CI-10%2F10_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
+&nbsp;
+[![Commits](https://img.shields.io/badge/Verification-DCO_Signed-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
+&nbsp;
+[![Test Coverage](https://img.shields.io/badge/Tests-232%2B_Passing-success?style=for-the-badge&logo=vitest&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
 
 </div>
 
@@ -180,22 +188,30 @@ Production-grade features, cluster topology diagnostics, and high-performance fr
 <td width="50%" valign="top">
 
 ### ◼ BIG KEYS SLOT HEATMAP
-**[valkey-admin#563](https://github.com/valkey-io/valkey-admin/pull/563)**
+**[PR #563](https://github.com/valkey-io/valkey-admin/pull/563)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI 10/10 PASSING**
 
-Cluster hash-slot diagnostic heatmap detecting memory skew across 16,384 slots with CRC16 `{...}` hash-tag calculations, multi-bucket filtering, and interactive key inspection.
+- Engineered cluster hash-slot diagnostic heatmap detecting memory skew across all **16,384 slots**.
+- Implemented **CRC16 XMODEM** polynomial `0x1021` with `{...}` hash-tag extraction logic.
+- Built multi-bucket slot filtering (`<10KB` to `>100MB`) with dual-view node/slot tab switching and deep inspection modals.
 
-`CRC16` `VALKEY CLUSTER` `REACT` `REDUX`
+<br/>
+
+`CRC16` `VALKEY CLUSTER` `REACT` `REDUX TOOLKIT` `VITEST`
 
 </td>
 
 <td width="50%" valign="top">
 
 ### ◼ CLUSTER NODE ROUTING
-**[valkey-admin#562](https://github.com/valkey-io/valkey-admin/pull/562)**
+**[PR #562](https://github.com/valkey-io/valkey-admin/pull/562)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI 10/10 PASSING**
 
-Targeted cluster node routing dropdown in Send Command supporting automatic routing and `routeByAddress` with native IPv6 resolution.
+- Added granular node routing dropdown to the Send Command console.
+- Enabled explicit cluster query execution via `routeByAddress` alongside default automatic slot routing.
+- Architected direct node record lookups supporting native **IPv6** addresses without string-split corruption.
 
-`GLIDE` `ROUTING` `TYPESCRIPT` `VALKEY`
+<br/>
+
+`GLIDE ENGINE` `CLUSTER ROUTING` `TYPESCRIPT` `NETWORKING`
 
 </td>
 </tr>
@@ -204,53 +220,30 @@ Targeted cluster node routing dropdown in Send Command supporting automatic rout
 <td width="50%" valign="top">
 
 ### ◼ DATABASE SWITCHER
-**[valkey-admin#561](https://github.com/valkey-io/valkey-admin/pull/561)**
+**[PR #561](https://github.com/valkey-io/valkey-admin/pull/561)** &nbsp;•&nbsp; `CORE UX` &nbsp;•&nbsp; **CI 10/10 PASSING**
 
-Standalone database switcher in AppHeader with real-time `databasesCount` discovery and encrypted credential preservation across database connections.
+- Implemented standalone database switcher in `AppHeader` enabling dynamic database index switching.
+- Auto-discovers server `databasesCount` dynamically and prevents invalid switching requests.
+- Preserves secure encrypted credentials across active sessions without credential re-entry.
 
-`SECURITY` `STATE MANAGEMENT` `VITEST`
+<br/>
+
+`STATE MANAGEMENT` `SECURITY` `VITEST` `REACT 19`
 
 </td>
 
 <td width="50%" valign="top">
 
-### ◼ WEB CREDENTIAL POLICY
-**[valkey-admin#564](https://github.com/valkey-io/valkey-admin/pull/564)**
+### ◼ WEB CREDENTIAL SECURITY POLICY
+**[PR #564](https://github.com/valkey-io/valkey-admin/pull/564)** &nbsp;•&nbsp; `SECURITY / DOCS` &nbsp;•&nbsp; **CI 10/10 PASSING**
 
-Security UX clarification for unencrypted browser storage vs native OS keychain, with inline modal advice and Docker deployment docs.
-
-`SECURITY UX` `AUTHENTICATION` `DOCKER DOCS`
-
-</td>
-</tr>
-</table>
+- Clarified security policy and threat models between native OS secure keystore and unencrypted Web/Docker deployments.
+- Added context-aware modal advisory warning users in Web mode.
+- Authored production deployment guide in official documentation detailing environment credential injection.
 
 <br/>
 
-<div align="center">
-
-### 🎯 WHAT MAKES THIS PORTFOLIO UNBEATABLE FOR RECRUITERS
-
-</div>
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### 🚀 Real Infrastructure Code
-Contributing directly to the **Linux Foundation** flagship replacement for Redis used at hyperscale by AWS, Google Cloud, and Oracle — not generic mock toy projects.
-
-</td>
-<td width="33%" valign="top">
-
-#### 🛡️ Strict Enterprise Verification
-Every commit is DCO signed (`-s`), lint-clean with Biome and ESLint, backed by comprehensive Vitest suites, and verified via multi-node cluster topology CI workflows.
-
-</td>
-<td width="33%" valign="top">
-
-#### 🌐 Production Impact
-Solving genuine enterprise roadmap issues: memory hot-spot slot skew diagnostics, cluster-node routing, multi-database management, and secret persistence policies.
+`SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCS`
 
 </td>
 </tr>
