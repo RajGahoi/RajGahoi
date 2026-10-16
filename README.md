@@ -177,7 +177,7 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 &nbsp;
 [![Commits](https://img.shields.io/badge/Verification-DCO_Signed-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
 &nbsp;
-[![Test Coverage](https://img.shields.io/badge/Tests-232%2B_Passing-success?style=for-the-badge&logo=vitest&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
+[![Test Coverage](https://img.shields.io/badge/Tests-236%2B_Passing-success?style=for-the-badge&logo=vitest&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
 
 </div>
 
@@ -185,6 +185,21 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### ◼ TOPOLOGY NODE HEALTH
+**[PR #565](https://github.com/valkey-io/valkey-admin/pull/565)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI RUNNING**
+
+- Repurposed static Power toggle into a live, automated node health indicator (`healthy`, `degraded`, `unreachable`).
+- Unblocked Dashboard and Send Command actions so discovered cluster nodes are always directly accessible.
+- Added comprehensive unit test coverage verifying status thresholds and uncoupled navigation.
+
+<br/>
+
+`TOPOLOGY UX` `CLUSTER MONITORING` `REACT 19` `VITEST`
+
+</td>
+
 <td width="50%" valign="top">
 
 ### ◼ BIG KEYS SLOT HEATMAP
@@ -199,7 +214,9 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 `CRC16` `VALKEY CLUSTER` `REACT` `REDUX TOOLKIT` `VITEST`
 
 </td>
+</tr>
 
+<tr>
 <td width="50%" valign="top">
 
 ### ◼ CLUSTER NODE ROUTING
@@ -214,9 +231,7 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 `GLIDE ENGINE` `CLUSTER ROUTING` `TYPESCRIPT` `NETWORKING`
 
 </td>
-</tr>
 
-<tr>
 <td width="50%" valign="top">
 
 ### ◼ DATABASE SWITCHER
@@ -231,7 +246,9 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 `STATE MANAGEMENT` `SECURITY` `VITEST` `REACT 19`
 
 </td>
+</tr>
 
+<tr>
 <td width="50%" valign="top">
 
 ### ◼ WEB CREDENTIAL SECURITY POLICY
@@ -244,6 +261,21 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 <br/>
 
 `SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCS`
+
+</td>
+
+<td width="50%" valign="top">
+
+### ◼ PRODUCTION RELIABILITY & DCO
+**[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**
+
+- 100% Developer Certificate of Origin (`Signed-off-by`) adherence.
+- Multi-node cluster topology integration test validation.
+- Zero-regression test additions with complete mocking.
+
+<br/>
+
+`DCO` `CI/CD` `LINUX FOUNDATION` `ENTERPRISE OSS`
 
 </td>
 </tr>
