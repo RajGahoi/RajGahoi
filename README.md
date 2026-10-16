@@ -50,18 +50,28 @@ Computer Science & Engineering undergraduate engineering **high-throughput distr
 Active contributor to the **Linux Foundation Valkey** project (the enterprise Redis replacement backed by AWS, Google Cloud, and Oracle). Architect of cluster hash-slot diagnostic heatmaps, native IPv6 cluster routing engines, and production topology monitoring tools.
 
 ```bash
-$ neofetch --engineer "Raj Gahoi"
-OS: Linux / Ubuntu / Cloud Native
-Core: Distributed Systems · In-Memory Engines · Cluster Sharding
-Stack: C++ · TypeScript · Node.js · Go · React 19 · Redux · Redis/Valkey
-Verified: Linux Foundation DCO · 100% Green Multi-Node CI (5/5 PRs)
-Status: Available for Software Engineering Roles & Fellowships
+# ⚡ Interactive Engineering Terminal (Quick-Inspect Session)
+raj@systems-box:~$ valkey-admin cluster topology --verify
+[+] Cluster Topology Discovered: 3 Primaries, 3 Replicas
+[+] Validating Hash Slot Allocations (CRC16 Polynomial 0x1021)...
+    - Node 0: [0 - 5460]     -> 🟢 HEALTHY (100% responsive, 0 slot skew)
+    - Node 1: [5461 - 10922] -> 🟢 HEALTHY (100% responsive, 0 slot skew)
+    - Node 2: [10923 - 16383]-> 🟢 HEALTHY (100% responsive, 0 slot skew)
+[+] Running Vitest Regression Test Harness... 236 / 236 PASSED (100% Coverage)
+[+] Linux Foundation DCO Status: SIGNED-OFF (Raj Gahoi <gahoiraj01@gmail.com>)
+[✓] SYSTEM STABLE. Ready to execute custom commands.
 ```
 
 </td>
 <td width="35%" align="center" valign="middle">
 
 <img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&rank_icon=github" width="100%" alt="GitHub stats"/>
+
+<br/>
+
+<a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/VALKEY_ADMIN-PR_PORTFOLIO-blueviolet?style=for-the-badge&logo=github&logoColor=white" width="100%" alt="View Valkey PRs"/>
+</a>
 
 </td>
 </tr>
@@ -260,6 +270,45 @@ VIDEO STREAM → KEYFRAME DIFF DETECTOR → OCR EXTRACTION → LLM RESTRUCTURING
 </td>
 </tr>
 </table>
+
+---
+
+## 💡 KEY ARCHITECTURAL DECISIONS & DEEP DIVES
+
+<details>
+<summary><strong>🔍 Deep Dive 01: Why CRC16 XMODEM <code>0x1021</code> for Cluster Slot Heatmaps? (Click to Expand)</strong></summary>
+
+<br/>
+
+Valkey and Redis cluster topologies divide the entire keyspace into exactly **16,384 logical hash slots**. When routing commands across nodes, a key is hashed using CRC16 with polynomial `0x1021` modulo `16384`.
+- **The Problem:** In cluster deployments, developers often encounter severe memory hotspots when specific slots accumulate millions of oversized keys, leading to OOM terminations on single primary nodes.
+- **My Solution in [PR #563](https://github.com/valkey-io/valkey-admin/pull/563):** Built an in-memory client-side polynomial evaluator supporting hash-tag `{...}` extraction. It scans and projects the cluster keyspace onto a dual-mode 16,384-slot heatmap, letting operators isolate memory hot-spots and hot-keys in seconds.
+
+</details>
+
+<details>
+<summary><strong>🔍 Deep Dive 02: Solving Native IPv6 & Multi-Node Route Splitting (Click to Expand)</strong></summary>
+
+<br/>
+
+- **The Problem:** The Send Command console required routing commands to specific nodes via `routeByAddress`. Naive string parsing like `node.split(":")` breaks completely when resolving IPv6 addresses (e.g. `[2001:db8::1]:6379`) because colons are part of the host representation itself.
+- **My Solution in [PR #562](https://github.com/valkey-io/valkey-admin/pull/562):** Refactored node lookups to resolve directly from structured cluster node objects. Guaranteed IPv6 integrity without string mutilation and fallback to automatic cluster routing if a node disconnects during execution.
+
+</details>
+
+<details>
+<summary><strong>🔍 Deep Dive 03: Automated Node Health State Transition Logic (Click to Expand)</strong></summary>
+
+<br/>
+
+- **The Problem:** The topology table used a static Power toggle that blocked developers from navigating to Dashboard or Command views unless they manually triggered connections.
+- **My Solution in [PR #565](https://github.com/valkey-io/valkey-admin/pull/565):** Repurposed the icon into an automated multi-state health indicator dot:
+  - 🟢 **Healthy**: Active INFO telemetry with zero lag and confirmed uptime.
+  - 🟡 **Degraded**: High memory (>90%) or CPU utilization flags.
+  - 🔴 **Unreachable**: Connection timeouts or socket drops.
+  - Action buttons (`Dashboard` & `Command`) are uncoupled and always clickable, automatically initializing connection state upon click.
+
+</details>
 
 ---
 
