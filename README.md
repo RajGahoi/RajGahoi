@@ -4,19 +4,17 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=18&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=900&lines=SOFTWARE+ENGINEERING+%2B+DSA;FULL+STACK+DEVELOPER;AI+%2F+ML+EXPLORER;COMPETITIVE+PROGRAMMER;HACKATHON+BUILDER;BUILDING+THINGS+THAT+MATTER" alt="Typing introduction"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=19&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+CLUSTER+ENGINEERING;HIGH-PERFORMANCE+BACKENDS+%2B+DATABASES;PRODUCTION+CODE+%C2%B7+5%2F5+GREEN+CI+CHECKS;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing introduction"/>
 
 <br/><br/>
 
-<a href="https://github.com/RajGahoi">GitHub</a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="https://leetcode.com/u/raj_gahoi/">LeetCode</a>
-&nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="https://www.linkedin.com/">LinkedIn</a>
-
-<br/><br/>
-
-<sub>CSE UNDERGRADUATE · BUILDER · PROBLEM SOLVER</sub>
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajGahoi)
+&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-Problems_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/raj_gahoi/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-gahoi/)
+&nbsp;
+[![Valkey PRs](https://img.shields.io/badge/Valkey-5_Active_PRs-brightgreen?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
 
 </div>
 
@@ -40,33 +38,30 @@
 <tr>
 <td width="62%">
 
-### RAJ GAHOI
+### RAJ GAHOI &nbsp;•&nbsp; SYSTEMS & SOFTWARE ENGINEER
 
-Computer Science & Engineering undergraduate interested in **software engineering, DSA, full-stack development, backend systems and intelligent applications**.
+Computer Science & Engineering undergraduate building **distributed systems, high-concurrency database tooling, and production infrastructure**. 
 
-I like the part where an idea is still rough — where there is a problem, a blank editor and no obvious solution.
-
-That's where I build.
+Active contributor to the **Linux Foundation Valkey** project (the open-source Redis replacement backed by AWS, Google Cloud, and Oracle). Specialized in cluster topology routing, diagnostic algorithms, and resilient full-stack architectures.
 
 <br/>
 
-`THINK` → `DESIGN` → `BUILD` → `BREAK` → `DEBUG` → `SHIP`
+`ARCHITECT` → `BENCHMARK` → `TEST` → `VERIFY` → `SHIP`
 
 </td>
 
 <td width="38%" align="center">
 
 ```text
-CURRENT MODE
+ENGINEERING SNAPSHOT
 
-◉ LEARNING
-◉ BUILDING
-◉ DEBUGGING
-◉ SHIPPING
+◉ REPO        valkey-admin
+◉ ACTIVE PRS  5 (100% CI Green)
+◉ SLOTS MAP   16,384 CRC16
+◉ TESTS       236+ Vitest Pass
+◉ VERIFIED    Linux Foundation DCO
 
-STATUS
-
-ONLINE
+STATUS        OPEN FOR ROLES
 ```
 
 </td>

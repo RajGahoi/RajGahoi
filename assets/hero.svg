@@ -1,24 +1,140 @@
 <svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="g" x1="80" y1="40" x2="1510" y2="470" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0F172A"/><stop offset=".55" stop-color="#111827"/><stop offset="1" stop-color="#172554"/>
-</linearGradient>
-<linearGradient id="a" x1="170" y1="370" x2="1430" y2="120" gradientUnits="userSpaceOnUse">
-<stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#A78BFA"/>
-</linearGradient>
-<filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+  <!-- Background Mesh & Gradients -->
+  <linearGradient id="bg-base" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050814"/>
+    <stop offset="0.45" stop-color="#0a0f24"/>
+    <stop offset="1" stop-color="#080718"/>
+  </linearGradient>
+
+  <linearGradient id="text-grad" x1="80" y1="120" x2="650" y2="210" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFFFFF"/>
+    <stop offset="0.6" stop-color="#E2E8F0"/>
+    <stop offset="1" stop-color="#93C5FD"/>
+  </linearGradient>
+
+  <linearGradient id="glow-cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#06B6D4"/>
+    <stop offset="0.5" stop-color="#3B82F6"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <linearGradient id="glow-accent" x1="1" y1="0" x2="0" y2="1">
+    <stop stop-color="#EC4899"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <radialGradient id="aurora-1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1350 140) rotate(135) scale(420 300)">
+    <stop stop-color="#3B82F6" stop-opacity="0.28"/>
+    <stop offset="0.6" stop-color="#8B5CF6" stop-opacity="0.14"/>
+    <stop offset="1" stop-color="#050814" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="aurora-2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 420) rotate(45) scale(380 260)">
+    <stop stop-color="#06B6D4" stop-opacity="0.22"/>
+    <stop offset="0.7" stop-color="#3B82F6" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#050814" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glow-blur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+
+  <!-- Technical Grid Pattern -->
+  <pattern id="tech-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.35"/>
+    <circle cx="40" cy="40" r="1" fill="#38BDF8" fill-opacity="0.25"/>
+  </pattern>
 </defs>
-<rect width="1600" height="520" rx="32" fill="url(#g)"/>
-<circle cx="1350" cy="90" r="190" fill="#2563EB" opacity=".12" filter="url(#blur)"/>
-<circle cx="250" cy="480" r="180" fill="#7C3AED" opacity=".10" filter="url(#blur)"/>
-<path d="M70 420C270 230 430 390 620 275C820 154 900 335 1110 220C1270 132 1390 165 1530 70" stroke="url(#a)" stroke-width="2.5" opacity=".75"/>
-<path d="M70 447C270 257 430 417 620 302C820 181 900 362 1110 247C1270 159 1390 192 1530 97" stroke="#60A5FA" stroke-width="1" opacity=".25"/>
-<g fill="#CBD5E1">
-<circle cx="125" cy="115" r="2"/><circle cx="385" cy="75" r="2"/><circle cx="700" cy="95" r="2"/>
-<circle cx="1050" cy="70" r="2"/><circle cx="1435" cy="315" r="2"/><circle cx="1180" cy="420" r="2"/>
+
+<!-- Outer Container -->
+<rect width="1600" height="520" rx="28" fill="url(#bg-base)"/>
+<rect width="1600" height="520" rx="28" fill="url(#tech-grid)"/>
+
+<!-- Aurora Glows -->
+<rect width="1600" height="520" rx="28" fill="url(#aurora-1)"/>
+<rect width="1600" height="520" rx="28" fill="url(#aurora-2)"/>
+
+<!-- Subtle Cyber Border -->
+<rect x="1" y="1" width="1598" height="518" rx="27" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-opacity="0.8"/>
+
+<!-- Dynamic Wave Paths -->
+<path d="M -50 430 C 240 210, 480 430, 780 270 C 1050 120, 1260 360, 1650 110" stroke="url(#glow-cyan)" stroke-width="3" fill="none" opacity="0.85" filter="url(#glow-blur)"/>
+<path d="M -50 430 C 240 210, 480 430, 780 270 C 1050 120, 1260 360, 1650 110" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.6"/>
+<path d="M -50 460 C 260 250, 500 460, 800 310 C 1080 160, 1300 380, 1650 160" stroke="url(#glow-accent)" stroke-width="1.5" fill="none" opacity="0.35"/>
+
+<!-- Constellation / Nodes -->
+<g fill="#38BDF8">
+  <circle cx="280" cy="315" r="4" fill="#38BDF8" filter="url(#glow-blur)"/>
+  <circle cx="280" cy="315" r="2" fill="#FFFFFF"/>
+  <circle cx="630" cy="340" r="4" fill="#38BDF8" filter="url(#glow-blur)"/>
+  <circle cx="630" cy="340" r="2" fill="#FFFFFF"/>
+  <circle cx="980" cy="200" r="5" fill="#818CF8" filter="url(#glow-blur)"/>
+  <circle cx="980" cy="200" r="2.5" fill="#FFFFFF"/>
+  <circle cx="1320" cy="270" r="4" fill="#EC4899" filter="url(#glow-blur)"/>
+  <circle cx="1320" cy="270" r="2" fill="#FFFFFF"/>
 </g>
-<text x="92" y="170" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="-3">RAJ GAHOI</text>
-<text x="97" y="222" fill="#93C5FD" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="5">ENGINEERING / BUILDING / EXPLORING</text>
-<text x="98" y="285" fill="#CBD5E1" font-family="Inter,Arial,sans-serif" font-size="18">DSA  ·  FULL STACK  ·  AI / ML  ·  CYBERSECURITY</text>
-<text x="98" y="385" fill="#64748B" font-family="JetBrains Mono,monospace" font-size="15">01  BUILD   02  SOLVE   03  SHIP   04  REPEAT</text>
+
+<!-- Top Tag / Pill -->
+<g transform="translate(100, 68)">
+  <rect width="320" height="34" rx="17" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+  <circle cx="18" cy="17" r="4.5" fill="#10B981"/>
+  <text x="34" y="22" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1.5">OPEN FOR ROLES &amp; INTERNSHIPS</text>
+</g>
+
+<!-- Main Name Heading -->
+<text x="96" y="195" fill="url(#text-grad)" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="82" font-weight="900" letter-spacing="-3">RAJ GAHOI</text>
+
+<!-- Subtitle / Identity -->
+<text x="100" y="250" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="700" letter-spacing="6">SYSTEMS BUILDER · LINUX FOUNDATION CONTRIBUTOR</text>
+
+<!-- Stack / Focus Chips -->
+<text x="100" y="308" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="19" font-weight="500">
+  Distributed Systems <tspan fill="#64748B">·</tspan> High-Performance Databases <tspan fill="#64748B">·</tspan> Enterprise Infrastructure <tspan fill="#64748B">·</tspan> AI Agents
+</text>
+
+<!-- Bottom Proof / Metrics Bar -->
+<g transform="translate(100, 385)">
+  <rect width="1400" height="74" rx="16" fill="#0D1326" stroke="#1E293B" stroke-width="1.2"/>
+  
+  <!-- Metric 1 -->
+  <g transform="translate(36, 0)">
+    <text x="0" y="33" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800">5 / 5 GREEN</text>
+    <text x="0" y="55" fill="#64748B" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1">VALKEY CI CHECKS</text>
+  </g>
+  
+  <line x1="260" y1="16" x2="260" y2="58" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Metric 2 -->
+  <g transform="translate(300, 0)">
+    <text x="0" y="33" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800">16,384 SLOTS</text>
+    <text x="0" y="55" fill="#64748B" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1">CRC16 CLUSTER HEATMAP</text>
+  </g>
+
+  <line x1="580" y1="16" x2="580" y2="58" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Metric 3 -->
+  <g transform="translate(620, 0)">
+    <text x="0" y="33" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800">236+ TESTS</text>
+    <text x="0" y="55" fill="#64748B" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1">VITEST SUITE PASSING</text>
+  </g>
+
+  <line x1="880" y1="16" x2="880" y2="58" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Metric 4 -->
+  <g transform="translate(920, 0)">
+    <text x="0" y="33" fill="#F43F5E" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800">DCO SIGNED</text>
+    <text x="0" y="55" fill="#64748B" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1">LINUX FOUNDATION STANDARDS</text>
+  </g>
+
+  <line x1="1200" y1="16" x2="1200" y2="58" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Metric 5 -->
+  <g transform="translate(1240, 0)">
+    <text x="0" y="33" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800">AWS · GCP · ORA</text>
+    <text x="0" y="55" fill="#64748B" font-family="'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="1">REDIS REPLACEMENT STACK</text>
+  </g>
+</g>
+
 </svg>
