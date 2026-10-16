@@ -52,9 +52,10 @@ Active contributor to the **Linux Foundation Valkey** project (the enterprise Re
 ```bash
 $ neofetch --engineer "Raj Gahoi"
 OS: Linux / Ubuntu / Cloud Native
-Core: Distributed Systems · Networking · DB Engines
-Stack: C++ · TypeScript · Node.js · Go · React · Redux · Redis/Valkey
-Status: Ready for High-Impact Software Engineering Roles & Fellowships
+Core: Distributed Systems · In-Memory Engines · Cluster Sharding
+Stack: C++ · TypeScript · Node.js · Go · React 19 · Redux · Redis/Valkey
+Verified: Linux Foundation DCO · 100% Green Multi-Node CI (5/5 PRs)
+Status: Available for Software Engineering Roles & Fellowships
 ```
 
 </td>
@@ -65,6 +66,37 @@ Status: Ready for High-Impact Software Engineering Roles & Fellowships
 </td>
 </tr>
 </table>
+
+---
+
+## 🛰️ SYSTEMS ARCHITECTURE & INTERNALS AT A GLANCE
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                      VALKEY CLUSTER DISTRIBUTED TOPOLOGY                               │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                        │
+│   [ Client Dispatch ] ────►  CRC16 Polynomial (0x1021) ────► Hash Slot (0 .. 16383)    │
+│            │                             │                                 │           │
+│            ▼                             ▼                                 ▼           │
+│   ┌─────────────────┐           ┌─────────────────┐               ┌─────────────────┐  │
+│   │  PRIMARY NODE 0 │           │  PRIMARY NODE 1 │               │  PRIMARY NODE 2 │  │
+│   │  Slots 0-5460   │           │  Slots 5461-10922│               │ Slots 10923-16383│ │
+│   │  🟢 Status: OK  │           │  🟢 Status: OK  │               │  🟢 Status: OK  │  │
+│   └────────┬────────┘           └────────┬────────┘               └────────┬────────┘  │
+│            │                             │                                 │           │
+│            ▼ (Async Replication)         ▼ (Async Replication)             ▼           │
+│   ┌─────────────────┐           ┌─────────────────┐               ┌─────────────────┐  │
+│   │  REPLICA NODE   │           │  REPLICA NODE   │               │  REPLICA NODE   │  │
+│   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
+│                                                                                        │
+│   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #563] CRC16 Slot Heatmap Matrix (16,384 Slots Memory Skew Profiler)          │
+│   ├── [PR #562] Native IPv6 Node Route Dispatcher (routeByAddress Override)            │
+│   ├── [PR #565] Dynamic Node Health State Evaluator (INFO/PING Latency Probing)        │
+│   └── [PR #561] Multi-Database Namespace Switcher with Credential Cipher Vault         │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
