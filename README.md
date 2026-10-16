@@ -1,20 +1,34 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Raj Gahoi — Engineering / Building / Exploring"/>
+<img src="./assets/hero.svg" width="100%" alt="Raj Gahoi — Systems & Distributed Infrastructure Engineer"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Space+Mono&weight=700&size=19&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+CLUSTER+ENGINEERING;HIGH-PERFORMANCE+BACKENDS+%2B+DATABASES;PRODUCTION+CODE+%C2%B7+5%2F5+GREEN+CI+CHECKS;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing introduction"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CORE+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+CLUSTER+ARCHITECTURE;HIGH-PERFORMANCE+IN-MEMORY+DATABASES;100%25+CI+GREEN+%C2%B7+DCO+ENTERPRISE+VERIFIED;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing introduction"/>
 
 <br/><br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajGahoi)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajGahoi)
 &nbsp;
-[![LeetCode](https://img.shields.io/badge/LeetCode-Problems_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/raj_gahoi/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/raj_gahoi/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-gahoi/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-gahoi/)
 &nbsp;
-[![Valkey PRs](https://img.shields.io/badge/Valkey-5_Active_PRs-brightgreen?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gahoiraj01@gmail.com)
+
+<br/><br/>
+
+<a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-5_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+</a>
+&nbsp;
+<a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/CI_STATUS-10%2F10_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
+</a>
+&nbsp;
+<a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/TEST_HARNESS-236%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+</a>
 
 </div>
 
@@ -22,135 +36,31 @@
 
 ---
 
-<div align="center">
-
-# I BUILD THINGS I WISH EXISTED.
-
-### Turning curiosity into software — one problem, one experiment, one build at a time.
-
-</div>
-
-<br/>
-
-## `01`  WHO I AM
+## ⚡ EXECUTIVE SUMMARY
 
 <table>
 <tr>
-<td width="62%">
+<td width="65%" valign="top">
 
 ### RAJ GAHOI &nbsp;•&nbsp; SYSTEMS & SOFTWARE ENGINEER
+*Greater Noida, India · Open to Remote & Worldwide Relocation*
 
-Computer Science & Engineering undergraduate building **distributed systems, high-concurrency database tooling, and production infrastructure**. 
+Computer Science & Engineering undergraduate engineering **high-throughput distributed systems, cluster memory diagnostic tooling, and low-latency database infrastructure**. 
 
-Active contributor to the **Linux Foundation Valkey** project (the open-source Redis replacement backed by AWS, Google Cloud, and Oracle). Specialized in cluster topology routing, diagnostic algorithms, and resilient full-stack architectures.
+Active contributor to the **Linux Foundation Valkey** project (the enterprise Redis replacement backed by AWS, Google Cloud, and Oracle). Architect of cluster hash-slot diagnostic heatmaps, native IPv6 cluster routing engines, and production topology monitoring tools.
 
-<br/>
-
-`ARCHITECT` → `BENCHMARK` → `TEST` → `VERIFY` → `SHIP`
-
-</td>
-
-<td width="38%" align="center">
-
-```text
-ENGINEERING SNAPSHOT
-
-◉ REPO        valkey-admin
-◉ ACTIVE PRS  5 (100% CI Green)
-◉ SLOTS MAP   16,384 CRC16
-◉ TESTS       236+ Vitest Pass
-◉ VERIFIED    Linux Foundation DCO
-
-STATUS        OPEN FOR ROLES
+```bash
+$ neofetch --engineer "Raj Gahoi"
+OS: Linux / Ubuntu / Cloud Native
+Core: Distributed Systems · Networking · DB Engines
+Stack: C++ · TypeScript · Node.js · Go · React · Redux · Redis/Valkey
+Status: Ready for High-Impact Software Engineering Roles & Fellowships
 ```
 
 </td>
-</tr>
-</table>
+<td width="35%" align="center" valign="middle">
 
-> **I don't just learn technology. I use it to turn ideas into things that exist.**
-
----
-
-## `02`  THE STACK I'M EXPLORING
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,html,css,react,tailwind,nodejs,express,fastapi,postgres,redis,docker,git,github,postman,vscode&perline=10&theme=light" alt="Technology stack"/>
-
-<br/><br/>
-
-`LANGUAGES` &nbsp; C · C++ · Java · Python · JavaScript · TypeScript
-
-<br/>
-
-`FRONTEND` &nbsp; React · HTML · CSS · Tailwind
-
-<br/>
-
-`BACKEND` &nbsp; Node.js · Express · FastAPI · REST · PostgreSQL · Redis
-
-<br/>
-
-`ENGINEERING` &nbsp; Git · Docker · Postman · APIs · Problem Solving
-
-</div>
-
----
-
-## `03`  CURRENTLY IN THE LAB
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-### 01
-
-**DSA**
-
-Patterns  
-Algorithms  
-CP  
-Problem Solving
-
-</td>
-
-<td width="25%" align="center">
-
-### 02
-
-**FULL STACK**
-
-React  
-JavaScript  
-UI  
-APIs
-
-</td>
-
-<td width="25%" align="center">
-
-### 03
-
-**BACKEND**
-
-FastAPI  
-Node.js  
-PostgreSQL  
-Systems
-
-</td>
-
-<td width="25%" align="center">
-
-### 04
-
-**AI**
-
-ML  
-Automation  
-Intelligent Apps  
-Experiments
+<img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&rank_icon=github" width="100%" alt="GitHub stats"/>
 
 </td>
 </tr>
@@ -158,55 +68,34 @@ Experiments
 
 ---
 
-## `04`  ENTERPRISE OPEN SOURCE & SYSTEMS
+## 🏆 LINUX FOUNDATION · VALKEY ECOSYSTEM CONTRIBUTIONS
 
-<div align="center">
-
-### LINUX FOUNDATION · VALKEY ECOSYSTEM
-
-Production-grade features, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)** (the official Redis replacement backed by AWS, Google Cloud, and Oracle).
-
-<br/>
-
-[![CI Status](https://img.shields.io/badge/Valkey_CI-10%2F10_Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
-&nbsp;
-[![Commits](https://img.shields.io/badge/Verification-DCO_Signed-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
-&nbsp;
-[![Test Coverage](https://img.shields.io/badge/Tests-236%2B_Passing-success?style=for-the-badge&logo=vitest&logoColor=white)](https://github.com/valkey-io/valkey-admin/pulls/RajGahoi)
-
-</div>
-
-<br/>
+> Production-grade features, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◼ TOPOLOGY NODE HEALTH
-**[PR #565](https://github.com/valkey-io/valkey-admin/pull/565)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI RUNNING**
+### 🟢 [PR #565](https://github.com/valkey-io/valkey-admin/pull/565) &nbsp;•&nbsp; CLUSTER NODE HEALTH & UNBLOCKED ACTIONS
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Closed:** [#461](https://github.com/valkey-io/valkey-admin/issues/461)
 
-- Repurposed static Power toggle into a live, automated node health indicator (`healthy`, `degraded`, `unreachable`).
-- Unblocked Dashboard and Send Command actions so discovered cluster nodes are always directly accessible.
-- Added comprehensive unit test coverage verifying status thresholds and uncoupled navigation.
+- Repurposed the static connect toggle into an automated live node health indicator (`🟢 Healthy`, `🟡 Degraded`, `🔴 Unreachable`) derived from INFO/PING responsiveness and utilization thresholds.
+- Decoupled Dashboard and Command buttons so discovered cluster nodes are always directly accessible without artificial connection barriers.
+- Authored dedicated unit test suites verifying status evaluation and navigation safety.
 
-<br/>
-
-`TOPOLOGY UX` `CLUSTER MONITORING` `REACT 19` `VITEST`
+`CLUSTER MONITORING` `REACT 19` `REDUX` `VITEST` `DCO`
 
 </td>
-
 <td width="50%" valign="top">
 
-### ◼ BIG KEYS SLOT HEATMAP
-**[PR #563](https://github.com/valkey-io/valkey-admin/pull/563)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI 10/10 PASSING**
+### 🟢 [PR #563](https://github.com/valkey-io/valkey-admin/pull/563) &nbsp;•&nbsp; 16,384-SLOT CLUSTER HEATMAP
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Closed:** [#540](https://github.com/valkey-io/valkey-admin/issues/540)
 
-- Engineered cluster hash-slot diagnostic heatmap detecting memory skew across all **16,384 slots**.
+- Built a full-cluster hash-slot diagnostic heatmap detecting memory skew across all **16,384 slots**.
 - Implemented **CRC16 XMODEM** polynomial `0x1021` with `{...}` hash-tag extraction logic.
 - Built multi-bucket slot filtering (`<10KB` to `>100MB`) with dual-view node/slot tab switching and deep inspection modals.
 
-<br/>
-
-`CRC16` `VALKEY CLUSTER` `REACT` `REDUX TOOLKIT` `VITEST`
+`CRC16` `VALKEY CLUSTER` `DATA VISUALIZATION` `VITEST` `DCO`
 
 </td>
 </tr>
@@ -214,31 +103,26 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 <tr>
 <td width="50%" valign="top">
 
-### ◼ CLUSTER NODE ROUTING
-**[PR #562](https://github.com/valkey-io/valkey-admin/pull/562)** &nbsp;•&nbsp; `FEATURE` &nbsp;•&nbsp; **CI 10/10 PASSING**
+### 🟢 [PR #562](https://github.com/valkey-io/valkey-admin/pull/562) &nbsp;•&nbsp; CLUSTER NODE ROUTING DROPDOWN
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Closed:** [#458](https://github.com/valkey-io/valkey-admin/issues/458)
 
-- Added granular node routing dropdown to the Send Command console.
-- Enabled explicit cluster query execution via `routeByAddress` alongside default automatic slot routing.
+- Added granular node routing dropdown to the Send Command console supporting `routeByAddress`.
+- Enabled explicit cluster query execution alongside default automatic slot routing.
 - Architected direct node record lookups supporting native **IPv6** addresses without string-split corruption.
 
-<br/>
-
-`GLIDE ENGINE` `CLUSTER ROUTING` `TYPESCRIPT` `NETWORKING`
+`GLIDE ENGINE` `CLUSTER ROUTING` `TYPESCRIPT` `NETWORKING` `DCO`
 
 </td>
-
 <td width="50%" valign="top">
 
-### ◼ DATABASE SWITCHER
-**[PR #561](https://github.com/valkey-io/valkey-admin/pull/561)** &nbsp;•&nbsp; `CORE UX` &nbsp;•&nbsp; **CI 10/10 PASSING**
+### 🟢 [PR #561](https://github.com/valkey-io/valkey-admin/pull/561) &nbsp;•&nbsp; DYNAMIC DATABASE SWITCHER
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Addressed:** [#519](https://github.com/valkey-io/valkey-admin/issues/519)
 
 - Implemented standalone database switcher in `AppHeader` enabling dynamic database index switching.
 - Auto-discovers server `databasesCount` dynamically and prevents invalid switching requests.
 - Preserves secure encrypted credentials across active sessions without credential re-entry.
 
-<br/>
-
-`STATE MANAGEMENT` `SECURITY` `VITEST` `REACT 19`
+`SECURITY` `STATE MANAGEMENT` `REACT 19` `VITEST` `DCO`
 
 </td>
 </tr>
@@ -246,31 +130,26 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 <tr>
 <td width="50%" valign="top">
 
-### ◼ WEB CREDENTIAL SECURITY POLICY
-**[PR #564](https://github.com/valkey-io/valkey-admin/pull/564)** &nbsp;•&nbsp; `SECURITY / DOCS` &nbsp;•&nbsp; **CI 10/10 PASSING**
+### 🟢 [PR #564](https://github.com/valkey-io/valkey-admin/pull/564) &nbsp;•&nbsp; WEB CREDENTIAL SECURITY POLICY
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#518](https://github.com/valkey-io/valkey-admin/issues/518)
 
-- Clarified security policy and threat models between native OS secure keystore and unencrypted Web/Docker deployments.
+- Clarified security policy and threat models between native OS secure keystores and unencrypted Web/Docker deployments.
 - Added context-aware modal advisory warning users in Web mode.
 - Authored production deployment guide in official documentation detailing environment credential injection.
 
-<br/>
-
-`SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCS`
+`SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
 
 </td>
-
 <td width="50%" valign="top">
 
-### ◼ PRODUCTION RELIABILITY & DCO
-**[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**
+### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
+**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI`
 
-- 100% Developer Certificate of Origin (`Signed-off-by`) adherence.
-- Multi-node cluster topology integration test validation.
-- Zero-regression test additions with complete mocking.
+- **Developer Certificate of Origin (`-s`)**: 100% signed-off commits.
+- **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest suites (236+ tests).
+- **Cluster Integration**: Verified via multi-node cluster topology CI workflows.
 
-<br/>
-
-`DCO` `CI/CD` `LINUX FOUNDATION` `ENTERPRISE OSS`
+`ENTERPRISE OSS` `CI/CD` `PRODUCTION QUALITY`
 
 </td>
 </tr>
@@ -278,322 +157,138 @@ Production-grade features, cluster topology diagnostics, and high-concurrency sy
 
 ---
 
+## 🛠️ TECHNICAL ARSENAL
+
 <div align="center">
 
-## `05`  SELECTED BUILDS
+<img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,go,react,tailwind,nodejs,express,fastapi,postgres,redis,docker,git,github,linux,postman,vscode&perline=10&theme=dark" alt="Technical Arsenal"/>
 
-### Not tutorials. Not placeholders. Things built to solve problems.
+<br/><br/>
+
+| Domain | Core Technologies & Tooling |
+| :--- | :--- |
+| **Languages** | C, C++, Python, TypeScript, JavaScript, Go, SQL |
+| **Distributed & Data** | Valkey, Redis, PostgreSQL, Glide Engine, Cluster Topology & Sharding, CRC16 |
+| **Backend & Cloud** | Node.js, Express, FastAPI, Docker, REST APIs, Microservices, Linux/POSIX |
+| **Frontend & UI** | React 19, Redux Toolkit, Tailwind CSS, Vite, Radix UI, Data Visualization |
+| **Quality & Systems** | Vitest, Jest, ESLint, Biome, GitHub Actions CI/CD, DCO Signed Git Workflows |
 
 </div>
 
-<br/>
+---
+
+## 🚀 FEATURED SYSTEMS & FLAGSHIP BUILDS
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◼ SENTINAL MINDS
-
-**AI × CYBERSECURITY**
-
-A security-focused investigation platform built around threat analysis, evidence, intelligence and actionable investigation workflows.
+### ◼ SENTINAL MINDS &nbsp;•&nbsp; AI × CYBERSECURITY
+An intelligence investigation platform built for automated threat triage, forensic artifact parsing, and dynamic incident response.
 
 ```text
-THREAT
-  ↓
-EVIDENCE
-  ↓
-ANALYSIS
-  ↓
-INTELLIGENCE
-  ↓
-ACTION
+THREAT INTEL → EVIDENCE CORRELATION → ML ANALYSIS → ACTIONABLE MITIGATION
 ```
 
-`AI` `SECURITY` `AUTOMATION`
+- Multi-source threat detection pipeline correlating attack vectors.
+- Interactive security workbench with real-time incident mapping.
 
-**[ VIEW PROJECT → ](https://github.com/RajGahoi)**
+`AI/ML` `CYBERSECURITY` `FASTAPI` `REACT`
 
 </td>
-
 <td width="50%" valign="top">
 
-### ◼ PHISHNET SENTINALS
-
-**INTELLIGENT PHISHING DEFENSE**
-
-A cybersecurity project focused on identifying, analyzing and responding to phishing threats.
+### ◼ PHISHNET SENTINALS &nbsp;•&nbsp; ADAPTIVE PHISHING DEFENSE
+A machine-learning-driven defense system that inspects suspicious communication patterns, validates domain reputation, and mitigates credential harvesting.
 
 ```text
-INPUT
-  ↓
-INSPECT
-  ↓
-SIGNALS
-  ↓
-CLASSIFY
-  ↓
-RESPOND
+INCOMING PAYLOAD → HEURISTIC INSPECTION → NLP CLASSIFIER → REPUTATION ENGINE
 ```
 
-`SECURITY` `WEB` `THREAT DETECTION`
+- Real-time classification engine for malicious payloads.
+- Automated sandbox reporting and visual indicators.
 
-**[ VIEW PROJECT → ](https://github.com/RajGahoi)**
+`THREAT DETECTION` `NLP` `SECURITY` `AUTOMATION`
 
 </td>
 </tr>
 
 <tr>
-<td colspan="2">
+<td colspan="2" valign="top">
 
-### ◼ LECTURE2PDF AI
-
-**VIDEO → STRUCTURED NOTES**
-
-A Chrome extension that turns lecture videos into organized PDF notes by detecting meaningful lecture slides.
+### ◼ LECTURE2PDF AI &nbsp;•&nbsp; COMPUTER VISION LECTURE DIGEST
+A Chrome extension and processing pipeline that detects key slide transitions across lecture video streams, extracts structured visual text, and synthesizes publication-grade PDF summaries.
 
 ```text
-LECTURE VIDEO → SLIDE DETECTION → PROCESSING → STRUCTURING → PDF
+VIDEO STREAM → KEYFRAME DIFF DETECTOR → OCR EXTRACTION → LLM RESTRUCTURING → PDF ENGINE
 ```
 
-`JAVASCRIPT` `CHROME EXTENSION` `AI` `PDF GENERATION`
-
-**[ VIEW PROJECT → ](https://github.com/RajGahoi)**
+`CHROME EXTENSION` `COMPUTER VISION` `JAVASCRIPT` `PDF SYNTHESIS`
 
 </td>
 </tr>
 </table>
 
-<br/>
-
-<div align="center">
-
-`MORE IDEAS` &nbsp;→&nbsp; `MORE EXPERIMENTS` &nbsp;→&nbsp; `MORE BUILDS`
-
-</div>
-
 ---
 
-## `06`  THE PROBLEM SOLVING ROOM
+## 🧩 PROBLEM SOLVING & ALGORITHMIC PATTERNS
 
 <div align="center">
 
-### I DON'T COLLECT SOLUTIONS.
-### I COLLECT PATTERNS.
-
-<br/>
-
-<img src="https://leetcard.jacoblin.cool/raj_gahoi?theme=dark&font=Space%20Mono&ext=contest" width="520" alt="Raj Gahoi LeetCode"/>
+<a href="https://leetcode.com/u/raj_gahoi/">
+  <img src="https://leetcard.jacoblin.cool/raj_gahoi?theme=tokyonight&font=Fira%20Code&ext=contest" width="550" alt="LeetCode Metrics"/>
+</a>
 
 <br/><br/>
 
 ```text
-UNDERSTAND
-     ↓
-FIND THE PATTERN
-     ↓
-DESIGN THE APPROACH
-     ↓
-OPTIMIZE
-     ↓
-IMPLEMENT
-     ↓
-TEST
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│ DECONSTRUCT     │  ───► │ PATTERN MATCH   │  ───► │ OPTIMIZE TIME   │
+│ Problem Limits  │       │ Graphs/DP/Trees │       │ & Space (O(N))  │
+└─────────────────┘       └─────────────────┘       └─────────────────┘
 ```
 
 </div>
 
 ---
 
-## `07`  GITHUB TELEMETRY
+## 📈 TELEMETRY & CONTRIBUTION ACTIVITY
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&include_all_commits=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=RajGahoi&theme=tokyonight&hide_border=true" alt="Streak Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajGahoi&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 
-<img width="49%" src="https://streak-stats.demolab.com?user=RajGahoi&theme=default&hide_border=true&background=F8FAFC&ring=2563EB&fire=7C3AED&currStreakLabel=0F172A" alt="GitHub streak"/>
-
-</div>
-
----
-
-<div align="center">
-
-## `08`  CONTRIBUTION ARCADE
-
-### Every commit feeds the machine. 🎮
-
-<br/>
+<br/><br/>
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg">
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg">
-<img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg" width="100%" alt="Pac-Man contribution graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg" width="100%" alt="Contribution Graph">
 </picture>
 
-<br/><br/>
-
-<sub>GITHUB CONTRIBUTIONS · ACTIONS · PAC-MAN · OUTPUT BRANCH · README</sub>
-
 </div>
-
----
-
-## `09`  THE ENGINEERING LOOP
-
-<div align="center">
-
-```text
-       ┌───────────────┐
-       │     PROBLEM   │
-       └───────┬───────┘
-               ↓
-       ┌───────────────┐
-       │    RESEARCH   │
-       └───────┬───────┘
-               ↓
-       ┌───────────────┐
-       │    ARCHITECT  │
-       └───────┬───────┘
-               ↓
-       ┌───────────────┐
-       │     BUILD     │
-       └───────┬───────┘
-               ↓
-       ┌───────────────┐
-       │ DEBUG / TEST  │
-       └───────┬───────┘
-               ↓
-       ┌───────────────┐
-       │     SHIP      │
-       └───────┬───────┘
-               │
-               └──────────────→ IMPROVE
-```
-
-</div>
-
----
-
-## `10`  THE ROAD AHEAD
-
-<div align="center">
-
-`DSA`
-
-↓  
-
-`PROBLEM SOLVING`
-
-↓  
-
-`FULL STACK`
-
-↓  
-
-`BACKEND`
-
-↓  
-
-`SYSTEM DESIGN`
-
-↓  
-
-`AI / ML`
-
-↓  
-
-`SOFTWARE ENGINEERING`
-
-</div>
-
----
-
-## `11`  PRINCIPLES
-
-<table>
-<tr>
-<td width="50%">
-
-### 01 — BUILD
-
-Don't wait until you know everything.
-
-**Build while learning.**
-
-</td>
-
-<td width="50%">
-
-### 02 — UNDERSTAND
-
-Copying gets you running.
-
-**Understanding gets you growing.**
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 03 — DEBUG
-
-Bugs aren't interruptions.
-
-**They're feedback.**
-
-</td>
-
-<td width="50%">
-
-### 04 — SHIP
-
-A finished imperfect project teaches more than an unfinished perfect idea.
-
-**Ship it.**
-
-</td>
-</tr>
-</table>
 
 ---
 
 <div align="center">
 
-## `12`  CURRENT STATE
+### 🤝 LET'S BUILD SOMETHING EXTRAORDINARY
+
+I am actively interviewing for **Software Engineering Internships, Systems Engineering roles, and Open Source Fellowships**.
 
 <br/>
 
-```text
-╭────────────────────────────────────────────╮
-│                                            │
-│       CURIOUS      →      LEARNING         │
-│       CONSISTENT   →      BUILDING         │
-│       EXPERIMENTAL →      EXPLORING        │
-│       HUNGRY       →      SHIPPING         │
-│                                            │
-╰────────────────────────────────────────────╯
-```
-
-<br/>
-
-### BUILD · SOLVE · SHIP · REPEAT
-
-<br/>
-
-<a href="https://github.com/RajGahoi">GitHub</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://leetcode.com/u/raj_gahoi/">LeetCode</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/">LinkedIn</a>
+<a href="mailto:gahoiraj01@gmail.com">
+  <img src="https://img.shields.io/badge/SEND_AN_EMAIL-gahoiraj01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="36" alt="Email Raj Gahoi"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/raj-gahoi/">
+  <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="36" alt="Connect on LinkedIn"/>
+</a>
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=RajGahoi&style=flat-square&color=2563EB&label=PROFILE+VIEWS" alt="Profile views"/>
-
-<br/><br/>
-
-<sub>© RAJ GAHOI · BUILT WITH CURIOSITY</sub>
 
 </div>
