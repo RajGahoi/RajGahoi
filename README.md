@@ -163,9 +163,60 @@ Experiments
 
 ---
 
+## `04`  ENTERPRISE OPEN SOURCE CONTRIBUTIONS
+
 <div align="center">
 
-## `04`  SELECTED BUILDS
+### LINUX FOUNDATION · VALKEY ECOSYSTEM
+
+Production-grade features, cluster topology diagnostics, and high-performance frontend/server engineering contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ◼ BIG KEYS SLOT HEATMAP
+**[valkey-admin#563](https://github.com/valkey-io/valkey-admin/pull/563)**
+
+Cluster hash-slot diagnostic heatmap detecting memory skew across 16,384 slots with CRC16 `{...}` hash-tag calculations, multi-bucket filtering, and interactive key inspection.
+
+`CRC16` `VALKEY CLUSTER` `REACT` `REDUX`
+
+</td>
+
+<td width="33%" valign="top">
+
+### ◼ CLUSTER NODE ROUTING
+**[valkey-admin#562](https://github.com/valkey-io/valkey-admin/pull/562)**
+
+Targeted cluster node routing dropdown in Send Command supporting automatic routing and `routeByAddress` with native IPv6 resolution.
+
+`GLIDE` `ROUTING` `TYPESCRIPT` `VALKEY`
+
+</td>
+
+<td width="33%" valign="top">
+
+### ◼ DATABASE SWITCHER
+**[valkey-admin#561](https://github.com/valkey-io/valkey-admin/pull/561)**
+
+Standalone database switcher in AppHeader with real-time `databasesCount` discovery and encrypted credential preservation across database connections.
+
+`SECURITY` `STATE MANAGEMENT` `VITEST`
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## `05`  SELECTED BUILDS
 
 ### Not tutorials. Not placeholders. Things built to solve problems.
 
@@ -259,7 +310,7 @@ LECTURE VIDEO → SLIDE DETECTION → PROCESSING → STRUCTURING → PDF
 
 ---
 
-## `05`  THE PROBLEM SOLVING ROOM
+## `06`  THE PROBLEM SOLVING ROOM
 
 <div align="center">
 
@@ -290,7 +341,7 @@ TEST
 
 ---
 
-## `06`  GITHUB TELEMETRY
+## `07`  GITHUB TELEMETRY
 
 <div align="center">
 
@@ -304,7 +355,7 @@ TEST
 
 <div align="center">
 
-## `07`  CONTRIBUTION ARCADE
+## `08`  CONTRIBUTION ARCADE
 
 ### Every commit feeds the machine. 🎮
 
@@ -324,7 +375,7 @@ TEST
 
 ---
 
-## `08`  THE ENGINEERING LOOP
+## `09`  THE ENGINEERING LOOP
 
 <div align="center">
 
@@ -360,7 +411,7 @@ TEST
 
 ---
 
-## `09`  THE ROAD AHEAD
+## `10`  THE ROAD AHEAD
 
 <div align="center">
 
@@ -394,7 +445,7 @@ TEST
 
 ---
 
-## `10`  PRINCIPLES
+## `11`  PRINCIPLES
 
 <table>
 <tr>
@@ -446,7 +497,7 @@ A finished imperfect project teaches more than an unfinished perfect idea.
 
 <div align="center">
 
-## `11`  CURRENT STATE
+## `12`  CURRENT STATE
 
 <br/>
 
