@@ -177,7 +177,7 @@ Production-grade features, cluster topology diagnostics, and high-performance fr
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### ◼ BIG KEYS SLOT HEATMAP
 **[valkey-admin#563](https://github.com/valkey-io/valkey-admin/pull/563)**
@@ -188,7 +188,7 @@ Cluster hash-slot diagnostic heatmap detecting memory skew across 16,384 slots w
 
 </td>
 
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### ◼ CLUSTER NODE ROUTING
 **[valkey-admin#562](https://github.com/valkey-io/valkey-admin/pull/562)**
@@ -198,8 +198,10 @@ Targeted cluster node routing dropdown in Send Command supporting automatic rout
 `GLIDE` `ROUTING` `TYPESCRIPT` `VALKEY`
 
 </td>
+</tr>
 
-<td width="33%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
 ### ◼ DATABASE SWITCHER
 **[valkey-admin#561](https://github.com/valkey-io/valkey-admin/pull/561)**
@@ -207,6 +209,17 @@ Targeted cluster node routing dropdown in Send Command supporting automatic rout
 Standalone database switcher in AppHeader with real-time `databasesCount` discovery and encrypted credential preservation across database connections.
 
 `SECURITY` `STATE MANAGEMENT` `VITEST`
+
+</td>
+
+<td width="50%" valign="top">
+
+### ◼ WEB CREDENTIAL POLICY
+**[valkey-admin#564](https://github.com/valkey-io/valkey-admin/pull/564)**
+
+Security UX clarification for unencrypted browser storage vs native OS keychain, with inline modal advice and Docker deployment docs.
+
+`SECURITY UX` `AUTHENTICATION` `DOCKER DOCS`
 
 </td>
 </tr>
