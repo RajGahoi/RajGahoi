@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-9_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-10_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -27,7 +27,7 @@
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/TEST_HARNESS-300%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+  <img src="https://img.shields.io/badge/TEST_HARNESS-350%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
 </a>
 
 </div>
@@ -235,6 +235,18 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 
 `SAFETY ENGINE` `MUTATION DETECTION` `SERVER ENFORCEMENT` `REACT 19` `DCO`
 
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #570](https://github.com/valkey-io/valkey-admin/pull/570) &nbsp;•&nbsp; BIG KEYS CLUSTER SLOT HEATMAP VISUALIZATION
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#540](https://github.com/valkey-io/valkey-admin/issues/540)
+
+- Implemented Valkey cluster hash slot calculation engine (`getKeySlot`, `getHashTag`, `crc16`) in `valkey-common` using CRC16-CCITT with polynomial `0x1021` and hash tag extraction (`{...}`).
+- Enriched Big Keys with exact hash slot mapping across primary shards to diagnose and detect cluster memory skew.
+- Engineered `BigKeysSlotHeatmap` interactive modal with dynamic heat coloring, tile grid, hover diagnostics, and click-to-navigate key inspection.
+
+`CLUSTER TOPOLOGY` `HASH SLOTS` `CRC16 ENGINE` `HEATMAP VISUALIZATION` `DCO`
+
 </td>
 </tr>
 
@@ -242,7 +254,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 <td colspan="2" valign="top">
 
 ### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
-**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `300+ VITEST TEST CASES`
+**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `350+ VITEST TEST CASES`
 
 - **Developer Certificate of Origin (`-s`)**: 100% signed-off commits meeting Linux Foundation open-source governance.
 - **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest test harnesses across server and frontend.
