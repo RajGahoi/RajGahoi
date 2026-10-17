@@ -19,15 +19,15 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-12_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-13_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/CI_STATUS-12%2F12_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
+  <img src="https://img.shields.io/badge/CI_STATUS-13%2F13_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/TEST_HARNESS-370%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+  <img src="https://img.shields.io/badge/TEST_HARNESS-380%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
 </a>
 
 </div>
@@ -312,6 +312,21 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 - Authored comprehensive test harness coverage across unit tests, mock tests, and integration test suites.
 
 `VALKEY GLIDE DRIVER` `RUST ENGINE` `TRAIT SERIALIZATION` `CROSS-CLIENT PARITY` `DCO`
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #573](https://github.com/valkey-io/valkey-admin/pull/573) &nbsp;•&nbsp; KEY BROWSER 1000-KEY LIMIT OBSERVABILITY & SCAN CAP INDICATOR
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#525](https://github.com/valkey-io/valkey-admin/issues/525) &nbsp;•&nbsp; **Milestone:** `1.4.0`
+
+- Resolved operator confusion where newly created keys or remaining keys were omitted from default key listings when databases contain > 1,000 keys.
+- Implemented continuation detection across server `scanStandalone` and `scanCluster`, transmitting `isCapped` metadata via WebSocket responses.
+- Engineered `selectIsCapped` state tracking and an informative operator advisory banner guiding users to exact glob search patterns for keys beyond the 1,000-key preview window.
+- Backed by unit test suites in `keyBrowserSlice.test.ts` verifying explicit and inferred capping states.
+
+`KEY BROWSER` `DATABASE OBSERVABILITY` `STATE NORMALIZATION` `REACT 19` `DCO`
 
 </td>
 </tr>
