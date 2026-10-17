@@ -19,11 +19,11 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-13_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-14_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/CI_STATUS-13%2F13_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
+  <img src="https://img.shields.io/badge/CI_STATUS-14%2F14_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -327,6 +327,20 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 - Backed by unit test suites in `keyBrowserSlice.test.ts` verifying explicit and inferred capping states.
 
 `KEY BROWSER` `DATABASE OBSERVABILITY` `STATE NORMALIZATION` `REACT 19` `DCO`
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #574](https://github.com/valkey-io/valkey-admin/pull/574) &nbsp;•&nbsp; K8S BOOT CLUSTER DISCOVERY EXPONENTIAL BACKOFF RETRY
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#527](https://github.com/valkey-io/valkey-admin/issues/527) &nbsp;•&nbsp; **Milestone:** `K8s Production Resilience`
+
+- Eliminated unhandled startup rejections and `CrashLoopBackOff` when Valkey Admin boots in Kubernetes (`DEPLOYMENT_MODE=K8`) while headless Service DNS or nodes are not yet Ready.
+- Engineered `resetInitialClient()` in `metrics-orchestrator.ts` ensuring dead or unresolvable connection handles are safely terminated before retrying.
+- Wrapped `updateRegistryforK8()` with an exponential backoff retry loop (1s to 30s ceiling) that preserves process liveness and allows metrics sidecars and control plane discovery to cleanly recover automatically.
+
+`KUBERNETES` `RESILIENCE` `EXPONENTIAL BACKOFF` `ORCHESTRATION` `DCO`
 
 </td>
 </tr>
