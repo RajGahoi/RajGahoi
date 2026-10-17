@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-7_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-8_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -101,6 +101,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 │   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
 │                                                                                        │
 │   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #568] Connection Topology & Non-Coercive Endpoint Form State Machine         │
 │   ├── [PR #567] Node-Level CPU & Memory Metrics State Deduplication Engine             │
 │   ├── [PR #566] Binary Collection Element Resilient Decoding & Lock Safety Engine      │
 │   ├── [PR #563] CRC16 Slot Heatmap Matrix (16,384 Slots Memory Skew Profiler)          │
@@ -201,6 +202,18 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 <tr>
 <td width="50%" valign="top">
 
+### 🟢 [PR #568](https://github.com/valkey-io/valkey-admin/pull/568) &nbsp;•&nbsp; CONNECTION ENDPOINT FORM STABILITY
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#442](https://github.com/valkey-io/valkey-admin/issues/442)
+
+- Eliminated destructive form coercions where hostnames containing `cfg` forced Endpoint Type into Discovery mode and locked DB selection.
+- Preserved user intent across Node and Discovery endpoint configurations without unexpected form resets.
+- Authored regression test suites verifying that host pattern variations maintain chosen endpoints and database selections.
+
+`FORM STATE` `UI ARCHITECTURE` `REACT 19` `VITEST` `DCO`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🟢 [PR #564](https://github.com/valkey-io/valkey-admin/pull/564) &nbsp;•&nbsp; WEB CREDENTIAL SECURITY POLICY
 **Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#518](https://github.com/valkey-io/valkey-admin/issues/518)
 
@@ -211,7 +224,10 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 `SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
 
 ### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
 **Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `250+ VITEST TEST CASES`
