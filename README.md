@@ -101,6 +101,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 │   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
 │                                                                                        │
 │   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #7372] Valkey GLIDE (Node/Core): 3.0 API Deprecation Cleanup & Test Decoupling │
 │   ├── [PR #571] Key Browser Collection Elements Pagination Engine (HSCAN/LRANGE/SSCAN) │
 │   ├── [PR #570] Big Keys Hash Slot Heatmap Matrix (16,384 Slots Cluster Skew Engine)   │
 │   ├── [PR #569] Send Command Read-Only Mutation Blocker & Server Interceptor           │
@@ -117,7 +118,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 
 ## 🏆 LINUX FOUNDATION · VALKEY ECOSYSTEM CONTRIBUTIONS
 
-> Production-grade features, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
+> Production-grade driver internals, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-glide](https://github.com/valkey-io/valkey-glide)** & **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
 
 <table>
 <tr>
@@ -224,6 +225,21 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 - Authored production deployment guide in official documentation detailing environment credential injection.
 
 `SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
+
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #7372](https://github.com/valkey-io/valkey-glide/pull/7372) &nbsp;•&nbsp; VALKEY GLIDE CORE: 3.0 API DEPRECATION & TEST HARNESS DECOUPLING
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#7368](https://github.com/valkey-io/valkey-glide/issues/7368) &nbsp;•&nbsp; **Milestone:** `3.0 Major Release`
+
+- Cleaned up public driver API surface for the upcoming GLIDE 3.0 major release by eliminating deprecated `parseInfoResponse` from `node/src/Commands.ts`.
+- Decoupled internal end-to-end integration test harness (`SharedTests.ts`) to use resilient private test utilities (`TestUtilities.ts`) without public API pollution.
+- Authored official `CHANGELOG.md` breaking change documentation adhering to Linux Foundation Valkey GLIDE release standards.
+
+`VALKEY GLIDE DRIVER` `NODE.JS CLIENT` `BREAKING CLEANUP` `TEST HARNESS` `DCO`
+
+</td>
+</tr>
 
 <tr>
 <td colspan="2" valign="top">
