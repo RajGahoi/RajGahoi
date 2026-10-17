@@ -101,12 +101,14 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 │   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
 │                                                                                        │
 │   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #571] Key Browser Collection Elements Pagination Engine (HSCAN/LRANGE/SSCAN) │
+│   ├── [PR #570] Big Keys Hash Slot Heatmap Matrix (16,384 Slots Cluster Skew Engine)   │
+│   ├── [PR #569] Send Command Read-Only Mutation Blocker & Server Interceptor           │
 │   ├── [PR #568] Connection Topology & Non-Coercive Endpoint Form State Machine         │
 │   ├── [PR #567] Node-Level CPU & Memory Metrics State Deduplication Engine             │
 │   ├── [PR #566] Binary Collection Element Resilient Decoding & Lock Safety Engine      │
-│   ├── [PR #563] CRC16 Slot Heatmap Matrix (16,384 Slots Memory Skew Profiler)          │
-│   ├── [PR #562] Native IPv6 Node Route Dispatcher (routeByAddress Override)            │
 │   ├── [PR #565] Dynamic Node Health State Evaluator (INFO/PING Latency Probing)        │
+│   ├── [PR #562] Native IPv6 Node Route Dispatcher (routeByAddress Override)            │
 │   └── [PR #561] Multi-Database Namespace Switcher with Credential Cipher Vault         │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -226,6 +228,22 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 <tr>
 <td colspan="2" valign="top">
 
+### 🟢 [PR #571](https://github.com/valkey-io/valkey-admin/pull/571) &nbsp;•&nbsp; KEY BROWSER COLLECTION ELEMENTS ON-DEMAND PAGINATION
+**Status:** `ACTIVE / CI VERIFIED` &nbsp;•&nbsp; **Issue Fixed:** [#454](https://github.com/valkey-io/valkey-admin/issues/454) &nbsp;•&nbsp; **Milestone:** `1.4.0`
+
+- Solved the browser performance bottleneck on large Hash, List, Set, and Sorted Set keys by engineering an on-demand cursor and offset pagination engine.
+- Implemented `getKeyElementsRequested` server action handler using `HSCAN`, `SSCAN`, `LRANGE`, and `ZRANGE ... WITHSCORES` batching.
+- Built interactive "Load more" button controls with dynamic count indicators (`Showing X of Y elements`) across all four collection views.
+- Fully preserved editing workflows, form modification buffers, and binary-element lock protections.
+
+`PAGINATION ENGINE` `HSCAN / LRANGE` `STATE MANAGEMENT` `REACT 19` `DCO`
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
 ### 🟢 [PR #569](https://github.com/valkey-io/valkey-admin/pull/569) &nbsp;•&nbsp; READ-ONLY MODE ENGINE & WRITE COMMAND PREVENTION
 **Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#402](https://github.com/valkey-io/valkey-admin/issues/402)
 
@@ -234,6 +252,9 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 - Integrated safety toggle with shield indicators, active mode badges, and instant toast rejection for blocked writes.
 
 `SAFETY ENGINE` `MUTATION DETECTION` `SERVER ENFORCEMENT` `REACT 19` `DCO`
+
+</td>
+</tr>
 
 <tr>
 <td colspan="2" valign="top">
