@@ -229,7 +229,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 <td colspan="2" valign="top">
 
 ### 🟢 [PR #571](https://github.com/valkey-io/valkey-admin/pull/571) &nbsp;•&nbsp; KEY BROWSER COLLECTION ELEMENTS ON-DEMAND PAGINATION
-**Status:** `ACTIVE / CI VERIFIED` &nbsp;•&nbsp; **Issue Fixed:** [#454](https://github.com/valkey-io/valkey-admin/issues/454) &nbsp;•&nbsp; **Milestone:** `1.4.0`
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#454](https://github.com/valkey-io/valkey-admin/issues/454) &nbsp;•&nbsp; **Milestone:** `1.4.0`
 
 - Solved the browser performance bottleneck on large Hash, List, Set, and Sorted Set keys by engineering an on-demand cursor and offset pagination engine.
 - Implemented `getKeyElementsRequested` server action handler using `HSCAN`, `SSCAN`, `LRANGE`, and `ZRANGE ... WITHSCORES` batching.
