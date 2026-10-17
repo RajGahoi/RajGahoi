@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-5_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-6_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -27,7 +27,7 @@
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/TEST_HARNESS-236%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+  <img src="https://img.shields.io/badge/TEST_HARNESS-240%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
 </a>
 
 </div>
@@ -101,6 +101,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 │   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
 │                                                                                        │
 │   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #566] Binary Collection Element Resilient Decoding & Lock Safety Engine      │
 │   ├── [PR #563] CRC16 Slot Heatmap Matrix (16,384 Slots Memory Skew Profiler)          │
 │   ├── [PR #562] Native IPv6 Node Route Dispatcher (routeByAddress Override)            │
 │   ├── [PR #565] Dynamic Node Health State Evaluator (INFO/PING Latency Probing)        │
@@ -172,6 +173,18 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 <tr>
 <td width="50%" valign="top">
 
+### 🟢 [PR #566](https://github.com/valkey-io/valkey-admin/pull/566) &nbsp;•&nbsp; BINARY COLLECTION ELEMENTS IN KEY BROWSER
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#556](https://github.com/valkey-io/valkey-admin/issues/556)
+
+- Prevented whole-key "Not human readable" crash screens by decoding collection elements as raw bytes and converting with hex-escape formatting.
+- Granular binary detection (`isKeyBinary`, `isValueBinary`) across Hash, List, Set, ZSet, and Stream keys.
+- Implemented visual `binary` badge chips and locked binary entries against accidental mutations while keeping valid UTF-8 fields editable.
+
+`BUFFER DECODING` `KEY BROWSER` `HEX ESCAPE` `REACT 19` `DCO`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🟢 [PR #564](https://github.com/valkey-io/valkey-admin/pull/564) &nbsp;•&nbsp; WEB CREDENTIAL SECURITY POLICY
 **Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#518](https://github.com/valkey-io/valkey-admin/issues/518)
 
@@ -182,16 +195,19 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 `SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
 
 </td>
-<td width="50%" valign="top">
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
 
 ### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
-**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI`
+**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `240+ VITEST TEST CASES`
 
-- **Developer Certificate of Origin (`-s`)**: 100% signed-off commits.
-- **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest suites (236+ tests).
-- **Cluster Integration**: Verified via multi-node cluster topology CI workflows.
+- **Developer Certificate of Origin (`-s`)**: 100% signed-off commits meeting Linux Foundation open-source governance.
+- **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest test harnesses across server and frontend.
+- **Cluster Integration**: Verified via multi-node cluster topology CI workflows and cross-architecture test suites.
 
-`ENTERPRISE OSS` `CI/CD` `PRODUCTION QUALITY`
+`ENTERPRISE OSS` `CI/CD` `PRODUCTION QUALITY` `GOVERNANCE`
 
 </td>
 </tr>
