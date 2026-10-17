@@ -19,15 +19,15 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-10_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-12_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/CI_STATUS-10%2F10_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
+  <img src="https://img.shields.io/badge/CI_STATUS-12%2F12_PASSING-blue?style=for-the-badge&logo=githubactions&logoColor=white" height="32" alt="Valkey CI Status"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/TEST_HARNESS-350%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+  <img src="https://img.shields.io/badge/TEST_HARNESS-370%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
 </a>
 
 </div>
@@ -283,6 +283,35 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 - Engineered `BigKeysSlotHeatmap` interactive modal with dynamic heat coloring, tile grid, hover diagnostics, and click-to-navigate key inspection.
 
 `CLUSTER TOPOLOGY` `HASH SLOTS` `CRC16 ENGINE` `HEATMAP VISUALIZATION` `DCO`
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #572](https://github.com/valkey-io/valkey-admin/pull/572) &nbsp;•&nbsp; OPTIMISTIC CONCURRENCY CONTROL VIA WATCH/MULTI/EXEC IN KEY BROWSER
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#533](https://github.com/valkey-io/valkey-admin/issues/533) &nbsp;•&nbsp; **Milestone:** `1.4.0`
+
+- Solved silent data overwrites during concurrent edits by implementing Valkey `WATCH` optimistic locking across String, JSON, Hash, List, Set, and Sorted Set key mutations.
+- Guaranteed atomicity using `WATCH` / `MULTI` / `EXEC` transaction batch pipelines with automatic rollback (`UNWATCH`) on failure or abort.
+- Added structured conflict detection (`concurrent-modification` code) and friendly error messaging guiding operators to reload without silent clobbers.
+
+`OPTIMISTIC LOCKING` `TRANSACTION BATCHING` `WATCH / MULTI / EXEC` `ATOMICITY` `DCO`
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### 🟢 [PR #7373](https://github.com/valkey-io/valkey-glide/pull/7373) &nbsp;•&nbsp; VALKEY GLIDE RUST CLIENT: INFOSECTION ENUM & DRIVER ARG SERIALIZATION
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#7366](https://github.com/valkey-io/valkey-glide/issues/7366) &nbsp;•&nbsp; **Milestone:** `Rust Driver Parity`
+
+- Achieved cross-language parity for the Rust driver with Python, Java, Go, and Node by implementing the full 18-section `InfoSection` enum (`All`, `Clients`, `Cluster`, `ClusterInfo`, `Cpu`, etc.).
+- Implemented `ToValkeyArgs` and marker trait `ToSingleValkeyArg` with zero-allocation byte slice serialization into command buffers.
+- Authored comprehensive test harness coverage across unit tests, mock tests, and integration test suites.
+
+`VALKEY GLIDE DRIVER` `RUST ENGINE` `TRAIT SERIALIZATION` `CROSS-CLIENT PARITY` `DCO`
 
 </td>
 </tr>
