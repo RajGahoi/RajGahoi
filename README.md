@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-6_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
+  <img src="https://img.shields.io/badge/VALKEY_CONTRIBUTIONS-7_ACTIVE_PRS-brightgreen?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Valkey Active Contributions"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -27,7 +27,7 @@
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/TEST_HARNESS-240%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
+  <img src="https://img.shields.io/badge/TEST_HARNESS-250%2B_PASSING-purple?style=for-the-badge&logo=vitest&logoColor=white" height="32" alt="Vitest Harness"/>
 </a>
 
 </div>
@@ -101,6 +101,7 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 │   └─────────────────┘           └─────────────────┘               └─────────────────┘  │
 │                                                                                        │
 │   ⚡ My Core Contributed Modules:                                                       │
+│   ├── [PR #567] Node-Level CPU & Memory Metrics State Deduplication Engine             │
 │   ├── [PR #566] Binary Collection Element Resilient Decoding & Lock Safety Engine      │
 │   ├── [PR #563] CRC16 Slot Heatmap Matrix (16,384 Slots Memory Skew Profiler)          │
 │   ├── [PR #562] Native IPv6 Node Route Dispatcher (routeByAddress Override)            │
@@ -185,6 +186,21 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 </td>
 <td width="50%" valign="top">
 
+### 🟢 [PR #567](https://github.com/valkey-io/valkey-admin/pull/567) &nbsp;•&nbsp; CPU & MEMORY METRICS NODE-LEVEL KEYING
+**Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#464](https://github.com/valkey-io/valkey-admin/issues/464)
+
+- Eliminated duplicate state allocation across multi-database connections by re-keying CPU and memory metrics by `nodeId`.
+- Aligned metrics socket server emitters to return db-less node identifiers matching Hot Keys, Big Keys, and Monitor logs.
+- Engineered backward-compatible selectors and authored complete unit test suites validating multi-db state consolidation.
+
+`REDUX TOOLKIT` `STATE NORMALIZATION` `METRICS ARCHITECTURE` `VITEST` `DCO`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
 ### 🟢 [PR #564](https://github.com/valkey-io/valkey-admin/pull/564) &nbsp;•&nbsp; WEB CREDENTIAL SECURITY POLICY
 **Status:** `ALL CI CHECKS PASSING` &nbsp;•&nbsp; **Issue Fixed:** [#518](https://github.com/valkey-io/valkey-admin/issues/518)
 
@@ -195,13 +211,10 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 `SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
 
 </td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
-**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `240+ VITEST TEST CASES`
+**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `250+ VITEST TEST CASES`
 
 - **Developer Certificate of Origin (`-s`)**: 100% signed-off commits meeting Linux Foundation open-source governance.
 - **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest test harnesses across server and frontend.
