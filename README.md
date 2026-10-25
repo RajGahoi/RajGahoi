@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/RajGahoi?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_52_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
+  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_53_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -51,7 +51,7 @@
 
 Computer Science & Engineering undergraduate engineering **high-throughput distributed systems, cluster memory diagnostic tooling, and low-latency database infrastructure**.
 
-- **Open Source Track Record**: **17 Upstream Merged PRs** and **52 Active Submissions** across **20+ production repositories** (Linux Foundation Valkey, Uvicorn, Astropy, collective/icalendar, PashaCore POps, Dataprof, Chroma, Django REST Framework).
+- **Open Source Track Record**: **17 Upstream Merged PRs** and **53 Active Submissions** across **20+ production repositories** (Linux Foundation Valkey, Uvicorn, Astropy, collective/icalendar, PashaCore POps, Dataprof, Chroma, Django REST Framework).
 - **Core Contributor**: Active contributor to **Linux Foundation Valkey** (AWS/GCP/Oracle enterprise Redis alternative). Author of Valkey cluster hash-slot heatmaps, IPv6 routing engines, and the standalone diagnostic CLI [`valkey-probe`](https://github.com/RajGahoi/valkey-probe).
 - **Systems Engineering**: Specialized in async event loops (<1ms shutdown latency in Uvicorn), Rust/PyO3 native bindings in Dataprof, Cython missingness bridges in Astropy, and disaster recovery orchestration in POps.
 
@@ -453,15 +453,15 @@ valkey-probe inspect /path/to/nodes.conf
 </td>
 <td width="50%" valign="top">
 
-### 🟢 [DATAPROF #1061 & #863](https://github.com/AndreaBozzo/dataprof/pull/1061) &nbsp;•&nbsp; RUST / PYO3 PROFILER
-**Repository:** `AndreaBozzo/dataprof` &nbsp;•&nbsp; **Fixes:** [#849](https://github.com/AndreaBozzo/dataprof/issues/849)  
-**Status:** `MERGED (#863)` &nbsp;•&nbsp; `30 PARITY TESTS GREEN (#1061)`
+### 🟢 [DATAPROF #1110, #1108 & #1061](https://github.com/AndreaBozzo/dataprof/pull/1110) &nbsp;•&nbsp; RUST / PYO3 PROFILER
+**Repository:** `AndreaBozzo/dataprof` &nbsp;•&nbsp; **Fixes:** [#1086](https://github.com/AndreaBozzo/dataprof/issues/1086), [#1087](https://github.com/AndreaBozzo/dataprof/issues/1087), [#849](https://github.com/AndreaBozzo/dataprof/issues/849)  
+**Status:** `MERGED (#863)` &nbsp;•&nbsp; `100% GREEN CI (#1110, #1108, #1061)`
 
-- Engineered comprehensive JSON Schema Draft 2020-12 quality-policy specification for high-throughput data profiling pipelines.
+- Enforced strict float overflow rejection on bytes route (#1110) and newline-only splitting for Unicode separators (#1108) across Rust and Python runtimes.
+- Engineered comprehensive JSON Schema Draft 2020-12 quality-policy specification for high-throughput data profiling pipelines (#1061).
 - Implemented modular `$defs`, wildcard `*` per-column rules, count max bounds, and runtime evaluation guards bridging native Rust profiling routines with Python.
-- Rewrote policy test suite with 30 exhaustive negative/positive edge cases.
 
-`RUST (PYO3)` `JSON SCHEMA 2020-12` `DATA QUALITY` `TEST SUITE`
+`RUST (PYO3)` `JSON PARSING PARITY` `DATA QUALITY` `TEST SUITE`
 
 </td>
 </tr>
