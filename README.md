@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/RajGahoi?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_49_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
+  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_51_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
