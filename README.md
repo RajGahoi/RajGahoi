@@ -116,6 +116,26 @@ raj@systems-box:~$ valkey-admin cluster topology --verify
 
 ---
 
+## 🛠️ FEATURED SYSTEMS ENGINE & CLI · [valkey-probe](https://github.com/RajGahoi/valkey-probe)
+
+> High-performance Valkey & Redis Cluster Hash-Slot Topology Validator & Diagnostic CLI. Built with zero external dependencies in Python 3.10+.
+
+```bash
+# ⚡ Install and validate cluster slot integrity & skew in sub-milliseconds
+pip install git+https://github.com/RajGahoi/valkey-probe.git
+valkey-probe inspect /path/to/nodes.conf
+```
+
+* **Exact CRC16 Polynomial (0x1021)**: Byte-exact XMODEM hash slot computation with `{hash_tag}` extraction rules.
+* **16,384 Slot Integrity Guard**: Detects unassigned slot holes, overlapping collisions, dead masters, and orphan replicas.
+* **CI/CD & Monitoring Surface**: Outputs interactive ANSI terminal cards, structured JSON for deployment gates, and native Prometheus text exposition metrics.
+
+[![CI](https://github.com/RajGahoi/valkey-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/RajGahoi/valkey-probe/actions)
+[![GitHub](https://img.shields.io/badge/GitHub-RajGahoi%2Fvalkey--probe-blue?style=flat&logo=github)](https://github.com/RajGahoi/valkey-probe)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)](#)
+
+---
+
 ## 🏆 LINUX FOUNDATION · VALKEY ECOSYSTEM CONTRIBUTIONS
 
 > Production-grade driver internals, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-glide](https://github.com/valkey-io/valkey-glide)** & **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
