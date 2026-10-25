@@ -19,7 +19,7 @@
 <br/><br/>
 
 <a href="https://github.com/RajGahoi?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_50_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
+  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_51_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
@@ -51,7 +51,7 @@
 
 Computer Science & Engineering undergraduate engineering **high-throughput distributed systems, cluster memory diagnostic tooling, and low-latency database infrastructure**.
 
-- **Open Source Track Record**: **17 Upstream Merged PRs** and **49 Active Submissions** across **20+ production repositories** (Linux Foundation Valkey, Uvicorn, Astropy, PashaCore POps, Dataprof, Chroma, Django REST Framework).
+- **Open Source Track Record**: **17 Upstream Merged PRs** and **51 Active Submissions** across **20+ production repositories** (Linux Foundation Valkey, Uvicorn, Astropy, collective/icalendar, PashaCore POps, Dataprof, Chroma, Django REST Framework).
 - **Core Contributor**: Active contributor to **Linux Foundation Valkey** (AWS/GCP/Oracle enterprise Redis alternative). Author of Valkey cluster hash-slot heatmaps, IPv6 routing engines, and the standalone diagnostic CLI [`valkey-probe`](https://github.com/RajGahoi/valkey-probe).
 - **Systems Engineering**: Specialized in async event loops (<1ms shutdown latency in Uvicorn), Rust/PyO3 native bindings in Dataprof, Cython missingness bridges in Astropy, and disaster recovery orchestration in POps.
 
