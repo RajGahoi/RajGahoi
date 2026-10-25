@@ -136,6 +136,27 @@ valkey-probe inspect /path/to/nodes.conf
 
 ---
 
+## 📰 FEATURED TECHNICAL PUBLICATION & DEEP-DIVE
+
+<a href="https://dev.to/rajgahoi/optimizing-async-event-loops-how-i-dropped-server-shutdown-latency-from-200ms-to-1ms-in-uvicorn-5c0b">
+  <img src="https://img.shields.io/badge/DEV.TO-READ_ARTICLE-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" height="32" alt="Dev.to Article"/>
+</a>
+&nbsp;
+<a href="https://dev.to/rajgahoi/optimizing-async-event-loops-how-i-dropped-server-shutdown-latency-from-200ms-to-1ms-in-uvicorn-5c0b">
+  <img src="https://img.shields.io/badge/READ_TIME-5_MIN_DEEP--DIVE-blue?style=for-the-badge" height="32" alt="Read Time"/>
+</a>
+&nbsp;
+<a href="https://dev.to/rajgahoi/optimizing-async-event-loops-how-i-dropped-server-shutdown-latency-from-200ms-to-1ms-in-uvicorn-5c0b">
+  <img src="https://img.shields.io/badge/TOPICS-PYTHON_·_ASYNCIO_·_PERFORMANCE-orange?style=for-the-badge" height="32" alt="Topics"/>
+</a>
+
+<br/><br/>
+
+> **🚀 [Optimizing Async Event Loops: How I Dropped Server Shutdown Latency from 200ms to <1ms in Uvicorn](https://dev.to/rajgahoi/optimizing-async-event-loops-how-i-dropped-server-shutdown-latency-from-200ms-to-1ms-in-uvicorn-5c0b)**  
+> An in-depth case study breaking down how replacing periodic `asyncio.sleep` polling with a wakeable `asyncio.Event` synchronization primitive in [Kludex/uvicorn#3238](https://github.com/Kludex/uvicorn/pull/3238) reduced idle stop latency by **>200x** (from ~200ms to 0.42ms). Includes Mermaid sequence diagrams, kernel timer analysis, and benchmark distributions.
+
+---
+
 ## 🏆 LINUX FOUNDATION · VALKEY ECOSYSTEM CONTRIBUTIONS
 
 > Production-grade driver internals, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-glide](https://github.com/valkey-io/valkey-glide)** & **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
