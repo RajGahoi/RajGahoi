@@ -12,12 +12,24 @@
 &nbsp;
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/raj_gahoi/)
 &nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-rajgahoi.dev-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rajgahoi.github.io/portfolio/)
+&nbsp;
+[![Live SaaS Demo](https://img.shields.io/badge/Live_SaaS-TrustNest-F79A00?style=for-the-badge&logo=react&logoColor=white)](https://rajgahoi.github.io/trustnest/)
+&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-gahoi/)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gahoiraj01@gmail.com)
 
 <br/><br/>
 
+<a href="https://rajgahoi.github.io/trustnest/">
+  <img src="https://img.shields.io/badge/LIVE_SAAS-TRUSTNEST_MARKETPLACE-orange?style=for-the-badge&logo=react&logoColor=white" height="32" alt="TrustNest Marketplace"/>
+</a>
+&nbsp;
+<a href="https://rajgahoi.github.io/portfolio/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-LIVE_SHOWCASE-6366F1?style=for-the-badge&logo=safari&logoColor=white" height="32" alt="Portfolio Live Showcase"/>
+</a>
+&nbsp;
 <a href="https://github.com/RajGahoi?tab=repositories">
   <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-17_MERGED_·_53_ACTIVE-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
 </a>
@@ -507,6 +519,31 @@ valkey-probe inspect /path/to/nodes.conf
 ## 🚀 FEATURED SYSTEMS & FLAGSHIP BUILDS
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### ◼ TRUSTNEST &nbsp;•&nbsp; TRUST-FIRST MARKETPLACE &amp; CLASSIFIEDS PLATFORM
+**Live Production SaaS**: [`https://rajgahoi.github.io/trustnest/`](https://rajgahoi.github.io/trustnest/) &nbsp;•&nbsp; **Source Code**: [`github.com/RajGahoi/trustnest`](https://github.com/RajGahoi/trustnest)
+
+A full-stack, verified housing and local classifieds platform engineered with React 19, TypeScript, and Tailwind CSS v4 to eliminate rental scams through an algorithmic trust-scoring calculation engine.
+
+```text
+USER / LISTING → GEOGRAPHIC ROUTING (7 METROS) → TRUST SCORING ENGINE → VERIFIED BADGING → INSTANT SEARCH
+```
+
+- **Production Footprint**: 143 verified listings mapped across 7 metropolitan hubs with 100% TypeScript type safety.
+- **Trust Scoring Engine**: Multi-factor trust calculator evaluating identity verification, landlord reviews, and listing telemetry.
+- **Modern Architecture**: Responsive card UI, zero-drift filter index, and full PWA readiness.
+
+[![Live Demo](https://img.shields.io/badge/Launch-Live_Demo_↗-F79A00?style=for-the-badge&logo=react&logoColor=white)](https://rajgahoi.github.io/trustnest/)
+&nbsp;
+[![Source Code](https://img.shields.io/badge/View_Repo-TrustNest-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajGahoi/trustnest)
+
+`REACT 19` `TYPESCRIPT` `TAILWIND CSS v4` `VITE` `NODE.JS` `FULL-STACK SAAS`
+
+</td>
+</tr>
+
 <tr>
 <td width="50%" valign="top">
 
