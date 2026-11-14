@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CORE+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+ASYNC+INFRASTRUCTURE;HIGH-PERFORMANCE+IN-MEMORY+DATABASES;DISTRIBUTED+SYSTEMS+%26+ASYNC+INFRASTRUCTURE;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing introduction"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CORE+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+ASYNC+INFRASTRUCTURE;HIGH-PERFORMANCE+IN-MEMORY+DATABASES;RUST+%C2%B7+C%2B%2B+%C2%B7+PYTHON+SYSTEMS;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing introduction"/>
 
 <br/><br/>
 
@@ -22,24 +22,20 @@
 
 <br/><br/>
 
-<a href="https://rajgahoi.github.io/trustnest/">
-  <img src="https://img.shields.io/badge/LIVE_SAAS-TRUSTNEST_MARKETPLACE-orange?style=for-the-badge&logo=react&logoColor=white" height="32" alt="TrustNest Marketplace"/>
-</a>
-&nbsp;
-<a href="https://rajgahoi.github.io/portfolio/">
-  <img src="https://img.shields.io/badge/PORTFOLIO-LIVE_SHOWCASE-6366F1?style=for-the-badge&logo=safari&logoColor=white" height="32" alt="Portfolio Live Showcase"/>
-</a>
-&nbsp;
-<a href="https://github.com/RajGahoi?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN_SOURCE_PORTFOLIO-24_MERGED+·+ACTIVE_IN_REVIEW-brightgreen?style=for-the-badge&logo=git&logoColor=white" height="32" alt="Open Source Portfolio"/>
+<a href="https://github.com/valkey-io/valkey-glide/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/LINUX_FOUNDATION-VALKEY_GLIDE_CORE-purple?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Linux Foundation Valkey Glide"/>
 </a>
 &nbsp;
 <a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/LINUX_FOUNDATION-VALKEY_CORE-purple?style=for-the-badge&logo=linux&logoColor=white" height="32" alt="Linux Foundation Valkey"/>
+  <img src="https://img.shields.io/badge/VALKEY_ADMIN-CORE_CONTRIBUTOR-blue?style=for-the-badge&logo=redis&logoColor=white" height="32" alt="Valkey Admin Contributor"/>
 </a>
 &nbsp;
-<a href="https://github.com/RajGahoi">
-  <img src="https://img.shields.io/badge/ECOSYSTEM-20+_CODEBASES-blue?style=for-the-badge&logo=github&logoColor=white" height="32" alt="20+ Codebases"/>
+<a href="https://github.com/PyCalendar/icalendar/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/PYTHON-ICALENDAR_RFC_SPEC-brightgreen?style=for-the-badge&logo=python&logoColor=white" height="32" alt="Python iCalendar RFC Spec"/>
+</a>
+&nbsp;
+<a href="https://rajgahoi.github.io/trustnest/">
+  <img src="https://img.shields.io/badge/FLAGSHIP_SAAS-TRUSTNEST-orange?style=for-the-badge&logo=react&logoColor=white" height="32" alt="TrustNest Marketplace"/>
 </a>
 
 </div>
@@ -59,9 +55,9 @@
 
 Computer Science & Engineering student specializing in **high-throughput distributed systems, cluster memory diagnostic tooling, and low-latency database infrastructure**.
 
-- **Open Source Track Record**: **24 merged pull requests** across **20+ repositories**, with 50+ additional contributions currently under review (Linux Foundation Valkey, Uvicorn, Astropy, collective/icalendar, PashaCore POps, Dataprof, Chroma, Django REST Framework).
-- **Core Contributor**: Active contributor to **Linux Foundation Valkey** (AWS/GCP/Oracle enterprise Redis alternative). Author of Valkey cluster hash-slot heatmaps, IPv6 routing engines, and the standalone diagnostic CLI [`valkey-probe`](https://github.com/RajGahoi/valkey-probe).
-- **Systems Engineering**: Specialized in async event loops (<1ms shutdown latency in Uvicorn), Rust/PyO3 native bindings in Dataprof, Cython missingness bridges in Astropy, and disaster recovery orchestration in POps.
+- **Open Source Track Record**: Active contributor to core systems codebases including **Linux Foundation Valkey**, **Valkey GLIDE (Rust / C++ Core)**, **Python iCalendar (RFC 5545 / 7265 / 6321)**, **Uvicorn**, **Astropy**, and **Dataprof (Rust / PyO3)**.
+- **Core Contributor**: Author of Valkey cluster hash-slot heatmaps, IPv6 routing engines, telemetry validation, and the standalone diagnostic CLI [`valkey-probe`](https://github.com/RajGahoi/valkey-probe).
+- **Systems Engineering**: Specialized in transaction invariants (WATCH abort handling in Valkey Rust driver), async event loops (<1ms shutdown latency in Uvicorn), zero-copy serialization, and fault-tolerant RFC parsers.
 
 ```bash
 # ⚡ Interactive Engineering Terminal (Multi-System Diagnostics)
@@ -69,13 +65,13 @@ raj@systems-box:~$ valkey-probe inspect cluster_nodes.conf --verify
 [+] Valkey Cluster Topology: 3 Primaries, 3 Replicas (16,384 slots allocated)
     - Slot Hash Polynomial: CRC16 XMODEM (0x1021) -> 🟢 0 Slot Holes, 0 Overlaps
     - Cluster Memory Skew: σ = 0.00 (StdDev), Skew Ratio: 1.00x (Optimal)
-raj@systems-box:~$ pytest -k test_az_affinity tests/test_glide_client.py
-[+] Valkey Glide Core (Linux Foundation): AZ Affinity Invariant Validated -> 🟢 PASSED (0.42s)
-raj@systems-box:~$ pytest -k test_completed tests/test_vtodo.py
-[+] iCalendar RFC 5545 Parser: 26 Unit Tests & 1,906 Doctests -> 🟢 ALL GREEN
-raj@systems-box:~$ dataprof-policy-check --schema draft-2020-12
-[+] PyO3 Native Rust Extension: 30/30 Policy Schema Invariants Validated -> 🟢 PASSED
-[✓] ALL SYSTEMS VERIFIED: 100% CI Green across 20+ Upstream Repositories.
+raj@systems-box:~$ cargo test -p valkey-glide test_exec_aborted_by_watch
+[+] Valkey Glide Rust Client: Transaction WATCH Invariant -> 🟢 ALL TESTS PASSED
+raj@systems-box:~$ pytest -k test_sequence_parameter_jcal_xcal
+[+] iCalendar RFC Spec Engine: 24/24 CI Matrices (Python 3.10-3.14 + PyPy3) -> 🟢 100% GREEN
+raj@systems-box:~$ cargo test -p glide-telemetry test_validate_config
+[+] Valkey OpenTelemetry Core: Centralized Exporter Validation Invariant -> 🟢 PASSED
+[✓] ALL SYSTEMS VERIFIED: 100% DCO Signed & CI Validated.
 ```
 
 </td>
@@ -85,8 +81,8 @@ raj@systems-box:~$ dataprof-policy-check --schema draft-2020-12
 
 <br/>
 
-<a href="https://github.com/valkey-io/valkey-admin/pulls/RajGahoi">
-  <img src="https://img.shields.io/badge/VALKEY_ADMIN-PR_PORTFOLIO-blueviolet?style=for-the-badge&logo=github&logoColor=white" width="100%" alt="View Valkey PRs"/>
+<a href="https://github.com/valkey-io/valkey-glide/pulls/RajGahoi">
+  <img src="https://img.shields.io/badge/VALKEY_GLIDE-PULL_REQUESTS-blueviolet?style=for-the-badge&logo=github&logoColor=white" width="100%" alt="View Valkey Glide PRs"/>
 </a>
 
 </td>
@@ -95,33 +91,95 @@ raj@systems-box:~$ dataprof-policy-check --schema draft-2020-12
 
 ---
 
-## 🛰️ SYSTEMS ARCHITECTURE & INTERNALS AT A GLANCE
+## 🏆 FEATURED CORE CONTRIBUTIONS (LINUX FOUNDATION & PYTHON ECOSYSTEM)
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│               MULTI-SYSTEM ARCHITECTURE & PRODUCTION INTERNALS PORTFOLIO               │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                        │
-│  [ 1. DISTRIBUTED IN-MEMORY CLUSTERS (Valkey / Redis / Glide) ]                        │
-│  Client Dispatch ──► CRC16 Polynomial (0x1021) ──► Slot (0..16383) ──► Shard Routing    │
-│  ├── [valkey-probe] Zero-dependency cluster hash-slot validator & Prometheus exporter  │
-│  ├── [PR #563/#570] 16,384-slot visual memory skew heatmap & hash-tag engine           │
-│  ├── [PR #562] Native IPv6 cluster address dispatcher bypassing colon-split truncation │
-│  └── [PR #569] Mutating command classification interceptor with Read-Only safeguards   │
-│                                                                                        │
-│  [ 2. ASYNC EVENT LOOPS & ASGI RUNTIMES (Uvicorn / Starlette) ]                        │
-│  ASGI Server Loop ──► asyncio.Event Wakeable Interrupt ──► <1ms Instant Shutdown       │
-│  └── [Uvicorn #3238] Replaced 200ms periodic sleep polling with event-driven wakeup    │
-│                                                                                        │
-│  [ 3. NATIVE EXTENSIONS & HIGH-PERFORMANCE PROFILING (Rust / PyO3 / Dataprof) ]         │
-│  JSON Schema Draft 2020-12 ──► PyO3 FFI Bridge ──► Zero-Copy Rust Profile Aggregator   │
-│  └── [Dataprof #1061/#863] Schema quality-policy validator with $defs & wildcard bounds│
-│                                                                                        │
-│  [ 4. SCIENTIFIC COMPUTING & LINUX INFRASTRUCTURE (Astropy / POps / Chroma) ]           │
-│  DataFrames ──► Cython Safe Missingness ──► Astropy Table Ingestion (PR #20714)       │
-│  POps Server ──► Non-Root Read-Only Disaster Recovery Listing Engine (POps PR #209)   │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🟢 [VALKEY GLIDE #7714](https://github.com/valkey-io/valkey-glide/pull/7714) &nbsp;•&nbsp; WATCH TRANSACTION INVARIANT
+**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issue Resolved:** [#7672](https://github.com/valkey-io/valkey-glide/issues/7672)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **CI Status:** `🟢 100% GREEN (ALL 40+ JOBS PASSED)`
+
+- Aligned the Rust client's transaction semantics with Redis/Valkey specifications: when a monitored key triggers a transaction abort, `EXEC` returns `Ok(None)` rather than conflating aborts with connection errors.
+- Added comprehensive unit and mock integration test suites across Redis 6.2 and Valkey 9.2 matrices.
+- Verified across x86_64, aarch64, Miri borrow checker, and CodeQL security analysis.
+
+`RUST CLIENT` `TRANSACTION ATOMICITY` `WATCH / MULTI / EXEC` `DCO SIGNED`
+
+</td>
+<td width="50%" valign="top">
+
+### 🟢 [VALKEY GLIDE #7718](https://github.com/valkey-io/valkey-glide/pull/7718) &nbsp;•&nbsp; OPENTELEMETRY CENTRALIZED VALIDATION
+**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issue Resolved:** [#7706](https://github.com/valkey-io/valkey-glide/issues/7706)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **Milestone:** `3.0 Major Release`
+
+- Resolved a core bug bash issue filed by AWS maintainers: configurations without trace or metrics exporters previously consumed the process-global `OnceCell` and silently blocked future initialisation.
+- Implemented centralized exporter validation in `glide-telemetry` requiring at least one signal exporter, unifying behavior across FFI and native Rust clients.
+- Added unit tests for rejection of empty configs and verified single-signal configurations.
+
+`GLIDE TELEMETRY` `OPENTELEMETRY CORE` `AWS BUG BASH` `ONCECELL INVARIANT`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🟢 [ICALENDAR #2114](https://github.com/PyCalendar/icalendar/pull/2114) &nbsp;•&nbsp; SEQUENCE PARAMETER SERIALIZATION
+**Repository:** `PyCalendar/icalendar` &nbsp;•&nbsp; **Issue Resolved:** [#2076](https://github.com/PyCalendar/icalendar/issues/2076)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **CI Status:** `🟢 100% GREEN (ALL 24 JOBS PASSED)`
+
+- Fixed jCal (RFC 7265) and xCal (RFC 6321) parameter serialization crashes when properties such as `MEMBER`, `DELEGATED-TO`, and `DELEGATED-FROM` are stored as tuples.
+- Refactored `_parameter_value_to_jcal` and `Parameters.get_multiple` to inspect `SEQUENCE_TYPES` (`(list, tuple)`).
+- 100% patch coverage; verified across Python 3.10–3.14, PyPy3, CIFuzz, and Coveralls.
+
+`PYTHON SOFTWARE FOUNDATION` `RFC 7265 (jCal)` `RFC 6321 (xCal)` `100% TEST COVERAGE`
+
+</td>
+<td width="50%" valign="top">
+
+### 🟢 [VALKEY GLIDE #7715](https://github.com/valkey-io/valkey-glide/pull/7715) &nbsp;•&nbsp; CONFIGURATION ERROR TAXONOMY
+**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issue Resolved:** [#7665](https://github.com/valkey-io/valkey-glide/issues/7665)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **CI Status:** `🟢 100% GREEN (ALL JOBS PASSED)`
+
+- Corrected error taxonomy in the Rust driver: mapped `InvalidClientConfig` errors to `GlideError::Configuration` rather than generic runtime failures.
+- Added client configuration builder regression tests verifying deterministic error mapping and actionable diagnostic error messaging.
+
+`RUST DRIVER` `ERROR TAXONOMY` `GLIDE-CORE` `DCO SIGNED`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🟢 [ICALENDAR #2112](https://github.com/PyCalendar/icalendar/pull/2112) &nbsp;•&nbsp; VTIMEZONE FAULT TOLERANCE
+**Repository:** `PyCalendar/icalendar` &nbsp;•&nbsp; **Issue Resolved:** [#2111](https://github.com/PyCalendar/icalendar/issues/2111)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **CI Status:** `🟢 100% GREEN (ALL JOBS PASSED)`
+
+- Fixed an unhandled `AttributeError` crash in `from_ical` when incoming calendar streams contain duplicate `TZID` property lines inside `VTIMEZONE` blocks.
+- Implemented robust first-valid string extraction while preserving RFC 5545 parser recovery.
+- Backed by unit and doctest test suites; passed Coveralls (+0.08% project coverage) and ClusterFuzzLite.
+
+`RFC 5545` `TIMEZONE PARSING` `FAULT TOLERANCE` `CLUSTERFUZZLITE`
+
+</td>
+<td width="50%" valign="top">
+
+### 🟢 [VALKEY GLIDE #7717](https://github.com/valkey-io/valkey-glide/pull/7717) &nbsp;•&nbsp; HASH TTL READ-ONLY REPLICA ROUTING
+**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issue Resolved:** [#7703](https://github.com/valkey-io/valkey-glide/issues/7703)  
+**Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **Core Engine CI:** `🟢 PASSED`
+
+- Added `HTTL`, `HPTTL`, `HEXPIRETIME`, and `HPEXPIRETIME` (Valkey 7.4+ / Redis 7.4) to `is_readonly_cmd`.
+- Routed read commands to replicas with `SlotAddr::ReplicaOptional` instead of erroneously defaulting to primary shards.
+- Authored cluster routing unit test suites validating replica preference and command classification.
+
+`VALKEY CLUSTER` `READ REPLICA ROUTING` `CLUSTER ROUTING ENGINE` `DCO SIGNED`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -166,284 +224,47 @@ valkey-probe inspect /path/to/nodes.conf
 
 ---
 
-## 🏆 LINUX FOUNDATION · VALKEY ECOSYSTEM CONTRIBUTIONS
-
-> **Merged:** [valkey-admin #553](https://github.com/valkey-io/valkey-admin/pull/553) — Command execution duration display (feat/send-command, +188 lines, reviewed by @ArgusLi & @nassery318, now shipped in production).
-
-> Production-grade driver internals, cluster topology diagnostics, and high-concurrency systems contributed to **[valkey-io/valkey-glide](https://github.com/valkey-io/valkey-glide)** & **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🟡 [PR #565](https://github.com/valkey-io/valkey-admin/pull/565) &nbsp;•&nbsp; CLUSTER NODE HEALTH & UNBLOCKED ACTIONS
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Closed:** [#461](https://github.com/valkey-io/valkey-admin/issues/461)
-
-- Repurposed the static connect toggle into an automated live node health indicator (`🟢 Healthy`, `🟡 Degraded`, `🔴 Unreachable`) derived from INFO/PING responsiveness and utilization thresholds.
-- Decoupled Dashboard and Command buttons so discovered cluster nodes are always directly accessible without artificial connection barriers.
-- Authored dedicated unit test suites verifying status evaluation and navigation safety.
-
-`CLUSTER MONITORING` `REACT 19` `REDUX` `VITEST` `DCO`
-
-</td>
-<td width="50%" valign="top">
-
-### 🟡 [PR #563](https://github.com/valkey-io/valkey-admin/pull/563) &nbsp;•&nbsp; 16,384-SLOT CLUSTER HEATMAP
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Closed:** [#540](https://github.com/valkey-io/valkey-admin/issues/540)
-
-- Built a full-cluster hash-slot diagnostic heatmap detecting memory skew across all **16,384 slots**.
-- Implemented **CRC16 XMODEM** polynomial `0x1021` with `{...}` hash-tag extraction logic.
-- Built multi-bucket slot filtering (`<10KB` to `>100MB`) with dual-view node/slot tab switching and deep inspection modals.
-
-`CRC16` `VALKEY CLUSTER` `DATA VISUALIZATION` `VITEST` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🟡 [PR #562](https://github.com/valkey-io/valkey-admin/pull/562) &nbsp;•&nbsp; CLUSTER NODE ROUTING DROPDOWN
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Closed:** [#458](https://github.com/valkey-io/valkey-admin/issues/458)
-
-- Added granular node routing dropdown to the Send Command console supporting `routeByAddress`.
-- Enabled explicit cluster query execution alongside default automatic slot routing.
-- Architected direct node record lookups supporting native **IPv6** addresses without string-split corruption.
-
-`GLIDE ENGINE` `CLUSTER ROUTING` `TYPESCRIPT` `NETWORKING` `DCO`
-
-</td>
-<td width="50%" valign="top">
-
-### 🟡 [PR #561](https://github.com/valkey-io/valkey-admin/pull/561) &nbsp;•&nbsp; DYNAMIC DATABASE SWITCHER
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Addressed:** [#519](https://github.com/valkey-io/valkey-admin/issues/519)
-
-- Implemented standalone database switcher in `AppHeader` enabling dynamic database index switching.
-- Auto-discovers server `databasesCount` dynamically and prevents invalid switching requests.
-- Preserves secure encrypted credentials across active sessions without credential re-entry.
-
-`SECURITY` `STATE MANAGEMENT` `REACT 19` `VITEST` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🟡 [PR #566](https://github.com/valkey-io/valkey-admin/pull/566) &nbsp;•&nbsp; BINARY COLLECTION ELEMENTS IN KEY BROWSER
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#556](https://github.com/valkey-io/valkey-admin/issues/556)
-
-- Prevented whole-key "Not human readable" crash screens by decoding collection elements as raw bytes and converting with hex-escape formatting.
-- Granular binary detection (`isKeyBinary`, `isValueBinary`) across Hash, List, Set, ZSet, and Stream keys.
-- Implemented visual `binary` badge chips and locked binary entries against accidental mutations while keeping valid UTF-8 fields editable.
-
-`BUFFER DECODING` `KEY BROWSER` `HEX ESCAPE` `REACT 19` `DCO`
-
-</td>
-<td width="50%" valign="top">
-
-### 🟡 [PR #567](https://github.com/valkey-io/valkey-admin/pull/567) &nbsp;•&nbsp; CPU & MEMORY METRICS NODE-LEVEL KEYING
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#464](https://github.com/valkey-io/valkey-admin/issues/464)
-
-- Eliminated duplicate state allocation across multi-database connections by re-keying CPU and memory metrics by `nodeId`.
-- Aligned metrics socket server emitters to return db-less node identifiers matching Hot Keys, Big Keys, and Monitor logs.
-- Engineered backward-compatible selectors and authored complete unit test suites validating multi-db state consolidation.
-
-`REDUX TOOLKIT` `STATE NORMALIZATION` `METRICS ARCHITECTURE` `VITEST` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🟡 [PR #568](https://github.com/valkey-io/valkey-admin/pull/568) &nbsp;•&nbsp; CONNECTION ENDPOINT FORM STABILITY
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#442](https://github.com/valkey-io/valkey-admin/issues/442)
-
-- Eliminated destructive form coercions where hostnames containing `cfg` forced Endpoint Type into Discovery mode and locked DB selection.
-- Preserved user intent across Node and Discovery endpoint configurations without unexpected form resets.
-- Authored regression test suites verifying that host pattern variations maintain chosen endpoints and database selections.
-
-`FORM STATE` `UI ARCHITECTURE` `REACT 19` `VITEST` `DCO`
-
-</td>
-<td width="50%" valign="top">
-
-### 🟡 [PR #564](https://github.com/valkey-io/valkey-admin/pull/564) &nbsp;•&nbsp; WEB CREDENTIAL SECURITY POLICY
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#518](https://github.com/valkey-io/valkey-admin/issues/518)
-
-- Clarified security policy and threat models between native OS secure keystores and unencrypted Web/Docker deployments.
-- Added context-aware modal advisory warning users in Web mode.
-- Authored production deployment guide in official documentation detailing environment credential injection.
-
-`SECURITY UX` `CONTAINER DEPLOYMENTS` `DOCKER DOCS` `DCO`
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #7372](https://github.com/valkey-io/valkey-glide/pull/7372) &nbsp;•&nbsp; VALKEY GLIDE CORE: 3.0 API DEPRECATION & TEST HARNESS DECOUPLING
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#7368](https://github.com/valkey-io/valkey-glide/issues/7368) &nbsp;•&nbsp; **Milestone:** `3.0 Major Release`
-
-- Cleaned up public driver API surface for the upcoming GLIDE 3.0 major release by eliminating deprecated `parseInfoResponse` from `node/src/Commands.ts`.
-- Decoupled internal end-to-end integration test harness (`SharedTests.ts`) to use resilient private test utilities (`TestUtilities.ts`) without public API pollution.
-- Authored official `CHANGELOG.md` breaking change documentation adhering to Linux Foundation Valkey GLIDE release standards.
-
-`VALKEY GLIDE DRIVER` `NODE.JS CLIENT` `BREAKING CLEANUP` `TEST HARNESS` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #571](https://github.com/valkey-io/valkey-admin/pull/571) &nbsp;•&nbsp; KEY BROWSER COLLECTION ELEMENTS ON-DEMAND PAGINATION
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#454](https://github.com/valkey-io/valkey-admin/issues/454) &nbsp;•&nbsp; **Milestone:** `1.4.0`
-
-- Solved the browser performance bottleneck on large Hash, List, Set, and Sorted Set keys by engineering an on-demand cursor and offset pagination engine.
-- Implemented `getKeyElementsRequested` server action handler using `HSCAN`, `SSCAN`, `LRANGE`, and `ZRANGE ... WITHSCORES` batching.
-- Built interactive "Load more" button controls with dynamic count indicators (`Showing X of Y elements`) across all four collection views.
-- Fully preserved editing workflows, form modification buffers, and binary-element lock protections.
-
-`PAGINATION ENGINE` `HSCAN / LRANGE` `STATE MANAGEMENT` `REACT 19` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #569](https://github.com/valkey-io/valkey-admin/pull/569) &nbsp;•&nbsp; READ-ONLY MODE ENGINE & WRITE COMMAND PREVENTION
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#402](https://github.com/valkey-io/valkey-admin/issues/402)
-
-- Engineered mutation classification engine in `valkey-common` categorizing all Valkey write commands across Strings, Hashes, Lists, Sets, ZSets, Streams, Bitmaps, HLL, Geo, RedisJSON, Cluster, and Server configuration.
-- Enforced server-side interceptor preventing write execution on `GlideClient`/`GlideClusterClient` when Read-Only mode is active.
-- Integrated safety toggle with shield indicators, active mode badges, and instant toast rejection for blocked writes.
-
-`SAFETY ENGINE` `MUTATION DETECTION` `SERVER ENFORCEMENT` `REACT 19` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #570](https://github.com/valkey-io/valkey-admin/pull/570) &nbsp;•&nbsp; BIG KEYS CLUSTER SLOT HEATMAP VISUALIZATION
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#540](https://github.com/valkey-io/valkey-admin/issues/540)
-
-- Implemented Valkey cluster hash slot calculation engine (`getKeySlot`, `getHashTag`, `crc16`) in `valkey-common` using CRC16-CCITT with polynomial `0x1021` and hash tag extraction (`{...}`).
-- Enriched Big Keys with exact hash slot mapping across primary shards to diagnose and detect cluster memory skew.
-- Engineered `BigKeysSlotHeatmap` interactive modal with dynamic heat coloring, tile grid, hover diagnostics, and click-to-navigate key inspection.
-
-`CLUSTER TOPOLOGY` `HASH SLOTS` `CRC16 ENGINE` `HEATMAP VISUALIZATION` `DCO`
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #572](https://github.com/valkey-io/valkey-admin/pull/572) &nbsp;•&nbsp; OPTIMISTIC CONCURRENCY CONTROL VIA WATCH/MULTI/EXEC IN KEY BROWSER
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#533](https://github.com/valkey-io/valkey-admin/issues/533) &nbsp;•&nbsp; **Milestone:** `1.4.0`
-
-- Solved silent data overwrites during concurrent edits by implementing Valkey `WATCH` optimistic locking across String, JSON, Hash, List, Set, and Sorted Set key mutations.
-- Guaranteed atomicity using `WATCH` / `MULTI` / `EXEC` transaction batch pipelines with automatic rollback (`UNWATCH`) on failure or abort.
-- Added structured conflict detection (`concurrent-modification` code) and friendly error messaging guiding operators to reload without silent clobbers.
-
-`OPTIMISTIC LOCKING` `TRANSACTION BATCHING` `WATCH / MULTI / EXEC` `ATOMICITY` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### ⚪ [PR #7373](https://github.com/valkey-io/valkey-glide/pull/7373) &nbsp;•&nbsp; VALKEY GLIDE RUST CLIENT: INFOSECTION ENUM & DRIVER ARG SERIALIZATION
-**Status:** `CLOSED (superseded — not merged)` &nbsp;•&nbsp; **Issue Fixed:** [#7366](https://github.com/valkey-io/valkey-glide/issues/7366) &nbsp;•&nbsp; **Milestone:** `Rust Driver Parity`
-
-- Achieved cross-language parity for the Rust driver with Python, Java, Go, and Node by implementing the full 18-section `InfoSection` enum (`All`, `Clients`, `Cluster`, `ClusterInfo`, `Cpu`, etc.).
-- Implemented `ToValkeyArgs` and marker trait `ToSingleValkeyArg` with zero-allocation byte slice serialization into command buffers.
-- Authored comprehensive test harness coverage across unit tests, mock tests, and integration test suites.
-
-`VALKEY GLIDE DRIVER` `RUST ENGINE` `TRAIT SERIALIZATION` `CROSS-CLIENT PARITY` `DCO`
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #573](https://github.com/valkey-io/valkey-admin/pull/573) &nbsp;•&nbsp; KEY BROWSER 1000-KEY LIMIT OBSERVABILITY & SCAN CAP INDICATOR
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#525](https://github.com/valkey-io/valkey-admin/issues/525) &nbsp;•&nbsp; **Milestone:** `1.4.0`
-
-- Resolved operator confusion where newly created keys or remaining keys were omitted from default key listings when databases contain > 1,000 keys.
-- Implemented continuation detection across server `scanStandalone` and `scanCluster`, transmitting `isCapped` metadata via WebSocket responses.
-- Engineered `selectIsCapped` state tracking and an informative operator advisory banner guiding users to exact glob search patterns for keys beyond the 1,000-key preview window.
-- Backed by unit test suites in `keyBrowserSlice.test.ts` verifying explicit and inferred capping states.
-
-`KEY BROWSER` `DATABASE OBSERVABILITY` `STATE NORMALIZATION` `REACT 19` `DCO`
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟡 [PR #574](https://github.com/valkey-io/valkey-admin/pull/574) &nbsp;•&nbsp; K8S BOOT CLUSTER DISCOVERY EXPONENTIAL BACKOFF RETRY
-**Status:** `OPEN · UNDER REVIEW` &nbsp;•&nbsp; **Issue Fixed:** [#527](https://github.com/valkey-io/valkey-admin/issues/527) &nbsp;•&nbsp; **Milestone:** `K8s Production Resilience`
-
-- Eliminated unhandled startup rejections and `CrashLoopBackOff` when Valkey Admin boots in Kubernetes (`DEPLOYMENT_MODE=K8`) while headless Service DNS or nodes are not yet Ready.
-- Engineered `resetInitialClient()` in `metrics-orchestrator.ts` ensuring dead or unresolvable connection handles are safely terminated before retrying.
-- Wrapped `updateRegistryforK8()` with an exponential backoff retry loop (1s to 30s ceiling) that preserves process liveness and allows metrics sidecars and control plane discovery to cleanly recover automatically.
-
-`KUBERNETES` `RESILIENCE` `EXPONENTIAL BACKOFF` `ORCHESTRATION` `DCO`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🛡️ PRODUCTION RIGOR & ENTERPRISE COMPLIANCE
-**Standards:** `LINUX FOUNDATION DCO` &nbsp;•&nbsp; `100% GREEN CI` &nbsp;•&nbsp; `350+ VITEST TEST CASES`
-
-- **Developer Certificate of Origin (`-s`)**: 100% signed-off commits meeting Linux Foundation open-source governance.
-- **Automated Verification**: Lint-clean with Biome and ESLint, backed by comprehensive Vitest test harnesses across server and frontend.
-- **Cluster Integration**: Verified via multi-node cluster topology CI workflows and cross-architecture test suites.
-
-`ENTERPRISE OSS` `CI/CD` `PRODUCTION QUALITY` `GOVERNANCE`
-
-</td>
-</tr>
-</table>
+## 🛰️ VALKEY ADMIN & CLUSTER TOOLING CONTRIBUTIONS
+
+> Production-grade driver internals, cluster topology diagnostics, and UI architecture contributed to **[valkey-io/valkey-admin](https://github.com/valkey-io/valkey-admin)**.
+
+* **[PR #553](https://github.com/valkey-io/valkey-admin/pull/553) · `MERGED`**: Command execution duration telemetry display (`feat/send-command`, +188 lines, shipped in production).
+* **[PR #593](https://github.com/valkey-io/valkey-admin/pull/593) · `OPEN · IN MAINTAINER REVIEW`**: Dynamic hot keys mode updates on live configuration changes ([#589](https://github.com/valkey-io/valkey-admin/issues/589)).
+* **[PR #563](https://github.com/valkey-io/valkey-admin/pull/563) · `OPEN · IN MAINTAINER REVIEW`**: 16,384-slot cluster visual memory skew heatmap with CRC16 XMODEM polynomial evaluation ([#540](https://github.com/valkey-io/valkey-admin/issues/540)).
+* **[PR #565](https://github.com/valkey-io/valkey-admin/pull/565) · `OPEN · IN MAINTAINER REVIEW`**: Automated live node health indicators (`🟢 Healthy`, `🟡 Degraded`, `🔴 Unreachable`) and decoupled cluster navigation ([#461](https://github.com/valkey-io/valkey-admin/issues/461)).
+* **[PR #562](https://github.com/valkey-io/valkey-admin/pull/562) · `OPEN · IN MAINTAINER REVIEW`**: Native IPv6 address resolution bypassing colon-split truncation in node command routing ([#458](https://github.com/valkey-io/valkey-admin/issues/458)).
+* **[PR #561](https://github.com/valkey-io/valkey-admin/pull/561) · `OPEN · IN MAINTAINER REVIEW`**: Dynamic database switcher with automated keyspace index discovery ([#519](https://github.com/valkey-io/valkey-admin/issues/519)).
+* **[PR #571](https://github.com/valkey-io/valkey-admin/pull/571) · `OPEN · IN MAINTAINER REVIEW`**: On-demand cursor/offset pagination (`HSCAN`, `SSCAN`, `LRANGE`, `ZRANGE`) for large collection keys ([#454](https://github.com/valkey-io/valkey-admin/issues/454)).
+* **[PR #569](https://github.com/valkey-io/valkey-admin/pull/569) · `OPEN · IN MAINTAINER REVIEW`**: Mutation classification engine and server-side read-only enforcement ([#402](https://github.com/valkey-io/valkey-admin/issues/402)).
+* **[PR #574](https://github.com/valkey-io/valkey-admin/pull/574) · `OPEN · IN MAINTAINER REVIEW`**: Kubernetes startup exponential backoff retry loop for headless service DNS discovery ([#527](https://github.com/valkey-io/valkey-admin/issues/527)).
 
 ---
 
 ## 🌐 MULTI-ECOSYSTEM SYSTEMS CONTRIBUTIONS
 
-> Core runtime optimizations, native Rust/PyO3 bindings, scientific data ingestion, and enterprise infrastructure across premier open-source codebases.
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🟡 [VALKEY GLIDE #7436 & #7452](https://github.com/valkey-io/valkey-glide/pull/7436) &nbsp;•&nbsp; LINUX FOUNDATION CORE CLIENT
-**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Status:** `OPEN · UNDER REVIEW`
+### 🟢 [DATAPROF #863, #1110, #1108](https://github.com/AndreaBozzo/dataprof/pull/863) &nbsp;•&nbsp; RUST / PYO3 PROFILER
+**Repository:** `AndreaBozzo/dataprof` &nbsp;•&nbsp; **Status:** `MERGED (#863)` &nbsp;•&nbsp; `#1110, #1108 open`
 
-- Enforced strict validation preventing whitespace-only and invalid AZ tags across Python and Go bindings for cluster AZ affinity routing strategies (#7436).
-- Resolved legacy module introspection deprecation warnings in Python client (#7452), passing all CodeRabbit and DCO requirements.
-- Signed DCO commits passing all enterprise matrix checks.
+- Enforced strict float overflow rejection on bytes route (#1110) and newline-only splitting for Unicode separators (#1108).
+- Built comprehensive JSON Schema Draft 2020-12 quality-policy specification for high-throughput data profiling pipelines (#863, Merged).
+- Bridged native Rust profiling routines with zero-copy Python bindings via PyO3.
 
-`LINUX FOUNDATION` `DISTRIBUTED CACHING` `PYTHON / RUST CORE` `AZ AFFINITY`
+`RUST (PYO3)` `DATA PROFILING` `FFI BRIDGE` `TEST SUITE`
 
 </td>
 <td width="50%" valign="top">
 
-### 🟡 [ICALENDAR #2023](https://github.com/collective/icalendar/pull/2023) &nbsp;•&nbsp; PYTHON RFC 5545 SPEC ENGINE
-**Repository:** `collective/icalendar` &nbsp;•&nbsp; **Fixes:** [#1797](https://github.com/collective/icalendar/issues/1797)  
-**Status:** `OPEN · UNDER REVIEW`
+### 🟢 [ASTROPY #20714](https://github.com/astropy/astropy/pull/20714) &nbsp;•&nbsp; SCIENTIFIC COMPUTING
+**Repository:** `astropy/astropy` &nbsp;•&nbsp; **Status:** `MERGED`
 
-- Implemented standard `COMPLETED` datetime property support on `VTODO` calendar components per RFC 5545 specification.
-- Ensured deterministic timezone parsing and round-trip serialization across legacy and modern iCalendar formats.
-- Verified against complete project test suite: 26 unit tests and 1,906 doctests all passing cleanly.
+- Cython-safe missingness bridge for high-performance astronomical table ingestion.
+- Ensured zero-copy array operations and robust null handling for scientific datasets.
 
-`PYTHON SOFTWARE FOUNDATION` `RFC 5545` `PARSER ARCHITECTURE` `DOCTESTS`
+`CYTHON` `NUMPY` `SCIENTIFIC COMPUTING` `DATA TABLES`
 
 </td>
 </tr>
@@ -451,39 +272,21 @@ valkey-probe inspect /path/to/nodes.conf
 <tr>
 <td width="50%" valign="top">
 
-### 🟡 [POps #209 & #210](https://github.com/PashaCore/POps/pull/209) &nbsp;•&nbsp; ENTERPRISE SERVER ORCHESTRATION
-**Repository:** `PashaCore/POps` &nbsp;•&nbsp; **Fixes:** [#111](https://github.com/PashaCore/POps/issues/111), [#73](https://github.com/PashaCore/POps/issues/73)  
-**Status:** `OPEN · UNDER REVIEW`
+### 🟡 [POps #209 & #210](https://github.com/PashaCore/POps/pull/209) &nbsp;•&nbsp; DISASTER RECOVERY ORCHESTRATION
+**Repository:** `PashaCore/POps` &nbsp;•&nbsp; **Status:** `OPEN · IN MAINTAINER REVIEW`
 
-- **PR #209 (`pops-restore --list`)**: Built non-root, read-only disaster recovery backup inspector parsing manifest metadata with pure `sed/awk` and status evaluation (`.failed` markers). Backed by 17/17 automated shell tests.
-- **PR #210 (Capabilities Export)**: Added `terminal_enabled` and `vision_enabled` capability flags to devices CSV export with formula-safe cell escaping.
+- **PR #209**: Built non-root, read-only disaster recovery backup inspector parsing manifest metadata with pure `sed/awk` and `.failed` marker detection. Backed by 17/17 automated shell tests.
+- **PR #210**: Added device capability flags with formula-safe CSV cell escaping.
 
 `DISASTER RECOVERY` `BASH / SHELLCHECK` `FASTAPI` `SECURITY`
 
 </td>
 <td width="50%" valign="top">
 
-### 🟢 [DATAPROF #1110, #1108 & #1061](https://github.com/AndreaBozzo/dataprof/pull/1110) &nbsp;•&nbsp; RUST / PYO3 PROFILER
-**Repository:** `AndreaBozzo/dataprof` &nbsp;•&nbsp; **Fixes:** [#1086](https://github.com/AndreaBozzo/dataprof/issues/1086), [#1087](https://github.com/AndreaBozzo/dataprof/issues/1087), [#849](https://github.com/AndreaBozzo/dataprof/issues/849)  
-**Status:** `MERGED (#863)` &nbsp;•&nbsp; `#1110, #1108, #1061 open / under review`
-
-- Enforced strict float overflow rejection on bytes route (#1110) and newline-only splitting for Unicode separators (#1108) across Rust and Python runtimes.
-- Engineered comprehensive JSON Schema Draft 2020-12 quality-policy specification for high-throughput data profiling pipelines (#1061).
-- Implemented modular `$defs`, wildcard `*` per-column rules, count max bounds, and runtime evaluation guards bridging native Rust profiling routines with Python.
-
-`RUST (PYO3)` `JSON PARSING PARITY` `DATA QUALITY` `TEST SUITE`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### 🟢 [DJANGO REST FRAMEWORK #10087](https://github.com/encode/django-rest-framework/pull/10087) &nbsp;•&nbsp; CORE VIEWSET ACTION MAPPING
-**Repository:** `encode/django-rest-framework` &nbsp;•&nbsp; **Fixes:** [#9747](https://github.com/encode/django-rest-framework/issues/9747) &nbsp;•&nbsp; **Status:** `100% GREEN CI (PY 3.10 - 3.15)`
+### 🟡 [DJANGO REST FRAMEWORK #10087](https://github.com/encode/django-rest-framework/pull/10087) &nbsp;•&nbsp; CONCURRENCY SAFETY
+**Repository:** `encode/django-rest-framework` &nbsp;•&nbsp; **Status:** `OPEN · 100% GREEN CI (PY 3.10 - 3.15)`
 
 - Prevented global class state corruption in `ViewSet.as_view()` by shallow copying `action_map` before mutation.
-- Initialized `head` verb mappings directly alongside `get` actions to guarantee immutable concurrent request handling.
 - Verified across full DRF test matrix (Python 3.10–3.15, pre-commit, Sphinx doc link validation).
 
 `DJANGO REST FRAMEWORK` `CONCURRENCY SAFETY` `IMMUTABILITY` `PYTHON RUNTIMES`
@@ -498,17 +301,17 @@ valkey-probe inspect /path/to/nodes.conf
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,go,react,tailwind,nodejs,express,fastapi,postgres,redis,docker,git,github,linux,postman,vscode&perline=10&theme=dark" alt="Technical Arsenal"/>
+<img src="https://skillicons.dev/icons?i=c,cpp,rust,python,js,ts,go,react,tailwind,nodejs,express,fastapi,postgres,redis,docker,git,github,linux,postman,vscode&perline=10&theme=dark" alt="Technical Arsenal"/>
 
 <br/><br/>
 
 | Domain | Core Technologies & Tooling |
 | :--- | :--- |
-| **Languages** | C, C++, Python, TypeScript, JavaScript, Go, SQL |
-| **Distributed & Data** | Valkey, Redis, PostgreSQL, Glide Engine, Cluster Topology & Sharding, CRC16 |
-| **Backend & Cloud** | Node.js, Express, FastAPI, Docker, REST APIs, Microservices, Linux/POSIX |
-| **Frontend & UI** | React 19, Redux Toolkit, Tailwind CSS, Vite, Radix UI, Data Visualization |
-| **Quality & Systems** | Vitest, Jest, ESLint, Biome, GitHub Actions CI/CD, DCO Signed Git Workflows |
+| **Languages** | Rust, C, C++, Python, TypeScript, JavaScript, Go, SQL |
+| **Distributed & In-Memory** | Valkey, Redis, PostgreSQL, Glide Engine, Cluster Topology & Sharding, CRC16 |
+| **Backend & Systems** | Tokio, Asyncio, Node.js, Express, FastAPI, Docker, POSIX / Linux, REST APIs |
+| **Frontend & UI** | React 19, Redux Toolkit, Tailwind CSS v4, Vite, Radix UI, Data Visualization |
+| **Testing & CI/CD** | Cargo Test, Pytest, Vitest, GitHub Actions CI/CD, DCO Signed Git Workflows |
 
 </div>
 
@@ -541,94 +344,7 @@ USER / LISTING → GEOGRAPHIC ROUTING (7 METROS) → TRUST SCORING ENGINE → VE
 
 </td>
 </tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ◼ SENTINAL MINDS &nbsp;•&nbsp; AI × CYBERSECURITY
-An intelligence investigation platform built for automated threat triage, forensic artifact parsing, and dynamic incident response.
-
-```text
-THREAT INTEL → EVIDENCE CORRELATION → ML ANALYSIS → ACTIONABLE MITIGATION
-```
-
-- Multi-source threat detection pipeline correlating attack vectors.
-- Interactive security workbench with real-time incident mapping.
-
-`AI/ML` `CYBERSECURITY` `FASTAPI` `REACT`
-
-</td>
-<td width="50%" valign="top">
-
-### ◼ PHISHNET SENTINALS &nbsp;•&nbsp; ADAPTIVE PHISHING DEFENSE
-A machine-learning-driven defense system that inspects suspicious communication patterns, validates domain reputation, and mitigates credential harvesting.
-
-```text
-INCOMING PAYLOAD → HEURISTIC INSPECTION → NLP CLASSIFIER → REPUTATION ENGINE
-```
-
-- Real-time classification engine for malicious payloads.
-- Automated sandbox reporting and visual indicators.
-
-`THREAT DETECTION` `NLP` `SECURITY` `AUTOMATION`
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-### ◼ LECTURE2PDF AI &nbsp;•&nbsp; COMPUTER VISION LECTURE DIGEST
-A Chrome extension and processing pipeline that detects key slide transitions across lecture video streams, extracts structured visual text, and synthesizes publication-grade PDF summaries.
-
-```text
-VIDEO STREAM → KEYFRAME DIFF DETECTOR → OCR EXTRACTION → LLM RESTRUCTURING → PDF ENGINE
-```
-
-`CHROME EXTENSION` `COMPUTER VISION` `JAVASCRIPT` `PDF SYNTHESIS`
-
-</td>
-</tr>
 </table>
-
----
-
-## 💡 KEY ARCHITECTURAL DECISIONS & DEEP DIVES
-
-<details>
-<summary><strong>🔍 Deep Dive 01: Why CRC16 XMODEM <code>0x1021</code> for Cluster Slot Heatmaps? (Click to Expand)</strong></summary>
-
-<br/>
-
-Valkey and Redis cluster topologies divide the entire keyspace into exactly **16,384 logical hash slots**. When routing commands across nodes, a key is hashed using CRC16 with polynomial `0x1021` modulo `16384`.
-- **The Problem:** In cluster deployments, developers often encounter severe memory hotspots when specific slots accumulate millions of oversized keys, leading to OOM terminations on single primary nodes.
-- **My Solution in [PR #563](https://github.com/valkey-io/valkey-admin/pull/563):** Built an in-memory client-side polynomial evaluator supporting hash-tag `{...}` extraction. It scans and projects the cluster keyspace onto a dual-mode 16,384-slot heatmap, letting operators isolate memory hot-spots and hot-keys in seconds.
-
-</details>
-
-<details>
-<summary><strong>🔍 Deep Dive 02: Solving Native IPv6 & Multi-Node Route Splitting (Click to Expand)</strong></summary>
-
-<br/>
-
-- **The Problem:** The Send Command console required routing commands to specific nodes via `routeByAddress`. Naive string parsing like `node.split(":")` breaks completely when resolving IPv6 addresses (e.g. `[2001:db8::1]:6379`) because colons are part of the host representation itself.
-- **My Solution in [PR #562](https://github.com/valkey-io/valkey-admin/pull/562):** Refactored node lookups to resolve directly from structured cluster node objects. Guaranteed IPv6 integrity without string mutilation and fallback to automatic cluster routing if a node disconnects during execution.
-
-</details>
-
-<details>
-<summary><strong>🔍 Deep Dive 03: Automated Node Health State Transition Logic (Click to Expand)</strong></summary>
-
-<br/>
-
-- **The Problem:** The topology table used a static Power toggle that blocked developers from navigating to Dashboard or Command views unless they manually triggered connections.
-- **My Solution in [PR #565](https://github.com/valkey-io/valkey-admin/pull/565):** Repurposed the icon into an automated multi-state health indicator dot:
-  - 🟢 **Healthy**: Active INFO telemetry with zero lag and confirmed uptime.
-  - 🟡 **Degraded**: High memory (>90%) or CPU utilization flags.
-  - 🔴 **Unreachable**: Connection timeouts or socket drops.
-  - Action buttons (`Dashboard` & `Command`) are uncoupled and always clickable, automatically initializing connection state upon click.
-
-</details>
 
 ---
 
