@@ -110,15 +110,15 @@ raj@systems-box:~$ cargo test -p glide-telemetry test_validate_config
 </td>
 <td width="50%" valign="top">
 
-### 🟢 [VALKEY GLIDE #7718](https://github.com/valkey-io/valkey-glide/pull/7718) &nbsp;•&nbsp; OPENTELEMETRY CENTRALIZED VALIDATION
-**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issue Resolved:** [#7706](https://github.com/valkey-io/valkey-glide/issues/7706)  
+### 🟢 [VALKEY GLIDE #7718 & #7719](https://github.com/valkey-io/valkey-glide/pull/7719) &nbsp;•&nbsp; OPENTELEMETRY LIFECYCLE & VALIDATION
+**Repository:** `valkey-io/valkey-glide` &nbsp;•&nbsp; **Issues Resolved:** [#7706](https://github.com/valkey-io/valkey-glide/issues/7706), [#7704](https://github.com/valkey-io/valkey-glide/issues/7704)  
 **Status:** `OPEN · IN MAINTAINER REVIEW` &nbsp;•&nbsp; **Milestone:** `3.0 Major Release`
 
-- Resolved a core bug bash issue filed by AWS maintainers: configurations without trace or metrics exporters previously consumed the process-global `OnceCell` and silently blocked future initialisation.
-- Implemented centralized exporter validation in `glide-telemetry` requiring at least one signal exporter, unifying behavior across FFI and native Rust clients.
-- Added unit tests for rejection of empty configs and verified single-signal configurations.
+- Resolved core bug bash telemetry issues filed by AWS maintainers: empty configurations without exporters previously deadlocked the process-global `OnceCell`, while `shutdown()` dropped `SdkMeterProvider` without flushing pending metrics.
+- Centralized validation across language bindings and added explicit metric provider flushing in `GlideOpenTelemetry::shutdown()`.
+- Added unit tests for empty config rejection and safe shutdown flushes with zero warnings.
 
-`GLIDE TELEMETRY` `OPENTELEMETRY CORE` `AWS BUG BASH` `ONCECELL INVARIANT`
+`GLIDE TELEMETRY` `OPENTELEMETRY CORE` `METER PROVIDER FLUSH` `AWS BUG BASH`
 
 </td>
 </tr>
