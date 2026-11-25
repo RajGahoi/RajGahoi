@@ -18,30 +18,25 @@
 <br/>
 
 <!-- ━━━━━━━━━━━━━━━━━━━ HELLO SECTION ━━━━━━━━━━━━━━━━━━━ -->
-<table width="100%">
-<tr>
-<td valign="top" width="68%">
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj." alt="Hello, I'm Raj."/>
 <br/>
 <p>I'm a <strong>Systems &amp; Distributed Software Engineer</strong> and active core contributor to the <strong>Linux Foundation (Valkey &amp; Valkey GLIDE)</strong>. I specialize in low-latency database infrastructure, async event runtimes, and high-throughput networking — architecting software with strict mechanical sympathy and zero-cost abstractions.</p>
 <p>Driven by first principles. Committed to production craft. Always building.</p>
-<br/>
-<a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/LINKEDIN-raj--gahoi-9333EA?style=flat-square&logo=linkedin&logoColor=white&labelColor=140726"/></a>&nbsp;
-<a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-RajGahoi-EC4899?style=flat-square&logo=github&logoColor=white&labelColor=140726"/></a>&nbsp;
-<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LEETCODE-raj__gahoi-F59E0B?style=flat-square&logo=leetcode&logoColor=white&labelColor=140726"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-rajgahoi.dev-7E22CE?style=flat-square&logo=googlechrome&logoColor=white&labelColor=140726"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_SAAS-TrustNest-10B981?style=flat-square&logo=react&logoColor=white&labelColor=140726"/></a>
-</td>
-<td valign="top" align="center" width="32%">
-<img src="https://avatars.githubusercontent.com/u/191273099?v=4" width="145" style="border-radius:50%; border: 2px solid #EC4899;" alt="Raj Gahoi"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/🟢 Open to Roles-140726?style=flat-square&logoColor=10B981"/><br/>
-<img src="https://img.shields.io/badge/📍 Greater Noida, India-140726?style=flat-square&logoColor=C084FC"/><br/>
-<img src="https://img.shields.io/badge/🎓 B.Tech CSE-140726?style=flat-square&logoColor=F472B6"/><br/>
-<img src="https://img.shields.io/badge/🐧 Linux Foundation Valkey-140726?style=flat-square&logoColor=A855F7"/>
-</td>
-</tr>
-</table>
+
+<p>
+  <img src="https://img.shields.io/badge/🟢 Open to Roles-140726?style=flat-square&logoColor=10B981"/>&nbsp;
+  <img src="https://img.shields.io/badge/📍 Greater Noida, India-140726?style=flat-square&logoColor=C084FC"/>&nbsp;
+  <img src="https://img.shields.io/badge/🎓 B.Tech CSE-140726?style=flat-square&logoColor=F472B6"/>&nbsp;
+  <img src="https://img.shields.io/badge/🐧 Linux Foundation Valkey-140726?style=flat-square&logoColor=A855F7"/>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/LINKEDIN-raj--gahoi-9333EA?style=flat-square&logo=linkedin&logoColor=white&labelColor=140726"/></a>&nbsp;
+  <a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-RajGahoi-EC4899?style=flat-square&logo=github&logoColor=white&labelColor=140726"/></a>&nbsp;
+  <a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LEETCODE-raj__gahoi-F59E0B?style=flat-square&logo=leetcode&logoColor=white&labelColor=140726"/></a>&nbsp;
+  <a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-rajgahoi.dev-7E22CE?style=flat-square&logo=googlechrome&logoColor=white&labelColor=140726"/></a>&nbsp;
+  <a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_SAAS-TrustNest-10B981?style=flat-square&logo=react&logoColor=white&labelColor=140726"/></a>
+</p>
 
 <br/>
 
