@@ -196,7 +196,7 @@
 
 <p align="center">
 <a href="https://leetcode.com/u/raj_gahoi/">
-  <img src="https://leetcard.jacoblin.cool/raj_gahoi?theme=tokyonight&font=Fira%20Code&ext=contest" width="550" alt="LeetCode Metrics"/>
+  <img src="assets/leetcode.svg" width="380" alt="LeetCode Metrics"/>
 </a>
 </p>
 
