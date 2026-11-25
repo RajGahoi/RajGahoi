@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 72" width="900" height="72"
+  role="img" aria-label="Engineer · Scale · Deliver">
+  <defs>
+    <linearGradient id="rf-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#040711"/>
+      <stop offset="50%"  stop-color="#0A1124"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+    <linearGradient id="rf-rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#040711" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#1E40AF" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="75%"  stop-color="#1E40AF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="rf-center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#1E40AF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rf-clip"><rect width="900" height="72"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rf-clip)">
+    <rect width="900" height="72" fill="url(#rf-bg)"/>
+    <rect width="900" height="72" fill="url(#rf-center)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Top Rule -->
+    <rect x="60" y="13" width="780" height="1" fill="url(#rf-rule)"/>
+
+    <!-- Orbital Ring -->
+    <ellipse cx="450" cy="43" rx="24" ry="14" fill="none" stroke="#1E40AF" stroke-width="0.8" opacity="0.6">
+      <animate attributeName="rx" values="24;28;24" dur="5s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Orbiting Particle -->
+    <circle r="2" fill="#38BDF8" opacity="0.95">
+      <animateMotion dur="5s" repeatCount="indefinite">
+        <mpath href="#rf-ring-path"/>
+      </animateMotion>
+    </circle>
+    <path id="rf-ring-path" d="M 450 29 a 24 14 0 1 1 -0.1 0 Z" fill="none"/>
+
+    <!-- Corner Accents -->
+    <g stroke="#1E40AF" stroke-width="0.8" fill="none" opacity="0.7">
+      <polyline points="62,13 60,13 60,15"/>
+      <polyline points="838,13 840,13 840,15"/>
+      <polyline points="62,59 60,59 60,57"/>
+      <polyline points="838,59 840,59 840,57"/>
+    </g>
+
+    <!-- ENGINEER · SCALE · DELIVER -->
+    <text x="450" y="48" text-anchor="middle"
+      font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
+      font-size="12.5" font-weight="600" letter-spacing="8"
+      fill="#38BDF8" opacity="0.95">ENGINEER  ·  SCALE  ·  DELIVER</text>
+
+    <!-- Bottom Rule -->
+    <rect x="60" y="59" width="780" height="1" fill="url(#rf-rule)"/>
+  </g>
+</svg>
