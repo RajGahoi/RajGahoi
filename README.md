@@ -18,7 +18,7 @@
 <br/>
 
 <!-- ━━━━━━━━━━━━━━━━━━━ HELLO SECTION ━━━━━━━━━━━━━━━━━━━ -->
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj." alt="Hello, I'm Raj."/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj+Gahoi." alt="Hello, I'm Raj."/>
 <br/>
 <p>I'm a <strong>Systems &amp; Distributed Software Engineer</strong> and active core contributor to the <strong>Linux Foundation (Valkey &amp; Valkey GLIDE)</strong>. I specialize in low-latency database infrastructure, async event runtimes, and high-throughput networking — architecting software with strict mechanical sympathy and zero-cost abstractions.</p>
 <p>Driven by first principles. Committed to production craft. Always building.</p>
