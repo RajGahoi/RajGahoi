@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════════════════════════
      RAJ GAHOI — GITHUB PROFILE README
-     Style: Cinematic Cyber Aurora · Deep Obsidian & Neon Violet / Magenta / Cyan
+     Style: Cinematic Editorial · Deep Obsidian & Luxury Violet / Fuchsia
      Theme: Systems Engineering · Linux Foundation · Distributed Systems
      ═══════════════════════════════════════════════════ -->
 
@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2400&pause=1000&color=A78BFA&center=true&vCenter=true&width=950&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CORE+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+ASYNC+INFRASTRUCTURE;HIGH-PERFORMANCE+IN-MEMORY+DATABASES;RUST+%C2%B7+C%2B%2B+%C2%B7+PYTHON+SYSTEMS;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing Introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=20&duration=2400&pause=1000&color=F472B6&center=true&vCenter=true&width=950&lines=LINUX+FOUNDATION+%C2%B7+VALKEY+CORE+CONTRIBUTOR;DISTRIBUTED+SYSTEMS+%26+ASYNC+INFRASTRUCTURE;HIGH-PERFORMANCE+IN-MEMORY+DATABASES;RUST+%C2%B7+C%2B%2B+%C2%B7+PYTHON+SYSTEMS;OPEN+FOR+HIGH-IMPACT+ENGINEERING+ROLES" alt="Typing Introduction"/>
 </div>
 
 <br/>
@@ -21,24 +21,24 @@
 <table width="100%">
 <tr>
 <td valign="top" width="68%">
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=36&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj." alt="Hello, I'm Raj."/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj." alt="Hello, I'm Raj."/>
 <br/>
 <p>I'm a <strong>Systems &amp; Distributed Software Engineer</strong> and active core contributor to the <strong>Linux Foundation (Valkey &amp; Valkey GLIDE)</strong>. I specialize in low-latency database infrastructure, async event runtimes, and high-throughput networking — architecting software with strict mechanical sympathy and zero-cost abstractions.</p>
 <p>Driven by first principles. Committed to production craft. Always building.</p>
 <br/>
-<a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/LINKEDIN-raj--gahoi-8B5CF6?style=flat-square&logo=linkedin&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-RajGahoi-EC4899?style=flat-square&logo=github&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LEETCODE-raj__gahoi-F59E0B?style=flat-square&logo=leetcode&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-rajgahoi.dev-06B6D4?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_SAAS-TrustNest-10B981?style=flat-square&logo=react&logoColor=white&labelColor=0D1326"/></a>
+<a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/LINKEDIN-raj--gahoi-9333EA?style=flat-square&logo=linkedin&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-RajGahoi-EC4899?style=flat-square&logo=github&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/LEETCODE-raj__gahoi-F59E0B?style=flat-square&logo=leetcode&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-rajgahoi.dev-7E22CE?style=flat-square&logo=googlechrome&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_SAAS-TrustNest-10B981?style=flat-square&logo=react&logoColor=white&labelColor=140726"/></a>
 </td>
 <td valign="top" align="center" width="32%">
-<img src="https://avatars.githubusercontent.com/u/191273099?v=4" width="145" style="border-radius:50%; border: 2px solid #8B5CF6;" alt="Raj Gahoi"/>
+<img src="https://avatars.githubusercontent.com/u/191273099?v=4" width="145" style="border-radius:50%; border: 2px solid #EC4899;" alt="Raj Gahoi"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/🟢 Open to Roles-0D1326?style=flat-square&logoColor=10B981"/><br/>
-<img src="https://img.shields.io/badge/📍 Greater Noida, India-0D1326?style=flat-square&logoColor=06B6D4"/><br/>
-<img src="https://img.shields.io/badge/🎓 B.Tech CSE-0D1326?style=flat-square&logoColor=A78BFA"/><br/>
-<img src="https://img.shields.io/badge/🐧 Linux Foundation Valkey-0D1326?style=flat-square&logoColor=EC4899"/>
+<img src="https://img.shields.io/badge/🟢 Open to Roles-140726?style=flat-square&logoColor=10B981"/><br/>
+<img src="https://img.shields.io/badge/📍 Greater Noida, India-140726?style=flat-square&logoColor=C084FC"/><br/>
+<img src="https://img.shields.io/badge/🎓 B.Tech CSE-140726?style=flat-square&logoColor=F472B6"/><br/>
+<img src="https://img.shields.io/badge/🐧 Linux Foundation Valkey-140726?style=flat-square&logoColor=A855F7"/>
 </td>
 </tr>
 </table>
@@ -52,19 +52,19 @@
 
 <table width="100%" cellpadding="12" cellspacing="4">
 <tr>
-<td bgcolor="#0A0F24" align="center" width="20%">
-<strong><font color="#34D399" size="5">30+</font></strong><br/><font color="#E2E8F0" size="2">CORE OSS MERGES</font>
+<td bgcolor="#0E0517" align="center" width="20%">
+<strong><font color="#F472B6" size="5">30+</font></strong><br/><font color="#E2E8F0" size="2">CORE OSS MERGES</font>
 </td>
-<td bgcolor="#0A0F24" align="center" width="20%">
-<strong><font color="#38BDF8" size="5">35</font></strong><br/><font color="#E2E8F0" size="2">PUBLIC REPOS</font>
+<td bgcolor="#0E0517" align="center" width="20%">
+<strong><font color="#C084FC" size="5">35</font></strong><br/><font color="#E2E8F0" size="2">PUBLIC REPOS</font>
 </td>
-<td bgcolor="#0A0F24" align="center" width="20%">
-<strong><font color="#A78BFA" size="5">300+</font></strong><br/><font color="#E2E8F0" size="2">LEETCODE PATTERNS</font>
+<td bgcolor="#0E0517" align="center" width="20%">
+<strong><font color="#A855F7" size="5">300+</font></strong><br/><font color="#E2E8F0" size="2">LEETCODE PATTERNS</font>
 </td>
-<td bgcolor="#0A0F24" align="center" width="20%">
-<strong><font color="#F472B6" size="5">400+</font></strong><br/><font color="#E2E8F0" size="2">UNIT TESTS</font>
+<td bgcolor="#0E0517" align="center" width="20%">
+<strong><font color="#FB7185" size="5">400+</font></strong><br/><font color="#E2E8F0" size="2">UNIT TESTS</font>
 </td>
-<td bgcolor="#0A0F24" align="center" width="20%">
+<td bgcolor="#0E0517" align="center" width="20%">
 <strong><font color="#FBBF24" size="5">5</font></strong><br/><font color="#E2E8F0" size="2">SYSTEM LANGUAGES</font>
 </td>
 </tr>
@@ -78,31 +78,31 @@
 
 <table width="100%" cellpadding="14" cellspacing="4">
 <tr>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#A78BFA" size="2"><strong>LINUX FOUNDATION · VALKEY GLIDE · RUST / C++ CORE</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>LINUX FOUNDATION · VALKEY GLIDE · RUST / C++ CORE</strong></font><br/><br/>
 <font color="#F8FAFC"><strong>⚡ Valkey GLIDE Core Contributions</strong></font><br/>
-<font color="#94A3B8">Engineered transaction invariants (WATCH abort handling), Hash TTL read-only replica routing, and OpenTelemetry lifecycle diagnostics for Linux Foundation's official multi-language driver.</font><br/><br/>
-<a href="https://github.com/valkey-io/valkey-glide/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-8B5CF6?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://valkey.io"><img src="https://img.shields.io/badge/LINUX_FOUNDATION-06B6D4?style=flat-square&logo=linux&logoColor=white"/></a>
+<font color="#C084FC">Engineered transaction invariants (WATCH abort handling), Hash TTL read-only replica routing, and OpenTelemetry lifecycle diagnostics for Linux Foundation's official multi-language driver.</font><br/><br/>
+<a href="https://github.com/valkey-io/valkey-glide/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-9333EA?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://valkey.io"><img src="https://img.shields.io/badge/LINUX_FOUNDATION-EC4899?style=flat-square&logo=linux&logoColor=white"/></a>
 </td>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#EC4899" size="2"><strong>SYSTEMS CLI · RUST / GO · DISTRIBUTED STORAGE</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>SYSTEMS CLI · RUST / GO · DISTRIBUTED STORAGE</strong></font><br/><br/>
 <font color="#F8FAFC"><strong>🛰️ valkey-probe</strong></font><br/>
-<font color="#94A3B8">High-performance standalone cluster diagnostic CLI. Instantly detects hash-slot skew, key distribution imbalances, and cluster node health in sub-milliseconds.</font><br/><br/>
-<a href="https://github.com/RajGahoi/valkey-probe"><img src="https://img.shields.io/badge/VIEW_REPO-EC4899?style=flat-square&logo=github&logoColor=white"/></a>
+<font color="#C084FC">High-performance standalone cluster diagnostic CLI. Instantly detects hash-slot skew, key distribution imbalances, and cluster node health in sub-milliseconds.</font><br/><br/>
+<a href="https://github.com/RajGahoi/valkey-probe"><img src="https://img.shields.io/badge/VIEW_REPO-9333EA?style=flat-square&logo=github&logoColor=white"/></a>
 </td>
 </tr>
 <tr>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#38BDF8" size="2"><strong>PYTHON ECOSYSTEM · RFC STANDARDS · SPECIFICATION</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>PYTHON ECOSYSTEM · RFC STANDARDS · SPECIFICATION</strong></font><br/><br/>
 <font color="#F8FAFC"><strong>📅 Python iCalendar Engine</strong></font><br/>
-<font color="#94A3B8">Core serialization engine optimization, vTimeZone fault-tolerance, and strict RFC 5545 / 7265 compliance for the world's standard Python calendar library.</font><br/><br/>
-<a href="https://github.com/PyCalendar/icalendar/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-3B82F6?style=flat-square&logo=github&logoColor=white"/></a>
+<font color="#C084FC">Core serialization engine optimization, vTimeZone fault-tolerance, and strict RFC 5545 / 7265 compliance for the world's standard Python calendar library.</font><br/><br/>
+<a href="https://github.com/PyCalendar/icalendar/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-9333EA?style=flat-square&logo=github&logoColor=white"/></a>
 </td>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#34D399" size="2"><strong>FLAGSHIP SAAS · REACT 19 · TYPESCRIPT · NODE.JS</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>FLAGSHIP SAAS · REACT 19 · TYPESCRIPT · NODE.JS</strong></font><br/><br/>
 <font color="#F8FAFC"><strong>🛡️ TrustNest</strong></font><br/>
-<font color="#94A3B8">Verified marketplace platform featuring a 5-dimension fraud prevention pipeline, multi-factor algorithmic trust scoring, and zero-drift search across 140+ listings.</font><br/><br/>
-<a href="https://github.com/RajGahoi/trustnest"><img src="https://img.shields.io/badge/VIEW_REPO-10B981?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_DEMO-F59E0B?style=flat-square&logo=react&logoColor=white"/></a>
+<font color="#C084FC">Verified marketplace platform featuring a 5-dimension fraud prevention pipeline, multi-factor algorithmic trust scoring, and zero-drift search across 140+ listings.</font><br/><br/>
+<a href="https://github.com/RajGahoi/trustnest"><img src="https://img.shields.io/badge/VIEW_REPO-9333EA?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_DEMO-EC4899?style=flat-square&logo=react&logoColor=white"/></a>
 </td>
 </tr>
 </table>
@@ -117,8 +117,8 @@
 
 <table width="100%" cellpadding="14" cellspacing="4">
 <tr>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#A78BFA" size="2"><strong>#01 &nbsp;SYSTEMS &amp; CORE LANGUAGES</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>#01 &nbsp;SYSTEMS &amp; CORE LANGUAGES</strong></font><br/><br/>
 <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
@@ -128,8 +128,8 @@
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
 </td>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#EC4899" size="2"><strong>#02 &nbsp;DISTRIBUTED STORAGE &amp; MESSAGING</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>#02 &nbsp;DISTRIBUTED STORAGE &amp; MESSAGING</strong></font><br/><br/>
 <img src="https://img.shields.io/badge/Valkey-7C3AED?style=flat-square&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
@@ -139,8 +139,8 @@
 </td>
 </tr>
 <tr>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#06B6D4" size="2"><strong>#03 &nbsp;CLOUD, RUNTIMES &amp; INFRASTRUCTURE</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>#03 &nbsp;CLOUD, RUNTIMES &amp; INFRASTRUCTURE</strong></font><br/><br/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
@@ -149,8 +149,8 @@
 <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black"/>
 <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"/>
 </td>
-<td bgcolor="#0A0F24" width="50%" valign="top">
-<font color="#10B981" size="2"><strong>#04 &nbsp;OBSERVABILITY, TOOLS &amp; PATTERNS</strong></font><br/><br/>
+<td bgcolor="#0E0517" width="50%" valign="top">
+<font color="#F472B6" size="2"><strong>#04 &nbsp;OBSERVABILITY, TOOLS &amp; PATTERNS</strong></font><br/><br/>
 <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
@@ -180,15 +180,15 @@
 <br/>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=050814&color=A78BFA&line=EC4899&point=38BDF8&area=true&area_color=1E1B4B&hide_border=true&radius=8&custom_title=COMMIT+LOG+%E2%80%94+REAL+GITHUB+ACTIVITY" width="95%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=08030F&color=C084FC&line=EC4899&point=F472B6&area=true&area_color=250B3D&hide_border=true&radius=8&custom_title=COMMIT+LOG+%E2%80%94+REAL+GITHUB+ACTIVITY" width="95%" alt="Contribution Graph"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&hide_border=true&bg_color=050814&title_color=A78BFA&icon_color=EC4899&text_color=E2E8F0&ring_color=8B5CF6" height="155" alt="GitHub Stats"/>&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajGahoi&layout=compact&hide_border=true&bg_color=050814&title_color=A78BFA&text_color=E2E8F0&langs_count=6" height="155" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&hide_border=true&bg_color=08030F&title_color=F472B6&icon_color=C084FC&text_color=E2E8F0&ring_color=9333EA" height="155" alt="GitHub Stats"/>&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajGahoi&layout=compact&hide_border=true&bg_color=08030F&title_color=F472B6&text_color=E2E8F0&langs_count=6" height="155" alt="Top Languages"/>
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=RajGahoi&hide_border=true&background=050814&ring=8B5CF6&fire=EC4899&currStreakLabel=A78BFA&sideLabels=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&stroke=1E293B" height="155" alt="Streak"/>
+<img src="https://streak-stats.demolab.com/?user=RajGahoi&hide_border=true&background=08030F&ring=EC4899&fire=F472B6&currStreakLabel=C084FC&sideLabels=F472B6&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&stroke=250B3D" height="155" alt="Streak"/>
 </p>
 
 <br/>
@@ -213,19 +213,19 @@
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=24&pause=99999&color=F8FAFC&width=560&height=45&lines=Let's+build+something+extraordinary." alt="Let's build something extraordinary."/>
 
 <p align="center">
-<a href="mailto:gahoiraj01@gmail.com"><img src="https://img.shields.io/badge/✉ EMAIL-gahoiraj01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/in LINKEDIN-raj--gahoi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/⬡ LEETCODE-raj__gahoi-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0D1326"/></a>
+<a href="mailto:gahoiraj01@gmail.com"><img src="https://img.shields.io/badge/✉ EMAIL-gahoiraj01%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/in LINKEDIN-raj--gahoi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://leetcode.com/u/raj_gahoi/"><img src="https://img.shields.io/badge/⬡ LEETCODE-raj__gahoi-FFA116?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=140726"/></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/⌥ GITHUB-RajGahoi-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/↗ PORTFOLIO-visit-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D1326"/></a>&nbsp;
-<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/⚡ TRUSTNEST-live_demo-10B981?style=for-the-badge&logo=react&logoColor=white&labelColor=0D1326"/></a>
+<a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/⌥ GITHUB-RajGahoi-9333EA?style=for-the-badge&logo=github&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://rajgahoi.github.io/portfolio/"><img src="https://img.shields.io/badge/↗ PORTFOLIO-visit-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=140726"/></a>&nbsp;
+<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/⚡ TRUSTNEST-live_demo-10B981?style=for-the-badge&logo=react&logoColor=white&labelColor=140726"/></a>
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=RajGahoi&color=8B5CF6&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=RajGahoi&color=9333EA&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
 <br/>
