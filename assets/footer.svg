@@ -1,61 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 72" width="900" height="72"
-  role="img" aria-label="Engineer · Scale · Deliver">
-  <defs>
-    <linearGradient id="rf-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#040711"/>
-      <stop offset="50%"  stop-color="#0A1124"/>
-      <stop offset="100%" stop-color="#040711"/>
-    </linearGradient>
-    <linearGradient id="rf-rule" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#040711" stop-opacity="0"/>
-      <stop offset="25%"  stop-color="#1E40AF" stop-opacity="0.6"/>
-      <stop offset="50%"  stop-color="#38BDF8" stop-opacity="1"/>
-      <stop offset="75%"  stop-color="#1E40AF" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="rf-center" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#1E40AF" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="rf-clip"><rect width="900" height="72"/></clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 90" width="1600" height="90" fill="none">
+<defs>
+  <linearGradient id="ft-bg" x1="0" y1="0" x2="1600" y2="90" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050814"/>
+    <stop offset="0.5" stop-color="#0a0f24"/>
+    <stop offset="1" stop-color="#080718"/>
+  </linearGradient>
 
-  <g clip-path="url(#rf-clip)">
-    <rect width="900" height="72" fill="url(#rf-bg)"/>
-    <rect width="900" height="72" fill="url(#rf-center)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
-    </rect>
+  <linearGradient id="ft-rule" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#050814" stop-opacity="0"/>
+    <stop offset="20%"  stop-color="#3B82F6" stop-opacity="0.6"/>
+    <stop offset="50%"  stop-color="#8B5CF6" stop-opacity="0.9"/>
+    <stop offset="75%"  stop-color="#EC4899" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#080718" stop-opacity="0"/>
+  </linearGradient>
 
-    <!-- Top Rule -->
-    <rect x="60" y="13" width="780" height="1" fill="url(#rf-rule)"/>
+  <filter id="ft-glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+</defs>
 
-    <!-- Orbital Ring -->
-    <ellipse cx="450" cy="43" rx="24" ry="14" fill="none" stroke="#1E40AF" stroke-width="0.8" opacity="0.6">
-      <animate attributeName="rx" values="24;28;24" dur="5s" repeatCount="indefinite"/>
-    </ellipse>
-    <!-- Orbiting Particle -->
-    <circle r="2" fill="#38BDF8" opacity="0.95">
-      <animateMotion dur="5s" repeatCount="indefinite">
-        <mpath href="#rf-ring-path"/>
-      </animateMotion>
-    </circle>
-    <path id="rf-ring-path" d="M 450 29 a 24 14 0 1 1 -0.1 0 Z" fill="none"/>
+<rect width="1600" height="90" rx="16" fill="url(#ft-bg)"/>
+<rect x="1" y="1" width="1598" height="88" rx="15" fill="none" stroke="#1E293B" stroke-width="1.2" stroke-opacity="0.7"/>
 
-    <!-- Corner Accents -->
-    <g stroke="#1E40AF" stroke-width="0.8" fill="none" opacity="0.7">
-      <polyline points="62,13 60,13 60,15"/>
-      <polyline points="838,13 840,13 840,15"/>
-      <polyline points="62,59 60,59 60,57"/>
-      <polyline points="838,59 840,59 840,57"/>
-    </g>
+<!-- Top Glowing Rule -->
+<rect x="80" y="16" width="1440" height="1.5" fill="url(#ft-rule)" filter="url(#ft-glow)"/>
 
-    <!-- ENGINEER · SCALE · DELIVER -->
-    <text x="450" y="48" text-anchor="middle"
-      font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
-      font-size="12.5" font-weight="600" letter-spacing="8"
-      fill="#38BDF8" opacity="0.95">ENGINEER  ·  SCALE  ·  DELIVER</text>
+<!-- Center Animated Orbit -->
+<ellipse cx="800" cy="54" rx="28" ry="16" fill="none" stroke="#8B5CF6" stroke-width="0.8" opacity="0.6">
+  <animate attributeName="rx" values="28;34;28" dur="4s" repeatCount="indefinite"/>
+</ellipse>
+<circle r="2.5" fill="#38BDF8" opacity="0.95">
+  <animateMotion dur="4s" repeatCount="indefinite">
+    <mpath href="#ft-path"/>
+  </animateMotion>
+</circle>
+<path id="ft-path" d="M 800 38 a 28 16 0 1 1 -0.1 0 Z" fill="none"/>
 
-    <!-- Bottom Rule -->
-    <rect x="60" y="59" width="780" height="1" fill="url(#rf-rule)"/>
-  </g>
+<!-- Mantra -->
+<text x="800" y="60" text-anchor="middle"
+  font-family="'JetBrains Mono', Consolas, monospace"
+  font-size="14" font-weight="700" letter-spacing="10"
+  fill="#E2E8F0" opacity="0.95">
+  ENGINEER  <tspan fill="#38BDF8">·</tspan>  SCALE  <tspan fill="#EC4899">·</tspan>  DELIVER
+</text>
+
+<!-- Bottom Glowing Rule -->
+<rect x="80" y="74" width="1440" height="1.5" fill="url(#ft-rule)" filter="url(#ft-glow)"/>
 </svg>
