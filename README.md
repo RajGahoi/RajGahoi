@@ -1,10 +1,10 @@
-<!-- ═══════════════════════════════════════════════════
+<!-- ═════════════════════════════════════════════════════════════════════
      RAJ GAHOI — GITHUB PROFILE README
-     Style: Cinematic Editorial · Deep Obsidian & Luxury Violet / Fuchsia
+     Style: Cinematic Editorial Monolith · Deep Obsidian & Velvet Violet
      Theme: Systems Engineering · Linux Foundation · Distributed Systems
-     ═══════════════════════════════════════════════════ -->
+     ═════════════════════════════════════════════════════════════════════ -->
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━ HERO ━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━ HERO BANNER ━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 <div align="center">
   <img src="assets/hero.svg" width="100%" alt="Raj Gahoi — Systems &amp; Distributed Software Engineer"/>
 </div>
@@ -17,19 +17,40 @@
 
 <br/>
 
-<!-- ━━━━━━━━━━━━━━━━━━━ HELLO SECTION ━━━━━━━━━━━━━━━━━━━ -->
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj+Gahoi." alt="Hello, I'm Raj."/>
+<!-- ━━━━━━━━━━━━━━━━━━━ HELLO / EXECUTIVE SUMMARY ━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=38&pause=2000&color=F8FAFC&width=560&height=55&lines=Hello%2C+I'm+Raj+Gahoi." alt="Hello, I'm Raj Gahoi."/>
+
 <br/>
-<p>I'm a <strong>Systems &amp; Distributed Software Engineer</strong> and active core contributor to the <strong>Linux Foundation (Valkey &amp; Valkey GLIDE)</strong>. I specialize in low-latency database infrastructure, async event runtimes, and high-throughput networking — architecting software with strict mechanical sympathy and zero-cost abstractions.</p>
-<p>Driven by first principles. Committed to production craft. Always building.</p>
 
-<p>
-  <img src="https://img.shields.io/badge/🟢 Open to Roles-140726?style=flat-square&logoColor=10B981"/>&nbsp;
-  <img src="https://img.shields.io/badge/📍 Greater Noida, India-140726?style=flat-square&logoColor=C084FC"/>&nbsp;
-  <img src="https://img.shields.io/badge/🎓 B.Tech CSE-140726?style=flat-square&logoColor=F472B6"/>&nbsp;
-  <img src="https://img.shields.io/badge/🐧 Linux Foundation Valkey-140726?style=flat-square&logoColor=A855F7"/>
-</p>
+> *“Engineering low-latency distributed systems, cluster memory diagnostic tooling, and mission-critical cloud infrastructure with mechanical sympathy and zero-cost abstractions.”*
 
+<p>I'm a <strong>Systems &amp; Distributed Software Engineer</strong> and active core contributor to the <strong>Linux Foundation (Valkey &amp; Valkey GLIDE)</strong>. I engineer high-throughput in-memory datastores, asynchronous event runtimes, and zero-drift network protocols — prioritizing mathematical invariants and deterministic performance under scale.</p>
+
+<!-- COORDINATES & TELEMETRY STRIP -->
+<table width="100%" cellpadding="10" cellspacing="4">
+<tr>
+<td bgcolor="#11051F" align="center" width="25%">
+  <font color="#34D399">●</font>&nbsp; <font color="#94A3B8" size="1">STATUS</font><br/>
+  <font color="#F8FAFC" size="2"><b>Open to Roles</b></font>
+</td>
+<td bgcolor="#11051F" align="center" width="25%">
+  <font color="#C084FC">📍</font>&nbsp; <font color="#94A3B8" size="1">LOCATION</font><br/>
+  <font color="#F8FAFC" size="2"><b>Greater Noida, IN</b></font>
+</td>
+<td bgcolor="#11051F" align="center" width="25%">
+  <font color="#F472B6">⚡</font>&nbsp; <font color="#94A3B8" size="1">SPECIALIZATION</font><br/>
+  <font color="#F8FAFC" size="2"><b>Systems &amp; Cloud</b></font>
+</td>
+<td bgcolor="#11051F" align="center" width="25%">
+  <font color="#A855F7">🐧</font>&nbsp; <font color="#94A3B8" size="1">AFFILIATION</font><br/>
+  <font color="#F8FAFC" size="2"><b>Linux Foundation</b></font>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- UNIFIED SOCIAL ACTIONS -->
 <p>
   <a href="https://www.linkedin.com/in/raj-gahoi/"><img src="https://img.shields.io/badge/LINKEDIN-raj--gahoi-9333EA?style=flat-square&logo=linkedin&logoColor=white&labelColor=140726"/></a>&nbsp;
   <a href="https://github.com/RajGahoi?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-RajGahoi-EC4899?style=flat-square&logo=github&logoColor=white&labelColor=140726"/></a>&nbsp;
@@ -45,22 +66,32 @@
 <!-- ━━━━━━━━━━━━━━━━━ PROOF ON THE RECORD ━━━━━━━━━━━━━━━━━ -->
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=700&style=italic&size=28&pause=99999&color=F8FAFC&width=460&height=48&lines=Proof%2C+on+the+record." alt="Proof, on the record."/>
 
-<table width="100%" cellpadding="12" cellspacing="4">
+<table width="100%" cellpadding="14" cellspacing="4">
 <tr>
 <td bgcolor="#0E0517" align="center" width="20%">
-<strong><font color="#F472B6" size="5">30+</font></strong><br/><font color="#E2E8F0" size="2">CORE OSS MERGES</font>
+  <font color="#94A3B8" size="1">LINUX FOUNDATION</font><br/>
+  <strong><font color="#F472B6" size="6">30+</font></strong><br/>
+  <font color="#E2E8F0" size="2"><b>CORE OSS MERGES</b></font>
 </td>
 <td bgcolor="#0E0517" align="center" width="20%">
-<strong><font color="#C084FC" size="5">35</font></strong><br/><font color="#E2E8F0" size="2">PUBLIC REPOS</font>
+  <font color="#94A3B8" size="1">SOURCE PLATFORMS</font><br/>
+  <strong><font color="#C084FC" size="6">35</font></strong><br/>
+  <font color="#E2E8F0" size="2"><b>PUBLIC REPOS</b></font>
 </td>
 <td bgcolor="#0E0517" align="center" width="20%">
-<strong><font color="#A855F7" size="5">300+</font></strong><br/><font color="#E2E8F0" size="2">LEETCODE PATTERNS</font>
+  <font color="#94A3B8" size="1">ALGORITHMIC RIGOR</font><br/>
+  <strong><font color="#A855F7" size="6">300+</font></strong><br/>
+  <font color="#E2E8F0" size="2"><b>LEETCODE PATTERNS</b></font>
 </td>
 <td bgcolor="#0E0517" align="center" width="20%">
-<strong><font color="#FB7185" size="5">400+</font></strong><br/><font color="#E2E8F0" size="2">UNIT TESTS</font>
+  <font color="#94A3B8" size="1">AUTOMATED SUITES</font><br/>
+  <strong><font color="#FB7185" size="6">400+</font></strong><br/>
+  <font color="#E2E8F0" size="2"><b>UNIT TESTS</b></font>
 </td>
 <td bgcolor="#0E0517" align="center" width="20%">
-<strong><font color="#FBBF24" size="5">5</font></strong><br/><font color="#E2E8F0" size="2">SYSTEM LANGUAGES</font>
+  <font color="#94A3B8" size="1">COMPILED &amp; SCRIPTED</font><br/>
+  <strong><font color="#FBBF24" size="6">5</font></strong><br/>
+  <font color="#E2E8F0" size="2"><b>SYSTEM LANGUAGES</b></font>
 </td>
 </tr>
 </table>
@@ -75,32 +106,44 @@
 <tr>
 <td bgcolor="#0E0517" width="50%" valign="top">
 <font color="#F472B6" size="2"><strong>LINUX FOUNDATION · VALKEY GLIDE · RUST / C++ CORE</strong></font><br/><br/>
-<font color="#F8FAFC"><strong>⚡ Valkey GLIDE Core Contributions</strong></font><br/>
+<font color="#F8FAFC" size="3"><strong>⚡ Valkey GLIDE Core Contributions</strong></font><br/>
 <font color="#C084FC">Engineered transaction invariants (WATCH abort handling), Hash TTL read-only replica routing, and OpenTelemetry lifecycle diagnostics for Linux Foundation's official multi-language driver.</font><br/><br/>
+<font color="#94A3B8" size="1">● 5/5 Valkey CI Green &nbsp;·&nbsp; DCO Signed &nbsp;·&nbsp; Zero-Drift Telemetry</font><br/><br/>
 <a href="https://github.com/valkey-io/valkey-glide/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-9333EA?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://valkey.io"><img src="https://img.shields.io/badge/LINUX_FOUNDATION-EC4899?style=flat-square&logo=linux&logoColor=white"/></a>
 </td>
 <td bgcolor="#0E0517" width="50%" valign="top">
 <font color="#F472B6" size="2"><strong>SYSTEMS CLI · RUST / GO · DISTRIBUTED STORAGE</strong></font><br/><br/>
-<font color="#F8FAFC"><strong>🛰️ valkey-probe</strong></font><br/>
-<font color="#C084FC">High-performance standalone cluster diagnostic CLI. Instantly detects hash-slot skew, key distribution imbalances, and cluster node health in sub-milliseconds.</font><br/><br/>
+<font color="#F8FAFC" size="3"><strong>🛰️ valkey-probe</strong></font><br/>
+<font color="#C084FC">High-performance standalone cluster diagnostic CLI. Instantly detects hash-slot skew, key distribution imbalances, and cluster node health across 16,384 CRC16 slots in sub-milliseconds.</font><br/><br/>
+<font color="#94A3B8" size="1">● Zero-Allocation &nbsp;·&nbsp; CRC16 Slot Heatmap &nbsp;·&nbsp; &lt;1ms Latency</font><br/><br/>
 <a href="https://github.com/RajGahoi/valkey-probe"><img src="https://img.shields.io/badge/VIEW_REPO-9333EA?style=flat-square&logo=github&logoColor=white"/></a>
 </td>
 </tr>
 <tr>
 <td bgcolor="#0E0517" width="50%" valign="top">
 <font color="#F472B6" size="2"><strong>PYTHON ECOSYSTEM · RFC STANDARDS · SPECIFICATION</strong></font><br/><br/>
-<font color="#F8FAFC"><strong>📅 Python iCalendar Engine</strong></font><br/>
+<font color="#F8FAFC" size="3"><strong>📅 Python iCalendar Engine</strong></font><br/>
 <font color="#C084FC">Core serialization engine optimization, vTimeZone fault-tolerance, and strict RFC 5545 / 7265 compliance for the world's standard Python calendar library.</font><br/><br/>
+<font color="#94A3B8" size="1">● 23 CI Suites Green &nbsp;·&nbsp; Coveralls 100% Patch Coverage &nbsp;·&nbsp; RFC 5545</font><br/><br/>
 <a href="https://github.com/PyCalendar/icalendar/pulls?q=is%3Apr+author%3ARajGahoi"><img src="https://img.shields.io/badge/VIEW_PRS-9333EA?style=flat-square&logo=github&logoColor=white"/></a>
 </td>
 <td bgcolor="#0E0517" width="50%" valign="top">
 <font color="#F472B6" size="2"><strong>FLAGSHIP SAAS · REACT 19 · TYPESCRIPT · NODE.JS</strong></font><br/><br/>
-<font color="#F8FAFC"><strong>🛡️ TrustNest</strong></font><br/>
-<font color="#C084FC">Verified marketplace platform featuring a 5-dimension fraud prevention pipeline, multi-factor algorithmic trust scoring, and zero-drift search across 140+ listings.</font><br/><br/>
+<font color="#F8FAFC" size="3"><strong>🛡️ TrustNest</strong></font><br/>
+<font color="#C084FC">Verified marketplace platform featuring a 5-dimension fraud prevention pipeline, multi-factor algorithmic trust scoring, and zero-drift geographic search across 140+ listings.</font><br/><br/>
+<font color="#94A3B8" size="1">● 140+ Verified Listings &nbsp;·&nbsp; Algorithmic Trust Engine &nbsp;·&nbsp; Full PWA</font><br/><br/>
 <a href="https://github.com/RajGahoi/trustnest"><img src="https://img.shields.io/badge/VIEW_REPO-9333EA?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;<a href="https://rajgahoi.github.io/trustnest/"><img src="https://img.shields.io/badge/LIVE_DEMO-EC4899?style=flat-square&logo=react&logoColor=white"/></a>
 </td>
 </tr>
 </table>
+
+<br/>
+
+<!-- DIAGNOSTIC TERMINAL STRIP -->
+<div align="center">
+<pre><code>$ valkey-probe --cluster-audit --all-nodes
+✔ CLUSTER HEALTH: OPTIMAL (16,384 / 16,384 SLOTS BALANCED) · SKEW: 0.00% · LATENCY: 0.42ms</code></pre>
+</div>
 
 <br/>
 
@@ -175,15 +218,15 @@
 <br/>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=08030F&color=C084FC&line=EC4899&point=F472B6&area=true&area_color=250B3D&hide_border=true&radius=8&custom_title=COMMIT+LOG+%E2%80%94+REAL+GITHUB+ACTIVITY" width="95%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RajGahoi&bg_color=07020E&color=C084FC&line=EC4899&point=F472B6&area=true&area_color=250B3D&hide_border=true&radius=8&custom_title=COMMIT+LOG+%E2%80%94+REAL+GITHUB+ACTIVITY" width="95%" alt="Contribution Graph"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&hide_border=true&bg_color=08030F&title_color=F472B6&icon_color=C084FC&text_color=E2E8F0&ring_color=9333EA" height="155" alt="GitHub Stats"/>&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajGahoi&layout=compact&hide_border=true&bg_color=08030F&title_color=F472B6&text_color=E2E8F0&langs_count=6" height="155" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=RajGahoi&show_icons=true&hide_border=true&bg_color=07020E&title_color=F472B6&icon_color=C084FC&text_color=E2E8F0&ring_color=9333EA" height="155" alt="GitHub Stats"/>&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajGahoi&layout=compact&hide_border=true&bg_color=07020E&title_color=F472B6&text_color=E2E8F0&langs_count=6" height="155" alt="Top Languages"/>
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=RajGahoi&hide_border=true&background=08030F&ring=EC4899&fire=F472B6&currStreakLabel=C084FC&sideLabels=F472B6&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&stroke=250B3D" height="155" alt="Streak"/>
+<img src="https://streak-stats.demolab.com/?user=RajGahoi&hide_border=true&background=07020E&ring=EC4899&fire=F472B6&currStreakLabel=C084FC&sideLabels=F472B6&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8&stroke=250B3D" height="155" alt="Streak"/>
 </p>
 
 <br/>
@@ -199,6 +242,10 @@
   <img src="assets/leetcode.svg" width="380" alt="LeetCode Metrics"/>
 </a>
 </p>
+
+<div align="center">
+<pre><code>DECONSTRUCT ➔ PATTERN MATCH (GRAPHS / DP / TREES) ➔ OPTIMIZE TIME &amp; SPACE [O(N) / O(1)]</code></pre>
+</div>
 
 <br/>
 

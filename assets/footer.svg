@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="100%" height="auto" fill="none">
 <defs>
   <linearGradient id="lf-bg" x1="0" y1="0" x2="1200" y2="84" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#08030F"/>
-    <stop offset="0.5" stop-color="#140726"/>
-    <stop offset="1" stop-color="#08030F"/>
+    <stop stop-color="#07020E"/>
+    <stop offset="0.5" stop-color="#140628"/>
+    <stop offset="1" stop-color="#06020C"/>
   </linearGradient>
 
   <linearGradient id="lf-rule" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%"   stop-color="#08030F" stop-opacity="0"/>
+    <stop offset="0%"   stop-color="#07020E" stop-opacity="0"/>
     <stop offset="20%"  stop-color="#9333EA" stop-opacity="0.6"/>
     <stop offset="50%"  stop-color="#F472B6" stop-opacity="0.95"/>
     <stop offset="80%"  stop-color="#9333EA" stop-opacity="0.6"/>
-    <stop offset="100%" stop-color="#08030F" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#07020E" stop-opacity="0"/>
   </linearGradient>
 
   <radialGradient id="lf-center" cx="50%" cy="50%" r="50%">
-    <stop offset="0%"   stop-color="#9333EA" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#08030F" stop-opacity="0"/>
+    <stop offset="0%"   stop-color="#9333EA" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#07020E" stop-opacity="0"/>
   </radialGradient>
 
   <filter id="lf-glow" x="-50%" y="-50%" width="200%" height="200%">
     <feGaussianBlur stdDeviation="6" result="blur"/>
     <feComposite in="SourceGraphic" in2="blur" operator="over"/>
   </filter>
-  <clipPath id="lf-clip"><rect width="1200" height="84" rx="14"/></clipPath>
+  <clipPath id="lf-clip"><rect width="1200" height="84" rx="16"/></clipPath>
 </defs>
 
 <g clip-path="url(#lf-clip)">
@@ -33,21 +33,32 @@
   </rect>
 
   <!-- Top Rule -->
-  <rect x="60" y="15" width="1080" height="1.2" fill="url(#lf-rule)" filter="url(#lf-glow)"/>
+  <rect x="60" y="15" width="1080" height="1.4" fill="url(#lf-rule)" filter="url(#lf-glow)"/>
 
-  <!-- Orbital Ring -->
-  <ellipse cx="600" cy="50" rx="26" ry="15" fill="none" stroke="#9333EA" stroke-width="0.8" opacity="0.6">
-    <animate attributeName="rx" values="26;30;26" dur="4s" repeatCount="indefinite"/>
+  <!-- Orbital Ring 1 -->
+  <ellipse cx="600" cy="50" rx="28" ry="16" fill="none" stroke="#9333EA" stroke-width="0.85" opacity="0.6">
+    <animate attributeName="rx" values="28;34;28" dur="4s" repeatCount="indefinite"/>
   </ellipse>
   <circle r="2.2" fill="#F472B6" opacity="0.95">
     <animateMotion dur="4s" repeatCount="indefinite">
       <mpath href="#lf-path"/>
     </animateMotion>
   </circle>
-  <path id="lf-path" d="M 600 35 a 26 15 0 1 1 -0.1 0 Z" fill="none"/>
+  <path id="lf-path" d="M 600 34 a 28 16 0 1 1 -0.1 0 Z" fill="none"/>
+
+  <!-- Orbital Ring 2 (Counter) -->
+  <ellipse cx="600" cy="50" rx="16" ry="9" fill="none" stroke="#F472B6" stroke-width="0.6" opacity="0.4">
+    <animate attributeName="rx" values="16;20;16" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle r="1.8" fill="#C084FC" opacity="0.9">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#lf-path-2"/>
+    </animateMotion>
+  </circle>
+  <path id="lf-path-2" d="M 600 41 a 16 9 0 1 0 0.1 0 Z" fill="none"/>
 
   <!-- Corner Accents -->
-  <g stroke="#9333EA" stroke-width="0.8" fill="none" opacity="0.7">
+  <g stroke="#9333EA" stroke-width="0.9" fill="none" opacity="0.75">
     <polyline points="62,15 60,15 60,17"/>
     <polyline points="1138,15 1140,15 1140,17"/>
     <polyline points="62,69 60,69 60,67"/>
@@ -57,12 +68,12 @@
   <!-- MANTRA -->
   <text x="600" y="55" text-anchor="middle"
     font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
-    font-size="13" font-weight="600" letter-spacing="9"
+    font-size="13.5" font-weight="700" letter-spacing="10"
     fill="#F8FAFC" opacity="0.95">
     ENGINEER  <tspan fill="#F472B6">·</tspan>  SCALE  <tspan fill="#C084FC">·</tspan>  DELIVER
   </text>
 
   <!-- Bottom Rule -->
-  <rect x="60" y="69" width="1080" height="1.2" fill="url(#lf-rule)" filter="url(#lf-glow)"/>
+  <rect x="60" y="69" width="1080" height="1.4" fill="url(#lf-rule)" filter="url(#lf-glow)"/>
 </g>
 </svg>
