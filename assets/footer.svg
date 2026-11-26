@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="100%" height="auto" fill="none">
 <defs>
   <linearGradient id="lf-bg" x1="0" y1="0" x2="1200" y2="84" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#080C14"/>
-    <stop offset="0.5" stop-color="#0D1117"/>
-    <stop offset="1" stop-color="#080C14"/>
+    <stop stop-color="#07020E"/>
+    <stop offset="0.5" stop-color="#140628"/>
+    <stop offset="1" stop-color="#06020C"/>
   </linearGradient>
 
   <linearGradient id="lf-rule" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%"   stop-color="#0D1117" stop-opacity="0"/>
-    <stop offset="20%"  stop-color="#58A6FF" stop-opacity="0.6"/>
-    <stop offset="50%"  stop-color="#BC8CFF" stop-opacity="0.95"/>
-    <stop offset="80%"  stop-color="#3FB950" stop-opacity="0.6"/>
-    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    <stop offset="0%"   stop-color="#07020E" stop-opacity="0"/>
+    <stop offset="20%"  stop-color="#9333EA" stop-opacity="0.6"/>
+    <stop offset="50%"  stop-color="#F472B6" stop-opacity="0.95"/>
+    <stop offset="80%"  stop-color="#9333EA" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#07020E" stop-opacity="0"/>
   </linearGradient>
 
   <radialGradient id="lf-center" cx="50%" cy="50%" r="50%">
-    <stop offset="0%"   stop-color="#58A6FF" stop-opacity="0.25"/>
-    <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    <stop offset="0%"   stop-color="#9333EA" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#07020E" stop-opacity="0"/>
   </radialGradient>
 
   <filter id="lf-glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -36,10 +36,10 @@
   <rect x="60" y="15" width="1080" height="1.4" fill="url(#lf-rule)" filter="url(#lf-glow)"/>
 
   <!-- Orbital Ring 1 -->
-  <ellipse cx="600" cy="50" rx="28" ry="16" fill="none" stroke="#58A6FF" stroke-width="0.85" opacity="0.6">
+  <ellipse cx="600" cy="50" rx="28" ry="16" fill="none" stroke="#9333EA" stroke-width="0.85" opacity="0.6">
     <animate attributeName="rx" values="28;34;28" dur="4s" repeatCount="indefinite"/>
   </ellipse>
-  <circle r="2.2" fill="#58A6FF" opacity="0.95">
+  <circle r="2.2" fill="#F472B6" opacity="0.95">
     <animateMotion dur="4s" repeatCount="indefinite">
       <mpath href="#lf-path"/>
     </animateMotion>
@@ -47,10 +47,10 @@
   <path id="lf-path" d="M 600 34 a 28 16 0 1 1 -0.1 0 Z" fill="none"/>
 
   <!-- Orbital Ring 2 (Counter) -->
-  <ellipse cx="600" cy="50" rx="16" ry="9" fill="none" stroke="#3FB950" stroke-width="0.6" opacity="0.45">
+  <ellipse cx="600" cy="50" rx="16" ry="9" fill="none" stroke="#F472B6" stroke-width="0.6" opacity="0.4">
     <animate attributeName="rx" values="16;20;16" dur="6s" repeatCount="indefinite"/>
   </ellipse>
-  <circle r="1.8" fill="#3FB950" opacity="0.9">
+  <circle r="1.8" fill="#C084FC" opacity="0.9">
     <animateMotion dur="6s" repeatCount="indefinite">
       <mpath href="#lf-path-2"/>
     </animateMotion>
@@ -58,7 +58,7 @@
   <path id="lf-path-2" d="M 600 41 a 16 9 0 1 0 0.1 0 Z" fill="none"/>
 
   <!-- Corner Accents -->
-  <g stroke="#30363D" stroke-width="0.9" fill="none" opacity="0.8">
+  <g stroke="#9333EA" stroke-width="0.9" fill="none" opacity="0.75">
     <polyline points="62,15 60,15 60,17"/>
     <polyline points="1138,15 1140,15 1140,17"/>
     <polyline points="62,69 60,69 60,67"/>
@@ -69,8 +69,8 @@
   <text x="600" y="55" text-anchor="middle"
     font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
     font-size="13.5" font-weight="700" letter-spacing="10"
-    fill="#F0F6FC" opacity="0.95">
-    ENGINEER  <tspan fill="#58A6FF">·</tspan>  SCALE  <tspan fill="#3FB950">·</tspan>  DELIVER
+    fill="#F8FAFC" opacity="0.95">
+    ENGINEER  <tspan fill="#F472B6">·</tspan>  SCALE  <tspan fill="#C084FC">·</tspan>  DELIVER
   </text>
 
   <!-- Bottom Rule -->
