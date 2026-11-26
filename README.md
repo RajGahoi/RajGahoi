@@ -211,7 +211,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg" width="100%" alt="Pacman Contribution Graph">
+    <img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pacman Contribution Graph">
   </picture>
 </div>
 

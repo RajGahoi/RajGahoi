@@ -24,6 +24,10 @@ jobs:
           games: 'pacman'
           player_style: 'opportunistic'
 
+      - name: 🎨 Theme Pac-Man SVGs to Velvet Obsidian & Neon Violet
+        run: |
+          python .github/scripts/theme_pacman.py dist
+
       - name: 🚀 Publish Pac-Man SVGs
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
