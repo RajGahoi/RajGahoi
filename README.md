@@ -70,7 +70,7 @@
 <tr>
 <td bgcolor="#0E0517" align="center" width="20%">
   <font color="#94A3B8" size="1">LINUX FOUNDATION</font><br/>
-  <strong><font color="#F472B6" size="6">30+</font></strong><br/>
+  <strong><font color="#F472B6" size="6">35+</font></strong><br/>
   <font color="#E2E8F0" size="2"><b>CORE OSS MERGES</b></font>
 </td>
 <td bgcolor="#0E0517" align="center" width="20%">
@@ -209,9 +209,9 @@
 <!-- PACMAN CONTRIBUTION GRAPH -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/RajGahoi/RajGahoi/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pacman Contribution Graph">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pacman.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/pacman.svg">
+    <img src="assets/pacman.svg" width="100%" alt="Pacman Contribution Graph">
   </picture>
 </div>
 
